@@ -6,7 +6,7 @@
 • Successfully change from Softwareseni to Synetica as a Blueprint specialization company
 • Generate 10+ qualified leads monthly for Blueprint methodology services by month 6
 • Establish market credibility with English-proficient Indonesian SMB and solopreneur ecosystem
-• Showcase the 4B Framework (Blueprint → Build → Benchmark → Boost) as our core methodology
+• Showcase the 2B2G Framework (Blueprint → Build & Benchmark → Go To Market → Grow) as our core methodology
 • Convert existing high-profile client relationships into Blueprint success story case studies
 • Create scalable content strategy targeting product planning keywords for SEO-driven lead generation
 • Build technical foundation using Hugo static site with automated content generation capabilities
@@ -28,7 +28,7 @@ The website serves as the primary vehicle for this rebrand, targeting English-pr
 
 **FR1:** The website must clearly communicate Synetica's Blueprint specialization as the solution to the 70% digital product failure rate, positioning us as strategic planning experts who prevent expensive development failures rather than traditional code-focused software houses
 
-**FR2:** The website must showcase the 4B Framework (Blueprint → Build → Benchmark → Boost) methodology with detailed explanation of each phase, emphasizing how this proven system prevents costly product pivots and rebuilds
+**FR2:** The website must showcase the 2B2G Framework (Blueprint → Build & Benchmark → Go To Market → Grow) methodology with detailed explanation of each phase, emphasizing how this proven system prevents costly product pivots and rebuilds
 
 **FR3:** The website must display comprehensive Blueprint service descriptions that demonstrate our ability to deliver validated problem statements, user personas, prioritized features, technical architecture, market landscape, and 60-day roadmaps as failure-prevention tools
 
@@ -40,7 +40,7 @@ The website serves as the primary vehicle for this rebrand, targeting English-pr
 
 **FR7:** The website must launch with primary English content targeting English-proficient entrepreneurs, with capability to add selective Indonesian translations based on user engagement data and conversion analysis
 
-**FR8:** The website must prominently display professional credentials including international experience, team expertise, certifications (ISO 27001, AWS Partner), and Yogyakarta cost advantages to build trust in our technical execution capabilities for the complete 4B Framework
+**FR8:** The website must prominently display professional credentials including international experience, team expertise, certifications (ISO 27001, AWS Partner), and Yogyakarta cost advantages to build trust in our technical execution capabilities for the complete 2B2G Framework
 
 **FR9:** The website must present collaboration models specifically adapted for Blueprint-focused engagement types that emphasize strategic partnership over staff augmentation (Dedicated Team, Project Based, On Demand)
 
@@ -77,7 +77,7 @@ The website serves as the primary vehicle for this rebrand, targeting English-pr
 ## User Interface Design Goals
 
 ### Overall UX Vision
-The website should lead with clear value proposition and immediate credibility (major client logos), then progressively introduce our methodology as competitive advantage. Users arrive seeking specific solutions, not "Blueprint services," so we must first establish trust through recognizable clients, then reveal how our systematic approach delivers better outcomes. The experience guides visitors from recognition ("They work with companies I know") to curiosity ("How do they build differently?") to understanding ("The 4B Framework ensures success") to action ("I want this approach for my product").
+The website should lead with clear value proposition and immediate credibility (major client logos), then progressively introduce our methodology as competitive advantage. Users arrive seeking specific solutions, not "Blueprint services," so we must first establish trust through recognizable clients, then reveal how our systematic approach delivers better outcomes. The experience guides visitors from recognition ("They work with companies I know") to curiosity ("How do they build differently?") to understanding ("The 2B2G Framework ensures success") to action ("I want this approach for my product").
 
 ### Key Interaction Paradigms
 - **Credibility-First Navigation:** Lead with client logos and success metrics to establish immediate trust
@@ -88,7 +88,7 @@ The website should lead with clear value proposition and immediate credibility (
 
 ### Core Screens and Views
 1. **Hero Landing Page** - "We build products that succeed" with major client logos and scope clarity ("From idea validation to market success")
-2. **Process Overview Page** - 4B Framework positioned as "How we build differently" with outcome focus
+2. **Process Overview Page** - 2B2G Framework positioned as "How we build differently" with outcome focus
 3. **Case Studies Gallery** - Specific solution examples (investor decision apps, GAT management systems) showing methodology in action
 4. **Services Page** - Comprehensive service descriptions framed as "our proven approach" rather than separate Blueprint offering
 5. **Client Success Stories** - Individual case studies with before/after scenarios and specific business outcomes
@@ -147,10 +147,10 @@ Establish Hugo static site setup, hosting infrastructure, basic analytics integr
 Implement the core homepage with client logos, value proposition messaging, and basic navigation structure that immediately establishes credibility and guides users toward case studies and methodology understanding.
 
 **Epic 3: Case Study System & Solution Showcase**
-Create the case study gallery and individual case study pages that demonstrate specific solutions (investor apps, management systems) while introducing the 4B Framework as our competitive methodology advantage.
+Create the case study gallery and individual case study pages that demonstrate specific solutions (investor apps, management systems) while introducing the 2B2G Framework as our competitive methodology advantage.
 
 **Epic 4: Services & Methodology Deep-Dive**
-Build comprehensive service pages and detailed 4B Framework explanation that positions our methodology as strategic advantage while providing clear consultation pathways for qualified leads.
+Build comprehensive service pages and detailed 2B2G Framework explanation that positions our methodology as strategic advantage while providing clear consultation pathways for qualified leads.
 
 **Epic 5: Contact & Lead Generation Optimization**
 Implement consultation request forms, WhatsApp integration, BANT qualification workflow, and complete analytics setup (GA4 + Search Console + Clarity) for conversion optimization and lead quality measurement.
@@ -262,7 +262,7 @@ I want a brief introduction to their methodology on the homepage,
 so that I can understand their unique approach before diving deeper.
 
 #### Acceptance Criteria
-1. "How We Build Differently" section with 4B Framework introduction
+1. "How We Build Differently" section with 2B2G Framework introduction
 2. Visual representation of Blueprint → Build → Benchmark → Boost
 3. Brief outcome-focused descriptions for each phase
 4. "Learn More About Our Process" call-to-action
@@ -271,7 +271,7 @@ so that I can understand their unique approach before diving deeper.
 
 ## Epic 3: Case Study System & Solution Showcase
 
-**Epic Goal:** Create the case study gallery and individual case study pages that demonstrate specific solutions (investor apps, management systems) while introducing the 4B Framework as our competitive methodology advantage, showing prospects exactly what successful outcomes look like.
+**Epic Goal:** Create the case study gallery and individual case study pages that demonstrate specific solutions (investor apps, management systems) while introducing the 2B2G Framework as our competitive methodology advantage, showing prospects exactly what successful outcomes look like.
 
 ### Story 3.1: Case Study Gallery Page
 As a potential client researching Synetica's track record,
@@ -296,7 +296,7 @@ so that I can envision how Synetica might help with my own project.
 2. Before/after scenarios showing transformation achieved
 3. Specific business metrics and success indicators
 4. Visual elements: screenshots, diagrams, user flow illustrations
-5. 4B Framework integration showing methodology application
+5. 2B2G Framework integration showing methodology application
 6. Related case studies suggestions and clear contact CTAs
 
 ### Story 3.3: Signature Case Studies Content Creation
@@ -319,7 +319,7 @@ so that I can evaluate their methodology for my own project needs.
 
 #### Acceptance Criteria
 1. "How We Achieved This" methodology sections in each case study
-2. Clear explanation of 4B Framework application for each project
+2. Clear explanation of 2B2G Framework application for each project
 3. Links from case studies to detailed methodology pages
 4. Consultation request forms specifically referencing case study examples
 5. "See Similar Results" call-to-action with process overview
@@ -327,11 +327,11 @@ so that I can evaluate their methodology for my own project needs.
 
 ## Epic 4: Services & Methodology Deep-Dive
 
-**Epic Goal:** Build comprehensive service pages and detailed 4B Framework explanation that positions our methodology as strategic advantage while providing clear consultation pathways for qualified leads, converting case study interest into service inquiries.
+**Epic Goal:** Build comprehensive service pages and detailed 2B2G Framework explanation that positions our methodology as strategic advantage while providing clear consultation pathways for qualified leads, converting case study interest into service inquiries.
 
-### Story 4.1: 4B Framework Methodology Deep-Dive Page
+### Story 4.1: 2B2G Framework Methodology Deep-Dive Page
 As a prospect convinced by case study results,
-I want to understand exactly how the 4B Framework works and what deliverables I'll receive,
+I want to understand exactly how the 2B2G Framework works and what deliverables I'll receive,
 so that I can evaluate if this methodology fits my project needs and timeline.
 
 #### Acceptance Criteria
@@ -349,7 +349,7 @@ so that I can understand pricing structure and choose the right collaboration ap
 
 #### Acceptance Criteria
 1. Dedicated Team engagement model with Blueprint integration
-2. Project-Based services focusing on 4B Framework delivery
+2. Project-Based services focusing on 2B2G Framework delivery
 3. On-Demand consultation for specific methodology phases
 4. Clear service descriptions with outcome expectations
 5. Pricing guidance or "starting at" indicators

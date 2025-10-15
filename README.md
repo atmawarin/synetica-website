@@ -1,6 +1,6 @@
 # Synetica Website
 
-Synetica is a product launch partner that helps founders move from idea to traction in eight weeks through a Blueprint → Build & Benchmark → Go To Market → Grow framework. This repository will host the public marketing site that tells the Synetica story, showcases results, and captures qualified leads.
+Synetica is a product launch partner that helps founders move from idea to traction in eight weeks through a 2B2G framework (Blueprint → Build & Benchmark → Go To Market → Grow). This repository will host the public marketing site that tells the Synetica story, showcases results, and captures qualified leads.
 
 ## Table of Contents
 - [Overview](#overview)
@@ -20,7 +20,7 @@ Synetica is a product launch partner that helps founders move from idea to tract
 
 ## Core Experience
 - Credibility-first homepage highlighting marquee clients (Traveloka, Angkasa Pura, Astra) and proof of outcomes.
-- Detailed storytelling around the 4B framework with timelines, deliverables, and decision checkpoints.
+- Detailed storytelling around the 2B2G framework with timelines, deliverables, and decision checkpoints.
 - Case study hub that reframes existing engagements as validation success stories.
 - Consultation pathways combining lightweight inquiry forms with WhatsApp click-to-chat for rapid follow-up.
 - Content and SEO foundation geared toward product planning and validation keywords.
@@ -67,7 +67,7 @@ Deployment is handled by the hosting platform (Netlify/Vercel) and triggered on 
 | Foundation & Core Infrastructure | Hugo setup, Tailwind pipeline, hosting, analytics | ⚙️ Planned |
 | Credibility-First Homepage | Hero, trust indicators, navigation | ⚙️ Planned |
 | Case Study System | Gallery, individual templates, methodology bridge | ⚙️ Planned |
-| Services & Methodology | 4B deep-dive, engagement models, team page | ⚙️ Planned |
+| Services & Methodology | 2B2G deep-dive, engagement models, team page | ⚙️ Planned |
 | Contact & Lead Gen | Forms, WhatsApp integration, analytics optimization | ⚙️ Planned |
 
 Details for each phase live in [`prd.md`](./prd.md).
