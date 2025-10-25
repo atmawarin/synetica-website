@@ -1,6 +1,6 @@
 # Synetica Website
 
-Synetica is a product launch partner that helps founders move from idea to traction in eight weeks through a 2B2G framework (Blueprint → Build & Benchmark → Go To Market → Grow). This repository will host the public marketing site that tells the Synetica story, showcases results, and captures qualified leads.
+Synetica is a product development studio that delivers end-to-end validation journeys, helping founders move from idea to traction in 8 weeks through our 2B2G framework (Blueprint → Build & Benchmark → Go To Market → Grow). This repository hosts the public marketing site that tells the Synetica story, showcases results, and captures qualified leads.
 
 ## Table of Contents
 - [Overview](#overview)
@@ -14,16 +14,17 @@ Synetica is a product launch partner that helps founders move from idea to tract
 - [License](#license)
 
 ## Overview
-- **What we solve:** Most digital products fail because teams build before validating. Synetica leads with a Blueprint phase that sharpens ideas, aligns business goals, and prevents waste.
-- **Who we serve:** Indonesian dreamers (solopreneurs, SMB founders) and growing businesses that need clarity, validation, and execution support.
-- **How we win:** End-to-end accountability—from blueprinting and AI-assisted builds to validation, launch, and growth.
+- **What we solve:** 80% of digital products fail because teams build before validating. Synetica leads with a Blueprint phase that sharpens ideas, aligns business goals, and prevents waste.
+- **Who we serve:** Indonesian Dreamers (solopreneurs, aspiring entrepreneurs) and Emerging Business (established companies with pain points) who need clarity, validation, and execution support.
+- **How we win:** End-to-end accountability—from blueprinting and AI-assisted builds to validation, launch, and growth through our 2B2G framework.
 
 ## Core Experience
-- Credibility-first homepage highlighting marquee clients (Traveloka, Angkasa Pura, Astra) and proof of outcomes.
-- Detailed storytelling around the 2B2G framework with timelines, deliverables, and decision checkpoints.
-- Case study hub that reframes existing engagements as validation success stories.
-- Consultation pathways combining lightweight inquiry forms with WhatsApp click-to-chat for rapid follow-up.
-- Content and SEO foundation geared toward product planning and validation keywords.
+- Credibility-first homepage highlighting marquee clients (Traveloka, Angkasa Pura, Astra) and proof of outcomes
+- Detailed storytelling around the 2B2G framework with timelines, deliverables, and decision checkpoints
+- Case study hub that reframes existing engagements as product development success stories
+- Consultation pathways combining lightweight inquiry forms with WhatsApp click-to-chat for rapid follow-up
+- English-only content targeting Indonesian Dreamers and Emerging Business segments
+- Content and SEO foundation geared toward product development and validation keywords
 
 ## Architecture & Stack
 - **Static generator:** Hugo (extended) for speed, SEO, and markdown-first content.
@@ -33,7 +34,7 @@ Synetica is a product launch partner that helps founders move from idea to tract
 - **Integrations:** Netlify Forms/Formspree (lead capture), Google Analytics 4 + Search Console + Microsoft Clarity, WhatsApp click-to-chat.
 
 ## Repository Status
-Implementation is currently in planning. The PRD (`prd.md`) and brand brief (`brief.md`) capture the approved requirements and messaging. Hugo scaffolding, Tailwind configuration, and deployment workflows will be committed in upcoming milestones.
+Implementation is currently in planning. The PRD (`doc/prd.md`) and brand brief (`doc/brief.md`) capture the approved requirements and messaging. Hugo scaffolding, Tailwind configuration, and deployment workflows will be committed in upcoming milestones.
 
 ## Getting Started
 > 🚧 **Planned workflow.** Commands below will apply once the Hugo project files are added.
@@ -70,12 +71,13 @@ Deployment is handled by the hosting platform (Netlify/Vercel) and triggered on 
 | Services & Methodology | 2B2G deep-dive, engagement models, team page | ⚙️ Planned |
 | Contact & Lead Gen | Forms, WhatsApp integration, analytics optimization | ⚙️ Planned |
 
-Details for each phase live in [`prd.md`](./prd.md).
+Details for each phase live in [`doc/prd.md`](./doc/prd.md).
 
 ## Content Sources & Strategy
-- [`brief.md`](./brief.md) captures the brand story, positioning, and messaging pillars.
-- [`prd.md`](./prd.md) translates the brief into functional, non-functional, and UX requirements.
-- Case studies will reuse and reframe work delivered under the Softwareseni umbrella, emphasizing blueprint-first validation outcomes.
+- [`doc/brief.md`](./doc/brief.md) captures the brand story, positioning, and messaging pillars
+- [`doc/prd.md`](./doc/prd.md) translates the brief into functional, non-functional, and UX requirements
+- [`doc/brand-guide-brief.md`](./doc/brand-guide-brief.md) defines the visual identity and brand guidelines
+- Case studies will reuse and reframe work delivered under the Softwareseni umbrella, emphasizing product development success outcomes
 
 ## Contributing
 This is a private project maintained by the Synetica product and engineering team. Please:

@@ -3,19 +3,21 @@
 ## Goals and Background Context
 
 ### Goals
-• Successfully change from Softwareseni to Synetica as a Blueprint specialization company
-• Generate 10+ qualified leads monthly for Blueprint methodology services by month 6
-• Establish market credibility with English-proficient Indonesian SMB and solopreneur ecosystem
-• Showcase the 2B2G Framework (Blueprint → Build & Benchmark → Go To Market → Grow) as our core methodology
-• Convert existing high-profile client relationships into Blueprint success story case studies
-• Create scalable content strategy targeting product planning keywords for SEO-driven lead generation
-• Build technical foundation using Hugo static site with automated content generation capabilities
+
+- Successfully change from Softwareseni to Synetica as a product development studio that delivers end-to-end validation journeys
+- Generate 10+ qualified leads monthly for product development services by month 6
+- Establish market credibility with English-proficient Indonesian Dreamers and Emerging Business ecosystem
+- Showcase the 2B2G Framework (Blueprint → Build & Benchmark → Go To Market → Grow) as our core methodology
+- Convert existing high-profile client relationships into product success story case studies
+- Create scalable content strategy targeting product development keywords for SEO-driven lead generation
+- Build technical foundation using Hugo static site with automated content generation capabilities
+- Implement brand identity reflecting Builder-Sage Hybrid archetype with smart, confident, and structured tone
 
 ### Background Context
 
-Synetica represents a strategic pivot from traditional software house services to specialized Blueprint methodology for product validation. The Indonesian market lacks systematic approaches that combine strategic blueprinting with rapid development and structured testing. With 70% of digital products failing to achieve product-market fit, there's a critical need for validation-first planning services that help founders build evidence-based products rather than assumption-based ones.
+Synetica represents a strategic pivot from traditional software house services to a product development studio that delivers end-to-end validation journeys. The Indonesian market lacks systematic approaches that combine strategic blueprinting with rapid development and structured testing. With 70% of digital products failing to achieve product-market fit, there's a critical need for validation-first planning services that help founders build evidence-based products rather than assumption-based ones.
 
-The website serves as the primary vehicle for this rebrand, targeting English-proficient Indonesian entrepreneurs, SMBs, and corporate innovation teams who need structured product planning before development. By positioning Synetica as Blueprint specialists rather than general developers, we can command premium pricing while serving a more strategic role in our clients' success.
+The website serves as the primary vehicle for this rebrand, targeting English-proficient Indonesian Dreamers (solopreneurs and aspiring entrepreneurs) and Emerging Business (established companies with pain points) who need structured product development before going to market. By positioning Synetica as a product development studio rather than general developers, we can command premium pricing while serving a more strategic role in our clients' success.
 
 ### Change Log
 | Date | Version | Description | Author |
@@ -26,31 +28,31 @@ The website serves as the primary vehicle for this rebrand, targeting English-pr
 
 ### Functional
 
-**FR1:** The website must clearly communicate Synetica's Blueprint specialization as the solution to the 70% digital product failure rate, positioning us as strategic planning experts who prevent expensive development failures rather than traditional code-focused software houses
+**FR1:** The website must clearly communicate Synetica's product development studio positioning as the solution to the 80% digital product failure rate, positioning us as strategic product development experts who prevent expensive development failures rather than traditional code-focused software houses, reflecting our Builder-Sage Hybrid archetype that combines pragmatic execution with intelligent insight
 
-**FR2:** The website must showcase the 2B2G Framework (Blueprint → Build & Benchmark → Go To Market → Grow) methodology with detailed explanation of each phase, emphasizing how this proven system prevents costly product pivots and rebuilds
+**FR2:** The website must showcase the 2B2G Framework (Blueprint → Build & Benchmark → Go To Market → Grow) methodology with detailed explanation of each phase, emphasizing how this proven system prevents costly product pivots and rebuilds, with the core promise of delivering "From idea to traction — within 8 weeks"
 
-**FR3:** The website must display comprehensive Blueprint service descriptions that demonstrate our ability to deliver validated problem statements, user personas, prioritized features, technical architecture, market landscape, and 60-day roadmaps as failure-prevention tools
+**FR3:** The website must display comprehensive product development service descriptions that demonstrate our ability to deliver validated problem statements, user personas, prioritized features, technical architecture, market landscape, and 60-day roadmaps as failure-prevention tools
 
-**FR4:** The website must present client portfolio and case studies repositioned as Blueprint success stories that showcase failure prevention and strategic value delivery, featuring relationships with major Indonesian companies (Traveloka, Angkasa Pura, Astra) as credibility indicators
+**FR4:** The website must present client portfolio and case studies repositioned as product development success stories that showcase failure prevention and strategic value delivery, featuring relationships with major Indonesian companies (Traveloka, Angkasa Pura, Astra) as credibility indicators
 
 **FR5:** The website must provide simple initial contact forms for engagement, with structured BANT qualification criteria (Budget, Authority, Need, Timeline) captured in follow-up interactions to avoid intimidating potential clients
 
 **FR6:** The website must integrate WhatsApp click-to-chat functionality for immediate consultation requests, supporting the quick decision-making patterns of time-sensitive entrepreneurs evaluating multiple service providers
 
-**FR7:** The website must launch with primary English content targeting English-proficient entrepreneurs, with capability to add selective Indonesian translations based on user engagement data and conversion analysis
+**FR7:** The website must launch with English-only content targeting English-proficient Indonesian Dreamers and Emerging Business segments, with no Indonesian language support initially
 
 **FR8:** The website must prominently display professional credentials including international experience, team expertise, certifications (ISO 27001, AWS Partner), and Yogyakarta cost advantages to build trust in our technical execution capabilities for the complete 2B2G Framework
 
-**FR9:** The website must present collaboration models specifically adapted for Blueprint-focused engagement types that emphasize strategic partnership over staff augmentation (Dedicated Team, Project Based, On Demand)
+**FR9:** The website must present collaboration models specifically adapted for product development engagement types that emphasize strategic partnership over staff augmentation (Dedicated Team, Project Based, On Demand)
 
-**FR10:** The website must provide clear contact information and consultation processes that position Blueprint services as high-value strategic investments rather than commodity development services
+**FR10:** The website must provide clear contact information and consultation processes that position product development services as high-value strategic investments rather than commodity development services
 
 ### Non Functional
 
-**NFR1:** The website must achieve measurable page load speeds under 3 seconds on Indonesian mobile networks to maintain technical credibility essential for Blueprint services - performance will be tested using Indonesian network conditions and mobile devices
+**NFR1:** The website must achieve measurable page load speeds under 3 seconds on Indonesian mobile networks to maintain technical credibility essential for product development services - performance will be tested using Indonesian network conditions and mobile devices
 
-**NFR2:** The website must be responsive and optimized for desktop and mobile devices using mobile-first design approach, ensuring accessibility for Indonesian entrepreneurs who primarily browse on mobile devices
+**NFR2:** The website must be responsive and optimized for desktop and mobile devices using mobile-first design approach, ensuring accessibility for Indonesian Dreamers and Emerging Business who primarily browse on mobile devices
 
 **NFR3:** The website must support modern browsers (Chrome, Firefox, Safari, Edge) with cross-browser compatibility to avoid losing potential clients due to technical barriers
 
@@ -66,31 +68,31 @@ The website serves as the primary vehicle for this rebrand, targeting English-pr
 
 **NFR9:** The website must utilize enterprise-grade static hosting (Netlify, Vercel, GitHub Pages) with global CDN for cost-effective, high-performance delivery that supports international business positioning
 
-**NFR10:** The website must implement comprehensive Google Analytics and Search Console integration for SEO tracking and lead generation measurement, providing data-driven insights to optimize conversion from website visitors to qualified Blueprint consultations
+**NFR10:** The website must implement comprehensive Google Analytics and Search Console integration for SEO tracking and lead generation measurement, providing data-driven insights to optimize conversion from website visitors to qualified product development consultations
 
 **NFR11:** The website must include basic accessibility compliance (WCAG AA standards) to ensure usability across different user capabilities and devices
 
 **NFR12:** The website must implement error handling and fallback mechanisms for all third-party integrations (forms, analytics, WhatsApp) to prevent single points of failure from breaking core functionality
 
-**NFR13:** The frontend must implement Tailwind CSS with shadcn/ui component primitives, purging unused utilities during the Hugo build to keep delivered CSS under 50KB while aligning styles with the Tweakcn theme `cmftuwple000004kv5zzr2ukn`
+**NFR13:** The frontend must implement Tailwind CSS with shadcn/ui component primitives, purging unused utilities during the Hugo build to keep delivered CSS under 50KB while aligning styles with the Tweakcn theme `cmftuwple000004kv5zzr2ukn` and incorporating Synetica's brand system with modern geometric sans-serif primary typography and humanist sans-serif secondary typography
 
 ## User Interface Design Goals
 
 ### Overall UX Vision
-The website should lead with clear value proposition and immediate credibility (major client logos), then progressively introduce our methodology as competitive advantage. Users arrive seeking specific solutions, not "Blueprint services," so we must first establish trust through recognizable clients, then reveal how our systematic approach delivers better outcomes. The experience guides visitors from recognition ("They work with companies I know") to curiosity ("How do they build differently?") to understanding ("The 2B2G Framework ensures success") to action ("I want this approach for my product").
+The website should lead with clear value proposition and immediate credibility (major client logos), then progressively introduce our methodology as competitive advantage. Users arrive seeking specific solutions, not "product development services," so we must first establish trust through recognizable clients, then reveal how our systematic approach delivers better outcomes. The experience guides visitors from recognition ("They work with companies I know") to curiosity ("How do they build differently?") to understanding ("The 2B2G Framework ensures success") to action ("I want this approach for my product").
 
 ### Key Interaction Paradigms
 - **Credibility-First Navigation:** Lead with client logos and success metrics to establish immediate trust
 - **Solution-to-Methodology Flow:** Show what we build before explaining how we build it differently
-- **Progressive Value Revelation:** Start with familiar concepts, introduce Blueprint methodology as competitive advantage
-- **Mobile-First Interactions:** Touch-optimized for Indonesian entrepreneurs who primarily browse on mobile devices
+- **Progressive Value Revelation:** Start with familiar concepts, introduce product development methodology as competitive advantage
+- **Mobile-First Interactions:** Touch-optimized for Indonesian Dreamers and Emerging Business who primarily browse on mobile devices
 - **Case Study-Driven Persuasion:** Specific solution examples (investor apps, management systems) drive methodology understanding
 
 ### Core Screens and Views
-1. **Hero Landing Page** - "We build products that succeed" with major client logos and scope clarity ("From idea validation to market success")
+1. **Hero Landing Page** - "We build products that succeed" with major client logos and scope clarity ("From idea to traction — within 8 weeks")
 2. **Process Overview Page** - 2B2G Framework positioned as "How we build differently" with outcome focus
 3. **Case Studies Gallery** - Specific solution examples (investor decision apps, GAT management systems) showing methodology in action
-4. **Services Page** - Comprehensive service descriptions framed as "our proven approach" rather than separate Blueprint offering
+4. **Services Page** - Comprehensive service descriptions framed as "our proven approach" rather than separate product development offering
 5. **Client Success Stories** - Individual case studies with before/after scenarios and specific business outcomes
 6. **Team & Credentials Page** - International experience and major client relationships as trust indicators
 7. **Consultation Request Flow** - Solution-focused inquiry forms that introduce methodology naturally
@@ -100,7 +102,7 @@ The website should lead with clear value proposition and immediate credibility (
 The website must meet WCAG AA standards to ensure usability across different capabilities and devices, supporting Synetica's commitment to inclusive design that reflects our systematic, quality-focused approach to product development.
 
 ### Branding
-Professional, modern design that reflects international experience while maintaining Indonesian market relevance. Visual design should emphasize systematic thinking, strategic planning, and technical competence. The rebrand from Softwareseni should be evident through sophisticated design that positions us as product success partners rather than traditional software houses. Client logos should be prominently featured as primary trust indicators.
+Professional, modern design that reflects international experience while maintaining Indonesian market relevance. Visual design should emphasize systematic thinking, strategic planning, and technical competence through Synetica's brand identity: Clear Thinking • Momentum • Structure • Human Tech + AI • Focus • Proof. The design should communicate connection and movement (synergy and motion aligned) while avoiding blueprint clichés. The rebrand from Softwareseni should be evident through sophisticated design that positions us as product success partners rather than traditional software houses. Client logos should be prominently featured as primary trust indicators. The logo system must be modular and scalable, working in color, monochrome, and inverted modes, with future sub-brand extensions in mind (Skematika, Optimatika, Humatika, Kognitika).
 
 ### Target Device and Platforms: Web Responsive
 Optimized for Indonesian mobile browsing patterns with desktop enhancement. Mobile-first responsive design ensuring excellent performance on varying Indonesian network conditions and device capabilities.
@@ -120,7 +122,7 @@ Single repository containing the Hugo static site, content files, automation scr
 
 **Hugo Static Site Generator:** Selected for ultra-fast performance crucial for Indonesian network conditions and mobile browsing. Hugo's excellent SEO capabilities support case study content strategy, while markdown-based content management enables sustainable scaling without complex CMS overhead.
 
-**Frontend Stack:** Tailwind CSS (JIT) with shadcn/ui component primitives provides reusable, accessible building blocks. The Tweakcn theme `cmftuwple000004kv5zzr2ukn` supplies the baseline visual language that will be adapted to Synetica's brand tokens directly inside the Tailwind configuration.
+**Frontend Stack:** Tailwind CSS (JIT) with shadcn/ui component primitives provides reusable, accessible building blocks. The Tweakcn theme `cmftuwple000004kv5zzr2ukn` supplies the baseline visual language that will be adapted to Synetica's brand tokens directly inside the Tailwind configuration, incorporating modern geometric sans-serif primary typography and humanist sans-serif secondary typography with beautiful ampersand styling.
 
 **Content Automation Workflow:** n8n integration for automated content generation from spreadsheets to Hugo markdown files, enabling efficient case study creation and scaling. Initial launch uses manual content management with automation capabilities added incrementally based on content volume requirements.
 
@@ -134,7 +136,7 @@ Single repository containing the Hugo static site, content files, automation scr
 
 **Security and Compliance:** HTTPS via hosting platform, minimal data collection with third-party form handling, and no user data storage on site infrastructure. Meets enterprise security expectations while maintaining simple architecture.
 
-**Bilingual Content Strategy:** Primary English content with capability for selective Indonesian translations using Hugo's i18n features. Data-driven approach to translation implementation based on user engagement metrics.
+**Content Strategy:** English-only content for first version with no Indonesian language support initially. Focus on English-proficient Indonesian Dreamers and Emerging Business segments.
 
 ## Epic List
 
@@ -147,13 +149,13 @@ Establish Hugo static site setup, hosting infrastructure, basic analytics integr
 Implement the core homepage with client logos, value proposition messaging, and basic navigation structure that immediately establishes credibility and guides users toward case studies and methodology understanding.
 
 **Epic 3: Case Study System & Solution Showcase**
-Create the case study gallery and individual case study pages that demonstrate specific solutions (investor apps, management systems) while introducing the 2B2G Framework as our competitive methodology advantage.
+Create the case study gallery and individual case study pages that demonstrate specific solutions (investor apps, management systems) while introducing the 2B2G Framework as our competitive methodology advantage, showing prospects exactly what successful outcomes look like.
 
 **Epic 4: Services & Methodology Deep-Dive**
-Build comprehensive service pages and detailed 2B2G Framework explanation that positions our methodology as strategic advantage while providing clear consultation pathways for qualified leads.
+Build comprehensive service pages and detailed 2B2G Framework explanation that positions our methodology as strategic advantage while providing clear consultation pathways for qualified leads, converting case study interest into service inquiries.
 
 **Epic 5: Contact & Lead Generation Optimization**
-Implement consultation request forms, WhatsApp integration, BANT qualification workflow, and complete analytics setup (GA4 + Search Console + Clarity) for conversion optimization and lead quality measurement.
+Implement consultation request forms, WhatsApp integration, BANT qualification workflow, and complete analytics setup (GA4 + Search Console + Clarity) for conversion optimization and lead quality measurement, converting website interest into qualified sales opportunities.
 
 ## Epic 1: Foundation & Core Infrastructure
 
@@ -224,7 +226,7 @@ so that I can quickly determine if they can help with my product development nee
 
 #### Acceptance Criteria
 1. Clear headline: "We build products that succeed"
-2. Supporting tagline: "From idea validation to market success. Strategy, Development, Testing, Growth"
+2. Supporting tagline: "From idea to traction — within 8 weeks. Strategy, Development, Testing, Growth"
 3. Professional visual design that reflects premium positioning
 4. Mobile-optimized layout with fast loading hero image/graphics
 5. Clear call-to-action buttons: "See Our Process" and "View Client Results"
@@ -263,7 +265,7 @@ so that I can understand their unique approach before diving deeper.
 
 #### Acceptance Criteria
 1. "How We Build Differently" section with 2B2G Framework introduction
-2. Visual representation of Blueprint → Build → Benchmark → Boost
+2. Visual representation of Blueprint → Build & Benchmark → Go To Market → Grow
 3. Brief outcome-focused descriptions for each phase
 4. "Learn More About Our Process" call-to-action
 5. Success statistics or client outcome highlights
@@ -301,11 +303,11 @@ so that I can envision how Synetica might help with my own project.
 
 ### Story 3.3: Signature Case Studies Content Creation
 As a content manager,
-I want compelling case studies that demonstrate our Blueprint methodology value,
+I want compelling case studies that demonstrate our product development methodology value,
 so that prospects can see concrete examples of our approach delivering results.
 
 #### Acceptance Criteria
-1. Traveloka case study repositioned as Blueprint success story
+1. Traveloka case study repositioned as product development success story
 2. Angkasa Pura case study highlighting systematic approach
 3. Astra case study showcasing enterprise methodology application
 4. At least 2 additional case studies featuring specific solution types
@@ -336,9 +338,9 @@ so that I can evaluate if this methodology fits my project needs and timeline.
 
 #### Acceptance Criteria
 1. Comprehensive Blueprint phase explanation with specific deliverables
-2. Build phase details emphasizing quality and speed advantages
-3. Benchmark phase testing and validation methodology
-4. Boost phase growth support and scaling approach
+2. Build & Benchmark phase details emphasizing quality and speed advantages
+3. Go To Market phase launch and activation methodology
+4. Grow phase optimization and scaling approach
 5. Timeline expectations and phase dependencies clearly outlined
 6. Interactive visual workflow showing methodology progression
 
@@ -348,7 +350,7 @@ I want clear descriptions of Synetica's service offerings and engagement models,
 so that I can understand pricing structure and choose the right collaboration approach.
 
 #### Acceptance Criteria
-1. Dedicated Team engagement model with Blueprint integration
+1. Dedicated Team engagement model with product development integration
 2. Project-Based services focusing on 2B2G Framework delivery
 3. On-Demand consultation for specific methodology phases
 4. Clear service descriptions with outcome expectations
@@ -374,7 +376,7 @@ I want to understand their company story and strategic positioning,
 so that I can evaluate if they align with my business goals and values.
 
 #### Acceptance Criteria
-1. Company rebrand story emphasizing Blueprint specialization
+1. Company rebrand story emphasizing product development studio positioning
 2. Mission and vision statements reflecting product success focus
 3. Differentiation from traditional software houses clearly articulated
 4. Geographic advantages and Indonesian market expertise
@@ -463,14 +465,17 @@ so that I can make data-driven decisions about marketing investment and website 
 ### Top Issues by Priority
 
 **HIGH Priority:**
+
 - Content automation (n8n + Hugo) workflow needs more detailed technical specification
 - BANT qualification criteria scoring thresholds should be defined
 
 **MEDIUM Priority:**
+
 - Specific case study content approval process not defined
 - WhatsApp Business API setup details could be more specific
 
 **LOW Priority:**
+
 - Success metrics baselines would benefit from current market data
 - Future bilingual content strategy could use more detailed decision criteria
 
