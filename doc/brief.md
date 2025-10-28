@@ -4,7 +4,7 @@
 
 Synetica is launching a new website as a new brand created independently from Softwareseni, positioning itself as a product development studio that delivers end-to-end validation journeys.
 
-The new website will communicate Synetica's  **Framework: Blueprint → Build & Benchmark → Go To Market → Grow** — helping founders go from raw ideas to growing products in 10 weeks through AI-accelerated tools and structured validation.
+The new website will communicate Synetica's  **Framework: Blueprint → Build & Benchmark → Go To Market → Grow** — helping founders go from raw ideas to growing products in 8 weeks through AI-accelerated tools and structured validation.
 
 The primary problem being solved is **the high failure rate of digital products that are built without proper validation - unclear problem-solution fit, bloated MVPs, lack of strategic clarity, and teams that can code but can't guide product vision**. This results in wasted resources, delayed launches, and products that flop not because they weren't built, but because they were built wrong.
 
@@ -45,9 +45,9 @@ With Southeast Asia's growth, AI boom, government innovation support, and increa
 Synetica delivers an end-to-end product development approach through our proprietary **Framework: Blueprint → Build & Benchmark → Go To Market → Grow**. We combine strategic blueprinting, AI-accelerated MVP development, structured validation, and growth activation to ensure every product is not only built fast and lean, but also tested for real adoption and supported with the right strategies to scale.
 
 **Framework Breakdown:**
-- **🧠 Blueprint (4 weeks)** — Validated problem statement, clear user personas, prioritized feature set, AI-assisted technical architecture, market landscape scoring, and a 60-day MVP roadmap aligned to business goals — encompassing Business, Product, Architecture, and Growth plans
-- **⚙️ Build & Benchmark (5–6 weeks)** — AI-accelerated MVP build with modern stacks; at the end of the phase, validate with real users (usability sessions, landing page tests, targeted campaigns, feedback synthesis) to decide whether to refine, pivot, or scale
-- **📣 Go To Market (launch)** — Bring the product to the world: activate users, tell the story, and drive adoption through campaigns, partnerships, and go-to-market strategy
+- **🧠 Blueprint (2 weeks)** — Validated problem statement, clear user personas, prioritized feature set, AI-assisted technical architecture, market landscape scoring, and a 60-day MVP roadmap aligned to business goals — encompassing Business, Product, Architecture, and Growth plans
+- **⚙️ Build & Benchmark (4–5 weeks)** — AI-accelerated MVP build with modern stacks; at the end of the phase, validate with real users (usability sessions, landing page tests, targeted campaigns, feedback synthesis) to decide whether to refine, pivot, or scale
+- **📣 Go To Market (2 months)** — Bring the product to the world: activate users, tell the story, and drive adoption through campaigns, partnerships, and go-to-market strategy
 - **📈 Grow & Optimize (ongoing)** — Once live, improve, retain, and scale: analyze usage, optimize performance, and expand reach to achieve sustainable growth
 
 **Key Differentiators:**
@@ -60,97 +60,16 @@ Synetica delivers an end-to-end product development approach through our proprie
 **Why This Solution Will Succeed:**
 Unlike traditional approaches that separate strategy from execution, Synetica integrates validation into every phase. We sharpen your ideas first, then deliver the most effective solution—whether that's a custom build, configured existing tools, or a strategic combination that achieves your goals. Our location in Yogyakarta provides access to affordable talent and startup culture while maintaining lower operating costs, enabling us to offer enterprise-quality services at startup-friendly pricing.
 
-**High-Level Product Vision:**
-Transform how businesses approach product development from assumption-based building to evidence-based planning, becoming the definitive Blueprint specialists for Southeast Asia's innovation ecosystem.
-
-## Blueprint Outline
-
-Our Blueprint is a structured, consultative planning engagement that produces clear, actionable documentation across business, product, architecture, and growth. It adapts to internal- and external-facing product contexts.
-
-### Internal-Faced Product
-
-Part I — Business Context
-1. Vision — Purpose of the internal product and long-term aspiration; alignment to operational strategy.
-2. Organizational Opportunity — Internal pain points, inefficiencies, and gaps addressed.
-3. Internal Research — Pain points (workshops/interviews) and process analysis of current workflows and tools.
-4. Opportunity — Efficiency gains, cost reduction, and employee experience improvements.
-5. Operational Model — Ownership, governance, and maintenance plan.
-6. Strategy Alignment — Target internal users, adoption priorities, and change management plan.
-7. Performance Metrics — KPIs for efficiency, cost, and satisfaction.
-
-Part II — Product Definition
-1. User Personas — Profiles for HR staff, employees, managers, admins (co-created where needed).
-2. User Roles — System interactions and permissions per role.
-3. Features (Epic-Level) — Role-based epics mapped to organizational needs with prioritization.
-4. Reference Research — Best practices and successful internal systems.
-5. User Journeys — Flow diagrams from onboarding to goal completion.
-6. Sitemaps — Navigation and information architecture.
-7. Wireframes — Low-fidelity concepts for alignment (consultative where required).
-8. Design System — Typography, style, and tone aligned to company guidelines.
-
-Part III — Technical Specification
-1. Technology Stack — Frontend, backend, infrastructure (with cost/governance considerations).
-2. Deployment & CI/CD — Automated build, testing, and release.
-3. Business Rules — Page/module-level logic and constraints.
-4. Integration Catalog — Internal tools/APIs (HRIS, Payroll, ERP, etc.).
-5. Database Schema — Core entities and relationships (high level).
-6. Security & Compliance — Baseline controls and standards.
-
-Part IV — Adoption & Improvement
-1. Adoption Roadmap — Phased rollout by departments with early adopters.
-2. Continuous Improvement — Feedback loops from employees/managers.
-3. Training & Enablement — Onboarding, documentation, champions program.
-4. Scalability Plan — Users, features, regions.
-5. ROI Measurement — Cost savings, productivity, satisfaction.
-
-### External-Faced Product
-
-Part I — Business Context
-1. Vision — Product vision and long-term problem/solution thesis.
-2. Market Opportunity — Demand trends, industry gaps, strategic openings.
-3. Market Research — Pain points (discovery/interviews) and TAM/SAM/SOM sizing.
-4. Opportunity — Differentiated value addressing market gaps.
-5. Business Model — Subscriptions, commissions, transactions, services, etc.
-6. Market & Strategy — Target segments, prioritization, go-to-market plan.
-7. Competitive Landscape — Incumbents, substitutes, adjacent solutions.
-8. Positioning & Differentiation — Defensibility and messaging.
-9. Growth Plan — Geography, features, partnerships.
-
-Part II — Product Definition
-1. User Personas — External customers/admins/operators with motivations.
-2. User Roles — Permissions and interactions.
-3. Features (Epic-Level) — Role-based epics with prioritization.
-4. Reference Research — Competitive benchmarks and best practices.
-5. User Journeys — Visualized flows from onboarding to outcomes.
-6. Sitemaps — Navigational architecture.
-7. Wireframes — Low-fidelity design for alignment.
-8. Design System — Typography, style, and brand tone.
-
-Part III — Technical Specification
-1. Technology Stack — Frontend, backend, infrastructure.
-2. Deployment & CI/CD — Release and automation pipelines.
-3. Business Rules — Logic constraints per module/page.
-4. Integration Catalog — Third-party integration map.
-5. Database Schema — Core entities/relationships.
-6. Security & Compliance — Industry standards (e.g., GDPR, PCI-DSS).
-
-Part IV — Growth Strategy
-1. Go-To-Market Plan — Beta/early adopters, PR, onboarding campaigns.
-2. Sales Strategy — Funnel, target accounts, outreach, partner channels.
-3. Marketing & Awareness — Content, paid campaigns, events, partnerships.
-4. Partnerships — Integration/distribution alliances and associations.
-5. Client Success & Retention — Support, success metrics, case studies.
-6. Scaling Strategy — Regions, verticals, and product line expansion.
 
 ## Target Users
 
-### Primary User Segment: Solopreneurs & Small Business Founders
+### Primary User Segment: Dreamers (Solopreneurs & Aspiring Entrepreneurs)
 
 **Demographic/Firmographic Profile:**
-- English-proficient Indonesian solopreneurs and small business founders with initial capital or bootstrapped operations
-- Tech-savvy entrepreneurs aged 25-45 with business or technical backgrounds and global market ambitions
-- SMBs with 1-15 employees looking to validate and scale their core product or service
-- Budget range: IDR 100-250 million for product development and validation
+- English-proficient Indonesian solopreneurs and aspiring entrepreneurs with initial capital or bootstrapped operations
+- Tech-savvy individuals aged 25-45 with business or technical backgrounds and global market ambitions
+- Individuals with innovative ideas but limited business experience or resources
+- Budget range: IDR 50-150 million for product development and validation
 
 **Current Behaviors & Workflows:**
 - Currently juggling multiple responsibilities: strategy, fundraising, and execution
@@ -158,47 +77,53 @@ Part IV — Growth Strategy
 - Struggle with prioritizing features and validating assumptions before building
 - Spend significant time researching tools, frameworks, and best practices
 - Frequently pivot or rebuild due to lack of early market validation
+- Need extensive consultation and guidance throughout the process
 
 **Specific Needs & Pain Points:**
 - Need structured methodology to transform rough ideas into focused product concepts
-- Require rapid validation without burning through limited runway
+- Require extensive consultation and hand-holding throughout the development process
 - Want expert guidance on technical architecture and tool selection
 - Need to demonstrate traction to investors and stakeholders quickly
 - Struggle with balancing speed vs. quality in early product development
+- Require more educational content and step-by-step guidance
 
 **Goals They're Trying to Achieve:**
 - Achieve product-market fit within 6-12 months
 - Build investor confidence through validated traction metrics
 - Establish scalable foundation for rapid growth
 - Minimize wasted development cycles and feature bloat
+- Learn the fundamentals of product development and business strategy
 
-### Secondary User Segment: Corporate Innovation Teams
+### Secondary User Segment: Emerging Business (Established Companies with Pain Points)
 
 **Demographic/Firmographic Profile:**
-- Innovation managers and digital transformation leaders at established Indonesian enterprises
-- Mid-to-large companies (100+ employees) in traditional industries seeking digital solutions
-- Internal teams tasked with exploring new revenue streams or operational improvements
-- Budget range: IDR 250 million-1 billion for innovation projects
+- Established Indonesian companies (10-100 employees) with existing business operations
+- Companies facing specific pain points or growth challenges that require digital solutions
+- Business owners and decision-makers with limited time and technical resources
+- Budget range: IDR 150-500 million for targeted solution development
 
 **Current Behaviors & Workflows:**
-- Work within established corporate structures with longer approval cycles
-- Often constrained by legacy systems and compliance requirements
-- Typically engage external consultants for strategy and development partners for execution
-- Focus on risk mitigation and stakeholder buy-in throughout the process
-- Need to demonstrate ROI and business impact to secure continued investment
+- Have existing business operations and customer base
+- Limited time to manage complex development projects internally
+- Lack internal technical expertise to solve specific business problems
+- Need solutions that integrate with existing systems and processes
+- Focus on quick implementation and measurable business impact
+- Prefer "get the job done" approach over extensive consultation
 
 **Specific Needs & Pain Points:**
-- Need to validate internal innovation concepts without disrupting core business
+- Need to solve specific business problems without disrupting core operations
 - Require integration with existing enterprise systems and processes
-- Want proven methodologies that align with corporate governance standards
+- Want proven methodologies that deliver results quickly
 - Need clear documentation and handoff processes for internal teams
-- Struggle with balancing innovation speed vs. corporate compliance requirements
+- Struggle with balancing business operations vs. innovation projects
+- Prefer efficient execution over extensive planning phases
 
 **Goals They're Trying to Achieve:**
-- Launch successful digital initiatives that drive measurable business value
-- Build internal innovation capabilities and culture
-- Demonstrate competitive advantage through validated digital solutions
-- Create repeatable processes for future innovation projects
+- Solve specific business pain points with targeted digital solutions
+- Improve operational efficiency and customer experience
+- Demonstrate measurable ROI and business impact
+- Create scalable solutions that support business growth
+- Minimize time investment in technical development
 
 ## Goals & Success Metrics
 
@@ -217,10 +142,9 @@ Part IV — Growth Strategy
 - **Content Engagement** - Blog content and case studies achieve 10,000+ monthly organic views with 5+ minute average session duration
 
 ### Key Performance Indicators (KPIs)
-- **Website Traffic Growth**: 5,000+ monthly unique visitors by month 6, 15,000+ by month 12
+- **Website Traffic Growth**: 1,000+ monthly unique visitors by month 6, 3,000+ by month 12
 - **Service Inquiry Volume**: 20+ qualified service consultations monthly by month 6
 - **Client Success Rate**: 80% of Blueprint clients proceed to Build & Benchmark; 70% complete the full framework
-- **Revenue Growth**: IDR 500 million monthly recurring revenue by month 12
 - **Brand Recognition**: Featured in 3+ Indonesian SMB/tech publications quarterly
 - **Client Retention**: 60% of completed framework clients engage for the Grow phase (ongoing services)
 - **Market Validation**: 15+ client case studies with documented traction improvements (user growth, revenue, funding, etc.)
@@ -232,11 +156,11 @@ Part IV — Growth Strategy
 - **Hero Section & Brand Identity:** Clear communication of Synetica's Blueprint specialization with compelling value proposition messaging, professional visual design establishing the Synetica brand
 - **Framework Showcase:** Dedicated section explaining Blueprint → Build & Benchmark → Go To Market → Grow methodology with emphasis on Blueprint expertise and planning capabilities  
 - **Service Offerings Structure:** Maintain familiar navigation with Portfolio, Services, Contact structure but reframe around Blueprint specialization and full framework offerings
- - **Blueprint Service Deep-dive:** Comprehensive description of Blueprint services including deliverables (validated problem statement, user personas, prioritized features, technical architecture, market landscape, 60-day roadmap), aligned to the Internal/External Blueprint Outline defined in this brief
+ - **Blueprint Service Deep-dive:** Comprehensive description of Blueprint services including deliverables (validated problem statement, user personas, prioritized features, technical architecture, market landscape, 60-day roadmap), emphasizing our Builder-Sage Hybrid approach that combines pragmatic execution with intelligent insight
 - **Client Portfolio & Case Studies:** Leverage existing client relationships (Traveloka, Angkasa Pura, Astra references) repositioned as Blueprint success stories, minimum 3-5 detailed implementations
 - **Collaboration Models:** Adapt existing models (Dedicated Team, Project Based, On Demand) for Blueprint-focused engagement types
 - **WhatsApp Integration:** Maintain the WhatsApp chat functionality for immediate consultation requests
-- **Language Strategy:** Primary English content with Indonesian translations for key pages, targeting English-proficient Indonesian entrepreneurs
+- **Language Strategy:** English-only content for first version, targeting English-proficient Indonesian entrepreneurs
 - **Professional Credentials:** Showcase team expertise, certifications (ISO 27001, AWS Partner), and Yogyakarta office advantage
 - **Contact & Consultation:** Clear contact information with structured consultation request process for Blueprint services
 
@@ -244,9 +168,9 @@ Part IV — Growth Strategy
 
 - **E-commerce/Payment Integration:** No online booking or payment processing for services
 - **Client Portal/Dashboard:** No login area or project management interface
-- **Blog/Content Management:** No content publishing system (can be added post-launch)
+- **Blog/Content Management:** No content publishing system or blog functionality (can be added post-launch)
 - **Advanced Analytics:** Basic Google Analytics only, no custom tracking dashboards
-- **Dynamic Language Features:** No complex multilingual switching - primary English with selective Indonesian translations
+- **Language Switching:** English-only for first version - no Indonesian language support initially
 - **Interactive Tools:** No Blueprint generators, calculators, or interactive planning tools
 - **Video Content:** No custom video production or embedded video testimonials
 - **Social Media Integration:** No live social feeds or advanced social sharing features
@@ -316,7 +240,7 @@ Position Synetica as the trusted gateway for European, US, and UK companies seek
 
 - **Static Site Generator:** Hugo for ultra-fast performance, excellent SEO, and simple content management via Markdown files
 - **Frontend:** Hugo templates powered by Tailwind CSS utility classes and shadcn/ui component primitives for accessible, consistent interactions
-- **Theme Baseline:** Start from the Tweakcn theme `cmftuwple000004kv5zzr2ukn`, translating its layout, spacing, and typography tokens into Synetica's brand system
+- **Theme Baseline:** Start from the Tweakcn theme `cmftuwple000004kv5zzr2ukn`, translating its layout, spacing, and typography tokens into Synetica's brand system with modern geometric sans-serif primary typography and humanist sans-serif secondary typography
 - **Content Management:** File-based content using Markdown for case studies, blog posts, and service descriptions - easy to version control and collaborate
 - **Form Handling:** Third-party services (Netlify Forms, Formspree) for contact forms and consultation requests
 - **Hosting/Infrastructure:** Static hosting (Netlify, Vercel, GitHub Pages) with global CDN - extremely fast and cost-effective
