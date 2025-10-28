@@ -1,6 +1,6 @@
 # Synetica Website
 
-Synetica is a product development studio that delivers end-to-end validation journeys, helping founders move from idea to traction in 8 weeks through our 2B2G framework (Blueprint → Build & Benchmark → Go To Market → Grow). This repository hosts the public marketing site that tells the Synetica story, showcases results, and captures qualified leads.
+Synetica is a tech-based business consultancy that delivers end-to-end validation journeys, helping founders move from idea to traction in 8 weeks through our 2B2G™ Methodology (Blueprint → Build & Benchmark → Go To Market → Grow). This repository hosts the public marketing site that tells the Synetica story, showcases results, and captures qualified leads.
 
 ## Table of Contents
 - [Overview](#overview)
@@ -15,15 +15,15 @@ Synetica is a product development studio that delivers end-to-end validation jou
 
 ## Overview
 - **What we solve:** 80% of digital products fail because teams build before validating. Synetica leads with a Blueprint phase that sharpens ideas, aligns business goals, and prevents waste.
-- **Who we serve:** Indonesian Dreamers (solopreneurs, aspiring entrepreneurs) and Emerging Business (established companies with pain points) who need clarity, validation, and execution support.
-- **How we win:** End-to-end accountability—from blueprinting and AI-assisted builds to validation, launch, and growth through our 2B2G framework.
+- **Who we serve:** Indonesian Dreamers (solopreneurs, aspiring entrepreneurs) and Growing Businesses (established companies with pain points) who need clarity, validation, and execution support.
+- **How we win:** End-to-end accountability—from blueprinting and AI-assisted builds to validation, launch, and growth through our 2B2G™ Methodology and the productized 8-Week Product Launch™.
 
 ## Core Experience
 - Credibility-first homepage highlighting marquee clients (Traveloka, Angkasa Pura, Astra) and proof of outcomes
 - Detailed storytelling around the 2B2G framework with timelines, deliverables, and decision checkpoints
 - Case study hub that reframes existing engagements as product development success stories
 - Consultation pathways combining lightweight inquiry forms with WhatsApp click-to-chat for rapid follow-up
-- English-only content targeting Indonesian Dreamers and Emerging Business segments
+- English-only content targeting Indonesian Dreamers and Growing Businesses segments
 - Content and SEO foundation geared toward product development and validation keywords
 
 ## Architecture & Stack

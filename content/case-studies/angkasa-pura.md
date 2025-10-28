@@ -2,7 +2,7 @@
 title: "Angkasa Pura: Airport Management System"
 date: 2024-01-15
 industry: "Aviation & Logistics"
-persona: "Emerging Business"
+persona: "Growing Businesses"
 phases: "Blueprint, Build & Benchmark, Go To Market"
 challenge: "Legacy systems causing operational inefficiencies"
 outcome: "40% reduction in processing time"

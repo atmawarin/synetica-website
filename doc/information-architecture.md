@@ -1,7 +1,7 @@
 # Synetica Website Information Architecture
 
 ## 1. Objectives & Inputs
-- **Business goals:** Accelerate qualified consultations, establish credibility, differentiate Synetica’s 2B2G (Blueprint → Build & Benchmark → Go To Market → Grow) methodology.
+- **Business goals:** Accelerate qualified consultations, establish credibility, differentiate Synetica’s 2B2G™ Methodology (Blueprint → Build & Benchmark → Go To Market → Grow) with an 8-week launch framing.
 - **Primary personas:**
   - **Dreamers** – solopreneurs and SMB founders seeking clarity and validation before committing budget.
   - **Growing Businesses** – corporate innovation teams needing structured, end-to-end delivery without draining internal resources.
@@ -18,7 +18,7 @@
 | **Team** | Establish expertise, Softwareseni heritage, certifications, and Yogyakarta advantage. | "Meet the Team", "Start a Conversation" |
 | **Contact** | Conversion endpoint with form, WhatsApp CTA, and office info. | "Submit Brief", "Chat on WhatsApp" |
 
-**Utility bar:** persistent "Book Consultation", "WhatsApp", and future language toggle (EN/ID).
+**Utility bar:** persistent "Book Consultation", "WhatsApp", and future language toggle (EN/ID). Consider variant CTA: "Book 8-Week Launch Consult".
 
 ## 3. Secondary & Tertiary Structure
 ### Home
@@ -31,8 +31,8 @@
 7. Footer CTA: consultation form teaser + WhatsApp.
 
 ### Process
-1. Overview: promise, 8-week framing, methodology value props.
-2. Individual phase sections (Blueprint, Build & Benchmark, Go To Market, Grow): each with problem solved, deliverables, tooling, validation checkpoints, and timebox.
+1. Overview: promise, 8-week framing (From idea to traction — within 8 weeks), methodology value props.
+2. Individual phase sections (Blueprint, Build & Benchmark, Go To Market, Grow): each with problem solved, deliverables, tooling, validation checkpoints, and timebox (2w / 4–5w / 2mo / ongoing).
 3. Engagement models: how clients enter (phase-only vs. full cycle).
 4. FAQ: timelines, collaboration expectations, AI tooling transparency.
 
@@ -49,7 +49,7 @@
 4. Related stories carousel.
 
 ### Services
-1. Engagement comparison matrix (Blueprint vs. Full 2B2G cycle vs. Grow retainer).
+1. Engagement comparison matrix (Blueprint vs. Full 2B2G™ cycle vs. Grow retainer).
 2. Deliverables list per stage with proof assets.
 3. Pricing guidance (ranges / starting points) and time expectations.
 4. Common scenarios (e.g., Validation Sprint, Corporate Accelerator).
@@ -87,7 +87,7 @@
 4. CTA: Request scoping workshop / schedule executive briefing.
 
 ### Reinforcement Points
-- Persistent utility CTAs (Consultation, WhatsApp).
+- Persistent utility CTAs (Consultation, WhatsApp, 8-Week Launch Consult).
 - Contextual CTAs within case studies and phase sections.
 - Proof assets (metrics, testimonials) aligned to persona at each stage.
 

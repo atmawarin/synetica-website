@@ -2,7 +2,7 @@
 title: "Astra: Corporate Innovation Platform"
 date: 2024-01-15
 industry: "Automotive & Manufacturing"
-persona: "Emerging Business"
+persona: "Growing Businesses"
 phases: "Blueprint, Build & Benchmark, Go To Market"
 challenge: "Digital transformation and innovation management"
 outcome: "25% increase in innovation project success rate"

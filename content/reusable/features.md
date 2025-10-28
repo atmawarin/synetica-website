@@ -1,7 +1,7 @@
 # Feature Highlights
 
 ## Core Features
-- 2B2G Framework
+- 2B2G™ Methodology
 - AI-accelerated development
 - End-to-end validation
 - 8-week delivery

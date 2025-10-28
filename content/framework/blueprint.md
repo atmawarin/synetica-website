@@ -32,7 +32,7 @@
 
 ## Best For
 - Dreamers: Need extensive consultation
-- Emerging Business: Want validated plan
+- Growing Businesses: Want validated plan
 
 ## Sample Deliverables
 [Links to example blueprints]

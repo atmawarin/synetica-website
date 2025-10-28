@@ -21,7 +21,7 @@ description: "Thought leadership and resources"
 [Brainstorm downloadable resources]
 - Blueprint Checklist
 - Validation Scorecard
-- 2B2G Framework Guide
+- 2B2G™ Methodology Guide
 
 ## Search & Filter
 

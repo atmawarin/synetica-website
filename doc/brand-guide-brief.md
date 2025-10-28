@@ -8,7 +8,7 @@ In short: Synetica is Collaboration in motion.
 ## 1. Background
 Synetica is a tech-based business consultancy that helps founders and innovation teams move from clarity to traction — fast. We combine strategic thinking, product design, and technology execution to validate ideas and scale outcomes.
 Unlike traditional consultancies that stop at strategy or agencies that jump straight into execution, Synetica does both — we think, then build.
-In just 8 weeks, we take them from idea to a validated product people can actually use and love.
+In 8 weeks, we take them from idea to a validated product people can actually use and love.
 At Synetica, we use our 8-Week Product Launch™ to turn your idea into a validated product fast.
 It’s a practical path: plan smart, build lean, test early, and scale only what works.
 
@@ -42,7 +42,7 @@ In just eight weeks, we take you from concept to traction.
 Design cue: Show progression — from open exploration to sharp focus. Use structure, rhythm, and motion to echo that transformation.
 
 ## 4. Positioning
-Category: Tech-Based Business Consultancy
+Category: Tech-based business consultancy
 Positioning: Synetica blends the strategic depth of consulting with the execution power of a product studio.
 Why: Businesses need partners who can both think clearly and build fast. Synetica delivers both, using technology as the bridge between insight and traction.
 Target: Dreamers & Growing Businesses in Indonesia

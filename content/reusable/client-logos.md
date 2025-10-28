@@ -9,4 +9,10 @@
 [Add notes about client logos, usage rights, and placement guidelines]
 
 ## Additional Clients
-[Add more client logos as they become available]
+- Telkom Indonesia
+- Astra International
+- Astra Credit Company
+- Moladin
+- Seva
+- TribunX
+- HWG

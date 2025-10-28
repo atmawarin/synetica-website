@@ -1,9 +1,9 @@
 ---
-title: "Our Process: The 2B2G Framework"
+title: "Our Process: The 2B2G™ Methodology"
 description: "From idea to traction in 8 weeks"
 ---
 
-# The 2B2G Framework
+# The 2B2G™ Methodology
 
 ## Overview
 

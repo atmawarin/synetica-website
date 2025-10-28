@@ -19,7 +19,7 @@ description: "How we work with clients"
 ### Full 2B2G Cycle
 [Brainstorm: End-to-end product development]
 
-**Best For:** Emerging Business, serious founders
+**Best For:** Growing Businesses, serious founders
 
 **Duration:** 8 weeks (Blueprint + Build & Benchmark)
 
@@ -43,5 +43,5 @@ description: "How we work with clients"
 ## Common Scenarios
 
 1. **Validation Sprint** - For Dreamers testing ideas
-2. **Corporate Accelerator** - For Emerging Business
+2. **Corporate Accelerator** - For Growing Businesses
 3. **Product Rescue** - For failed launches

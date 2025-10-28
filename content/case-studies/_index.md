@@ -7,11 +7,11 @@ description: "Product development success stories"
 
 ## Overview
 
-Collection of client success stories showcasing our 2B2G Framework in action.
+Collection of client success stories showcasing our 2B2G™ Methodology in action.
 
 ## Filters
 
-- By Persona: Dreamers, Emerging Business
+- By Persona: Dreamers, Growing Businesses
 - By Industry: Fintech, Logistics, Aviation, E-commerce, SaaS
 - By Phase: Blueprint, Build & Benchmark, Go To Market, Grow
 

@@ -4,10 +4,10 @@
 
 ### Goals
 
-- Successfully change from Softwareseni to Synetica as a product development studio that delivers end-to-end validation journeys
+- Successfully change from Softwareseni to Synetica as a tech-based business consultancy that delivers end-to-end validation journeys
 - Generate 10+ qualified leads monthly for product development services by month 6
 - Establish market credibility with English-proficient Indonesian Dreamers and Emerging Business ecosystem
-- Showcase the 2B2G Framework (Blueprint → Build & Benchmark → Go To Market → Grow) as our core methodology
+- Showcase the 2B2G™ Methodology (Blueprint → Build & Benchmark → Go To Market → Grow) as our core methodology
 - Convert existing high-profile client relationships into product success story case studies
 - Create scalable content strategy targeting product development keywords for SEO-driven lead generation
 - Build technical foundation using Hugo static site with automated content generation capabilities
@@ -15,9 +15,9 @@
 
 ### Background Context
 
-Synetica represents a strategic pivot from traditional software house services to a product development studio that delivers end-to-end validation journeys. The Indonesian market lacks systematic approaches that combine strategic blueprinting with rapid development and structured testing. With 70% of digital products failing to achieve product-market fit, there's a critical need for validation-first planning services that help founders build evidence-based products rather than assumption-based ones.
+Synetica represents a strategic pivot from traditional software house services to a tech-based business consultancy that delivers end-to-end validation journeys. The Indonesian market lacks systematic approaches that combine strategic blueprinting with rapid development and structured testing. With 80% of digital products failing to achieve product-market fit, there's a critical need for validation-first planning services that help founders build evidence-based products rather than assumption-based ones.
 
-The website serves as the primary vehicle for this rebrand, targeting English-proficient Indonesian Dreamers (solopreneurs and aspiring entrepreneurs) and Emerging Business (established companies with pain points) who need structured product development before going to market. By positioning Synetica as a product development studio rather than general developers, we can command premium pricing while serving a more strategic role in our clients' success.
+The website serves as the primary vehicle for this rebrand, targeting English-proficient Indonesian Dreamers (solopreneurs and aspiring entrepreneurs) and Growing Businesses (established companies with pain points) who need structured product development before going to market. By positioning Synetica as a tech-based business consultancy rather than general developers, we can command premium pricing while serving a more strategic role in our clients' success.
 
 ### Change Log
 | Date | Version | Description | Author |
@@ -28,9 +28,9 @@ The website serves as the primary vehicle for this rebrand, targeting English-pr
 
 ### Functional
 
-**FR1:** The website must clearly communicate Synetica's product development studio positioning as the solution to the 80% digital product failure rate, positioning us as strategic product development experts who prevent expensive development failures rather than traditional code-focused software houses, reflecting our Builder-Sage Hybrid archetype that combines pragmatic execution with intelligent insight
+**FR1:** The website must clearly communicate Synetica's tech-based business consultancy positioning as the solution to the 80% digital product failure rate, positioning us as strategic product development experts who prevent expensive development failures rather than traditional code-focused software houses, reflecting our Builder-Sage Hybrid archetype that combines pragmatic execution with intelligent insight
 
-**FR2:** The website must showcase the 2B2G Framework (Blueprint → Build & Benchmark → Go To Market → Grow) methodology with detailed explanation of each phase, emphasizing how this proven system prevents costly product pivots and rebuilds, with the core promise of delivering "From idea to traction — within 8 weeks"
+**FR2:** The website must showcase the 2B2G™ Methodology (Blueprint → Build & Benchmark → Go To Market → Grow) with detailed explanation of each phase, emphasizing how this proven system prevents costly product pivots and rebuilds, with the core promise of delivering "From idea to traction — within 8 weeks" and the productized offer "8-Week Product Launch™"
 
 **FR3:** The website must display comprehensive product development service descriptions that demonstrate our ability to deliver validated problem statements, user personas, prioritized features, technical architecture, market landscape, and 60-day roadmaps as failure-prevention tools
 
@@ -40,9 +40,9 @@ The website serves as the primary vehicle for this rebrand, targeting English-pr
 
 **FR6:** The website must integrate WhatsApp click-to-chat functionality for immediate consultation requests, supporting the quick decision-making patterns of time-sensitive entrepreneurs evaluating multiple service providers
 
-**FR7:** The website must launch with English-only content targeting English-proficient Indonesian Dreamers and Emerging Business segments, with no Indonesian language support initially
+**FR7:** The website must launch with English-only content targeting English-proficient Indonesian Dreamers and Growing Businesses segments, with no Indonesian language support initially
 
-**FR8:** The website must prominently display professional credentials including international experience, team expertise, certifications (ISO 27001, AWS Partner), and Yogyakarta cost advantages to build trust in our technical execution capabilities for the complete 2B2G Framework
+**FR8:** The website must prominently display professional credentials including international experience, team expertise, certifications (ISO 27001, AWS Partner), and Yogyakarta cost advantages to build trust in our technical execution capabilities for the complete 2B2G™ Methodology
 
 **FR9:** The website must present collaboration models specifically adapted for product development engagement types that emphasize strategic partnership over staff augmentation (Dedicated Team, Project Based, On Demand)
 
@@ -50,9 +50,9 @@ The website serves as the primary vehicle for this rebrand, targeting English-pr
 
 ### Non Functional
 
-**NFR1:** The website must achieve measurable page load speeds under 3 seconds on Indonesian mobile networks to maintain technical credibility essential for product development services - performance will be tested using Indonesian network conditions and mobile devices
+**NFR1:** The website must achieve measurable page load speeds under 3 seconds on Indonesian mobile networks to maintain technical credibility essential for product development services — performance will be tested using Indonesian network conditions and mobile devices
 
-**NFR2:** The website must be responsive and optimized for desktop and mobile devices using mobile-first design approach, ensuring accessibility for Indonesian Dreamers and Emerging Business who primarily browse on mobile devices
+**NFR2:** The website must be responsive and optimized for desktop and mobile devices using mobile-first design approach, ensuring accessibility for Indonesian Dreamers and Growing Businesses who primarily browse on mobile devices
 
 **NFR3:** The website must support modern browsers (Chrome, Firefox, Safari, Edge) with cross-browser compatibility to avoid losing potential clients due to technical barriers
 
@@ -79,18 +79,18 @@ The website serves as the primary vehicle for this rebrand, targeting English-pr
 ## User Interface Design Goals
 
 ### Overall UX Vision
-The website should lead with clear value proposition and immediate credibility (major client logos), then progressively introduce our methodology as competitive advantage. Users arrive seeking specific solutions, not "product development services," so we must first establish trust through recognizable clients, then reveal how our systematic approach delivers better outcomes. The experience guides visitors from recognition ("They work with companies I know") to curiosity ("How do they build differently?") to understanding ("The 2B2G Framework ensures success") to action ("I want this approach for my product").
+The website should lead with clear value proposition and immediate credibility (major client logos), then progressively introduce our methodology as competitive advantage. Users arrive seeking specific solutions, not "product development services," so we must first establish trust through recognizable clients, then reveal how our systematic approach delivers better outcomes. The experience guides visitors from recognition ("They work with companies I know") to curiosity ("How do they build differently?") to understanding ("The 2B2G™ Methodology ensures success") to action ("I want this approach for my product").
 
 ### Key Interaction Paradigms
 - **Credibility-First Navigation:** Lead with client logos and success metrics to establish immediate trust
 - **Solution-to-Methodology Flow:** Show what we build before explaining how we build it differently
 - **Progressive Value Revelation:** Start with familiar concepts, introduce product development methodology as competitive advantage
-- **Mobile-First Interactions:** Touch-optimized for Indonesian Dreamers and Emerging Business who primarily browse on mobile devices
+- **Mobile-First Interactions:** Touch-optimized for Indonesian Dreamers and Growing Businesses who primarily browse on mobile devices
 - **Case Study-Driven Persuasion:** Specific solution examples (investor apps, management systems) drive methodology understanding
 
 ### Core Screens and Views
-1. **Hero Landing Page** - "We build products that succeed" with major client logos and scope clarity ("From idea to traction — within 8 weeks")
-2. **Process Overview Page** - 2B2G Framework positioned as "How we build differently" with outcome focus
+1. **Hero Landing Page** - "We build products that succeed" with major client logos and scope clarity ("From idea to traction — within 8 weeks") and a clear reference to the 8-Week Product Launch™
+2. **Process Overview Page** - 2B2G™ Methodology positioned as "How we build differently" with outcome focus
 3. **Case Studies Gallery** - Specific solution examples (investor decision apps, GAT management systems) showing methodology in action
 4. **Services Page** - Comprehensive service descriptions framed as "our proven approach" rather than separate product development offering
 5. **Client Success Stories** - Individual case studies with before/after scenarios and specific business outcomes
@@ -136,7 +136,7 @@ Single repository containing the Hugo static site, content files, automation scr
 
 **Security and Compliance:** HTTPS via hosting platform, minimal data collection with third-party form handling, and no user data storage on site infrastructure. Meets enterprise security expectations while maintaining simple architecture.
 
-**Content Strategy:** English-only content for first version with no Indonesian language support initially. Focus on English-proficient Indonesian Dreamers and Emerging Business segments.
+**Content Strategy:** English-only content for first version with no Indonesian language support initially. Focus on English-proficient Indonesian Dreamers and Growing Businesses segments.
 
 ## Epic List
 
@@ -149,10 +149,10 @@ Establish Hugo static site setup, hosting infrastructure, basic analytics integr
 Implement the core homepage with client logos, value proposition messaging, and basic navigation structure that immediately establishes credibility and guides users toward case studies and methodology understanding.
 
 **Epic 3: Case Study System & Solution Showcase**
-Create the case study gallery and individual case study pages that demonstrate specific solutions (investor apps, management systems) while introducing the 2B2G Framework as our competitive methodology advantage, showing prospects exactly what successful outcomes look like.
+Create the case study gallery and individual case study pages that demonstrate specific solutions (investor apps, management systems) while introducing the 2B2G™ Methodology as our competitive methodology advantage, showing prospects exactly what successful outcomes look like.
 
 **Epic 4: Services & Methodology Deep-Dive**
-Build comprehensive service pages and detailed 2B2G Framework explanation that positions our methodology as strategic advantage while providing clear consultation pathways for qualified leads, converting case study interest into service inquiries.
+Build comprehensive service pages and detailed 2B2G™ Methodology explanation that positions our methodology as strategic advantage while providing clear consultation pathways for qualified leads, converting case study interest into service inquiries.
 
 **Epic 5: Contact & Lead Generation Optimization**
 Implement consultation request forms, WhatsApp integration, BANT qualification workflow, and complete analytics setup (GA4 + Search Console + Clarity) for conversion optimization and lead quality measurement, converting website interest into qualified sales opportunities.
@@ -264,7 +264,7 @@ I want a brief introduction to their methodology on the homepage,
 so that I can understand their unique approach before diving deeper.
 
 #### Acceptance Criteria
-1. "How We Build Differently" section with 2B2G Framework introduction
+1. "How We Build Differently" section with 2B2G™ Methodology introduction
 2. Visual representation of Blueprint → Build & Benchmark → Go To Market → Grow
 3. Brief outcome-focused descriptions for each phase
 4. "Learn More About Our Process" call-to-action
@@ -273,7 +273,7 @@ so that I can understand their unique approach before diving deeper.
 
 ## Epic 3: Case Study System & Solution Showcase
 
-**Epic Goal:** Create the case study gallery and individual case study pages that demonstrate specific solutions (investor apps, management systems) while introducing the 2B2G Framework as our competitive methodology advantage, showing prospects exactly what successful outcomes look like.
+**Epic Goal:** Create the case study gallery and individual case study pages that demonstrate specific solutions (investor apps, management systems) while introducing the 2B2G™ Methodology as our competitive methodology advantage, showing prospects exactly what successful outcomes look like.
 
 ### Story 3.1: Case Study Gallery Page
 As a potential client researching Synetica's track record,
@@ -298,7 +298,7 @@ so that I can envision how Synetica might help with my own project.
 2. Before/after scenarios showing transformation achieved
 3. Specific business metrics and success indicators
 4. Visual elements: screenshots, diagrams, user flow illustrations
-5. 2B2G Framework integration showing methodology application
+5. 2B2G™ Methodology integration showing methodology application
 6. Related case studies suggestions and clear contact CTAs
 
 ### Story 3.3: Signature Case Studies Content Creation
@@ -321,7 +321,7 @@ so that I can evaluate their methodology for my own project needs.
 
 #### Acceptance Criteria
 1. "How We Achieved This" methodology sections in each case study
-2. Clear explanation of 2B2G Framework application for each project
+2. Clear explanation of 2B2G™ Methodology application for each project
 3. Links from case studies to detailed methodology pages
 4. Consultation request forms specifically referencing case study examples
 5. "See Similar Results" call-to-action with process overview
@@ -329,11 +329,11 @@ so that I can evaluate their methodology for my own project needs.
 
 ## Epic 4: Services & Methodology Deep-Dive
 
-**Epic Goal:** Build comprehensive service pages and detailed 2B2G Framework explanation that positions our methodology as strategic advantage while providing clear consultation pathways for qualified leads, converting case study interest into service inquiries.
+**Epic Goal:** Build comprehensive service pages and detailed 2B2G™ Methodology explanation that positions our methodology as strategic advantage while providing clear consultation pathways for qualified leads, converting case study interest into service inquiries.
 
-### Story 4.1: 2B2G Framework Methodology Deep-Dive Page
+### Story 4.1: 2B2G™ Methodology Deep-Dive Page
 As a prospect convinced by case study results,
-I want to understand exactly how the 2B2G Framework works and what deliverables I'll receive,
+I want to understand exactly how the 2B2G™ Methodology works and what deliverables I'll receive,
 so that I can evaluate if this methodology fits my project needs and timeline.
 
 #### Acceptance Criteria
@@ -351,7 +351,7 @@ so that I can understand pricing structure and choose the right collaboration ap
 
 #### Acceptance Criteria
 1. Dedicated Team engagement model with product development integration
-2. Project-Based services focusing on 2B2G Framework delivery
+2. Project-Based services focusing on 2B2G™ delivery
 3. On-Demand consultation for specific methodology phases
 4. Clear service descriptions with outcome expectations
 5. Pricing guidance or "starting at" indicators
@@ -376,7 +376,7 @@ I want to understand their company story and strategic positioning,
 so that I can evaluate if they align with my business goals and values.
 
 #### Acceptance Criteria
-1. Company rebrand story emphasizing product development studio positioning
+1. Company rebrand story emphasizing tech-based business consultancy positioning
 2. Mission and vision statements reflecting product success focus
 3. Differentiation from traditional software houses clearly articulated
 4. Geographic advantages and Indonesian market expertise

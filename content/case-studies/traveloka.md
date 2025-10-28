@@ -2,7 +2,7 @@
 title: "Traveloka: Enterprise Travel Platform Optimization"
 date: 2024-01-15
 industry: "Travel & Hospitality"
-persona: "Emerging Business"
+persona: "Growing Businesses"
 phases: "Blueprint, Build & Benchmark, Go To Market"
 challenge: "Complex booking flows causing cart abandonment"
 outcome: "35% increase in conversion rate"
