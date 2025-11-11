@@ -5,24 +5,29 @@ This document provides guidelines for AI agents working on the Synetica website 
 ## Project Context
 
 ### Brand Identity
-- **Company**: Synetica - A product development studio that delivers end-to-end validation journeys
+- **Company**: Synetica - A tech-based business consultancy that helps founders and innovation teams move from clarity to traction — fast
+- **Category**: Tech-Based Business Consultancy
+- **Positioning**: Synetica blends the strategic depth of consulting with the execution power of a product studio
 - **Archetype**: Builder-Sage Hybrid - Combines pragmatic execution with intelligent insight
 - **Tone**: Smart, confident, and structured
 - **Brand Essence**: "From idea to traction — within 8 weeks"
+- **One Line**: "Launch your product in 8 weeks or less"
 - **Brand Character**: Clear Thinking • Momentum • Structure • Human Tech + AI • Focus • Proof
+- **Mission**: To fast-launch products that truly matter. We reduce waste, shorten time-to-market, and ensure adoption by bridging the gap between business strategy, design, and technology execution.
 
 ### Target Users
 - **Primary**: Dreamers (Indonesian solopreneurs and aspiring entrepreneurs)
-- **Secondary**: Emerging Business (Established companies with pain points)
+- **Secondary**: Growing Businesses (Established companies with pain points)
 - **Language**: English-only for first version
-- **Budget Ranges**: IDR 50-150M (Dreamers), IDR 150-500M (Emerging Business)
+- **Focus**: Clarity → Validation → Traction
+- **Differentiator**: We stay from idea to adoption — combining business clarity, AI-assisted development, and real-world validation
 
 ### Core Framework
 **2B2G Framework**: Blueprint → Build & Benchmark → Go To Market → Grow
-- **Blueprint (2 weeks)**: Validated problem statement, user personas, technical architecture
-- **Build & Benchmark (4-5 weeks)**: AI-accelerated MVP with real user validation
-- **Go To Market (2 months)**: User activation and adoption campaigns
-- **Grow (ongoing)**: Optimization, retention, and scaling
+- **Blueprint (2 weeks)**: Turning vision into a decision-ready plan with clear priorities, features, and validation steps
+- **Build & Benchmark (6 weeks)**: Lean, AI-assisted engineering that delivers fast, focused, and reliable results. MVP tested with 30 real users to collect actionable feedback and validate usability, clarity, and performance before launch
+- **Go To Market (3 months)**: Testing and measuring adoption before scaling, so every product is backed by evidence. Includes positioning, messaging, launch campaigns, onboarding, and performance tracking
+- **Grow (ongoing)**: Post-launch optimization and marketing support to convert traction into long-term growth. Combines product iteration with AI-supported marketing campaigns and expert-led strategy
 
 ## Technical Guidelines
 
@@ -50,10 +55,12 @@ This document provides guidelines for AI agents working on the Synetica website 
    - Consult `doc/brand-guide-brief.md` for visual identity guidelines
 
 2. **Maintain Brand Consistency**
-   - Use "product development studio" not "Blueprint specialization company"
-   - Reference "Dreamers" and "Emerging Business" as target segments
+   - Use "tech-based business consultancy" as the primary category descriptor
+   - Reference "Dreamers" and "Growing Businesses" as target segments
    - Emphasize "From idea to traction — within 8 weeks" as core promise
+   - Use "Launch your product in 8 weeks or less" as the one-line value proposition
    - Use Builder-Sage Hybrid archetype in positioning
+   - Emphasize that Synetica does both strategy and execution — we think, then build
 
 3. **Technical Requirements**
    - Follow Hugo static site architecture
@@ -71,16 +78,18 @@ This document provides guidelines for AI agents working on the Synetica website 
 5. **User Experience Focus**
    - Credibility-first navigation with major client logos
    - Progressive value revelation (recognition → curiosity → understanding → action)
-   - Mobile-optimized for Indonesian Dreamers and Emerging Business
+   - Mobile-optimized for Indonesian Dreamers and Growing Businesses
    - Case study-driven persuasion
 
 ### Common Mistakes to Avoid
 
-1. **Don't** refer to Synetica as a "Blueprint specialization company"
-2. **Don't** use "SMBs and corporate innovation teams" as target users
-3. **Don't** implement bilingual content in first version
-4. **Don't** include blog/content management in MVP scope
-5. **Don't** use outdated failure rate statistics (use 80%, not 70%)
+1. **Don't** refer to Synetica as a "product development studio" (use "tech-based business consultancy")
+2. **Don't** refer to Synetica as a "Blueprint specialization company"
+3. **Don't** use "SMBs and corporate innovation teams" or "Emerging Business" as target users (use "Growing Businesses")
+4. **Don't** implement bilingual content in first version
+5. **Don't** include blog/content management in MVP scope
+6. **Don't** use outdated failure rate statistics (use 80%, not 70%)
+7. **Don't** position Synetica as only strategy or only execution — we do both
 
 ### Key Metrics & KPIs
 - **Website Traffic**: 1,000+ monthly unique visitors by month 6, 3,000+ by month 12
@@ -122,6 +131,9 @@ This document provides guidelines for AI agents working on the Synetica website 
 - Emphasize validation and planning methodology
 - Include specific business outcomes and metrics
 - Reference major client relationships for credibility
+- Highlight the 8-Week Product Launch™ methodology
+- Emphasize the combination of strategic thinking and execution power
+- Show how we bridge the gap between consultancies (strategy only) and dev shops (execution only)
 
 ### SEO & Performance
 - Implement comprehensive SEO optimization
