@@ -2,13 +2,13 @@
 
 ## Executive Summary
 
-Synetica is launching a new website as a new brand created independently from Softwareseni, positioning itself as a product development studio that delivers end-to-end validation journeys.
+Synetica is launching a new website as a new brand created independently from Softwareseni, positioning itself as a tech-based business consultancy that helps founders and innovation teams move from clarity to traction — fast.
 
 The new website will communicate Synetica's  **Framework: Blueprint → Build & Benchmark → Go To Market → Grow** — helping founders go from raw ideas to growing products in 8 weeks through AI-accelerated tools and structured validation.
 
 The primary problem being solved is **the high failure rate of digital products that are built without proper validation - unclear problem-solution fit, bloated MVPs, lack of strategic clarity, and teams that can code but can't guide product vision**. This results in wasted resources, delayed launches, and products that flop not because they weren't built, but because they were built wrong.
 
-Synetica's target market includes Indonesian SMBs, solopreneurs, corporate innovators, and business founders with unproven ideas who need clarity, validation, and a clear path to growth. The key value proposition: **"We create exceptional product blueprints that sharpen your ideas to achieve product-market fit"** - specializing in the strategic planning that becomes the foundation for successful product development, whether custom-built, existing tools, or hybrid solutions.
+Synetica's target market includes Indonesian SMBs, solopreneurs, corporate innovators, and business founders with unproven ideas who need clarity, validation, and a clear path to growth. The key value proposition: **"Launch your product in 8 weeks or less"** - We help founders and innovation teams move from clarity to traction — fast. We combine strategic thinking, product design, and technology execution to validate ideas and scale outcomes. Unlike traditional consultancies that stop at strategy or agencies that jump straight into execution, Synetica does both — we think, then build.
 
 ## Problem Statement
 
@@ -45,10 +45,10 @@ With Southeast Asia's growth, AI boom, government innovation support, and increa
 Synetica delivers an end-to-end product development approach through our proprietary **Framework: Blueprint → Build & Benchmark → Go To Market → Grow**. We combine strategic blueprinting, AI-accelerated MVP development, structured validation, and growth activation to ensure every product is not only built fast and lean, but also tested for real adoption and supported with the right strategies to scale.
 
 **Framework Breakdown:**
-- **🧠 Blueprint (2 weeks)** — Validated problem statement, clear user personas, prioritized feature set, AI-assisted technical architecture, market landscape scoring, and a 60-day MVP roadmap aligned to business goals — encompassing Business, Product, Architecture, and Growth plans
-- **⚙️ Build & Benchmark (4–5 weeks)** — AI-accelerated MVP build with modern stacks; at the end of the phase, validate with real users (usability sessions, landing page tests, targeted campaigns, feedback synthesis) to decide whether to refine, pivot, or scale
-- **📣 Go To Market (2 months)** — Bring the product to the world: activate users, tell the story, and drive adoption through campaigns, partnerships, and go-to-market strategy
-- **📈 Grow & Optimize (ongoing)** — Once live, improve, retain, and scale: analyze usage, optimize performance, and expand reach to achieve sustainable growth
+- **🧠 Blueprint (2 weeks)** — Turning vision into a decision-ready plan with clear priorities, features, and validation steps. Validated problem statement, clear user personas, prioritized feature set, AI-assisted technical architecture, market landscape scoring, and a 60-day MVP roadmap aligned to business goals — encompassing Business, Product, Architecture, and Growth plans
+- **⚙️ Build & Benchmark (6 weeks)** — Lean, AI-assisted engineering that delivers fast, focused, and reliable results. AI-accelerated MVP build with modern stacks; MVP tested with 30 real users to collect actionable feedback and validate usability, clarity, and performance before launch. At the end of the phase, validate with real users (usability sessions, landing page tests, targeted campaigns, feedback synthesis) to decide whether to refine, pivot, or scale
+- **📣 Go To Market (3 months)** — Testing and measuring adoption before scaling, so every product is backed by evidence. Bring the product to the world: activate users, tell the story, and drive adoption through positioning, messaging, launch campaigns, onboarding, and performance tracking
+- **📈 Grow & Optimize (ongoing)** — Post-launch optimization and marketing support to convert traction into long-term growth. Once live, improve, retain, and scale: analyze usage, optimize performance, and expand reach. Combines product iteration with AI-supported marketing campaigns and expert-led strategy to achieve sustainable, compounding growth
 
 **Key Differentiators:**
 - **Idea Sharpening Methodology** - We help refine and focus your concept to maximize product-market fit potential
@@ -94,7 +94,7 @@ Unlike traditional approaches that separate strategy from execution, Synetica in
 - Minimize wasted development cycles and feature bloat
 - Learn the fundamentals of product development and business strategy
 
-### Secondary User Segment: Emerging Business (Established Companies with Pain Points)
+### Secondary User Segment: Growing Businesses (Established Companies with Pain Points)
 
 **Demographic/Firmographic Profile:**
 - Established Indonesian companies (10-100 employees) with existing business operations
@@ -130,13 +130,13 @@ Unlike traditional approaches that separate strategy from execution, Synetica in
 ### Business Objectives
 - **Launch New Brand Successfully** - Establish Synetica as an independent brand (separate from Softwareseni) by Q1 2026, measured by 80% brand awareness among target SMB and solopreneur ecosystem
 - **Acquire Initial Client Base** - Secure 12 paying clients within 6 months of website launch, generating IDR 2 billion in revenue
-- **Establish Market Position** - Position Synetica as the leading Blueprint specialists in Indonesian SMB and solopreneur ecosystem - known as the company that creates exceptional product plans within 12 months
+- **Establish Market Position** - Position Synetica as the leading tech-based business consultancy in Indonesian SMB and solopreneur ecosystem - known as the company that helps founders move from idea to traction within 8 weeks
 - **Build Pipeline** - Generate 10+ qualified leads monthly through website and content marketing by month 6
 - **Expand Service Reach** - Complete 25+ successful framework implementations with measurable client traction results
 
 ### User Success Metrics  
 - **Lead Quality** - 40% of website visitors engage with service consultation requests or framework information
-- **Conversion Rate** - 25% of consultation requests convert to paid Blueprint phase engagements
+- **Conversion Rate** - 25% of consultation requests convert to paid 2B2G framework engagements
 - **Client Satisfaction** - 90% of clients rate the framework experience as "highly valuable" and would recommend to peers
 - **Referral Generation** - 40% of completed projects generate at least one qualified referral within 6 months
 - **Content Engagement** - Blog content and case studies achieve 10,000+ monthly organic views with 5+ minute average session duration
@@ -144,7 +144,7 @@ Unlike traditional approaches that separate strategy from execution, Synetica in
 ### Key Performance Indicators (KPIs)
 - **Website Traffic Growth**: 1,000+ monthly unique visitors by month 6, 3,000+ by month 12
 - **Service Inquiry Volume**: 20+ qualified service consultations monthly by month 6
-- **Client Success Rate**: 80% of Blueprint clients proceed to Build & Benchmark; 70% complete the full framework
+- **Client Success Rate**: 80% of clients proceed to Build & Benchmark; 70% complete the full 2B2G framework
 - **Brand Recognition**: Featured in 3+ Indonesian SMB/tech publications quarterly
 - **Client Retention**: 60% of completed framework clients engage for the Grow phase (ongoing services)
 - **Market Validation**: 15+ client case studies with documented traction improvements (user growth, revenue, funding, etc.)
@@ -153,16 +153,16 @@ Unlike traditional approaches that separate strategy from execution, Synetica in
 
 ### Core Features (Must Have)
 
-- **Hero Section & Brand Identity:** Clear communication of Synetica's Blueprint specialization with compelling value proposition messaging, professional visual design establishing the Synetica brand
-- **Framework Showcase:** Dedicated section explaining Blueprint → Build & Benchmark → Go To Market → Grow methodology with emphasis on Blueprint expertise and planning capabilities  
-- **Service Offerings Structure:** Maintain familiar navigation with Portfolio, Services, Contact structure but reframe around Blueprint specialization and full framework offerings
- - **Blueprint Service Deep-dive:** Comprehensive description of Blueprint services including deliverables (validated problem statement, user personas, prioritized features, technical architecture, market landscape, 60-day roadmap), emphasizing our Builder-Sage Hybrid approach that combines pragmatic execution with intelligent insight
-- **Client Portfolio & Case Studies:** Leverage existing client relationships (Traveloka, Angkasa Pura, Astra references) repositioned as Blueprint success stories, minimum 3-5 detailed implementations
-- **Collaboration Models:** Adapt existing models (Dedicated Team, Project Based, On Demand) for Blueprint-focused engagement types
+- **Hero Section & Brand Identity:** Clear communication of Synetica's tech-based business consultancy positioning with compelling value proposition messaging ("Launch your product in 8 weeks or less"), professional visual design establishing the Synetica brand
+- **Framework Showcase:** Dedicated section explaining 2B2G Framework (Blueprint → Build & Benchmark → Go To Market → Grow) and 8-Week Product Launch™ methodology with emphasis on end-to-end validation journey
+- **Service Offerings Structure:** Maintain familiar navigation with Portfolio, Services, Contact structure but reframe around tech-based business consultancy positioning and full 2B2G framework offerings
+ - **Blueprint Service Deep-dive:** Comprehensive description of Blueprint phase including deliverables (validated problem statement, user personas, prioritized features, technical architecture, market landscape, 60-day roadmap), emphasizing our Builder-Sage Hybrid approach that combines pragmatic execution with intelligent insight
+- **Client Portfolio & Case Studies:** Leverage existing client relationships (Traveloka, Angkasa Pura, Astra references) repositioned as product development success stories showcasing the 2B2G framework, minimum 3-5 detailed implementations
+- **Collaboration Models:** Adapt existing models (Dedicated Team, Project Based, On Demand) for 2B2G framework engagement types
 - **WhatsApp Integration:** Maintain the WhatsApp chat functionality for immediate consultation requests
 - **Language Strategy:** English-only content for first version, targeting English-proficient Indonesian entrepreneurs
 - **Professional Credentials:** Showcase team expertise, certifications (ISO 27001, AWS Partner), and Yogyakarta office advantage
-- **Contact & Consultation:** Clear contact information with structured consultation request process for Blueprint services
+- **Contact & Consultation:** Clear contact information with structured consultation request process for 2B2G framework services
 
 ### Out of Scope for MVP
 
@@ -177,7 +177,7 @@ Unlike traditional approaches that separate strategy from execution, Synetica in
 
 ### MVP Success Criteria
 
-The website MVP will be considered successful when it effectively communicates Synetica's Blueprint specialization, generates qualified leads for consultation requests, and establishes credible market presence for the new brand. Success metrics include clear value proposition comprehension by target users, conversion of website visitors to consultation requests, and positive feedback on the professional presentation of services and expertise.
+The website MVP will be considered successful when it effectively communicates Synetica's tech-based business consultancy positioning and 8-Week Product Launch™ methodology, generates qualified leads for consultation requests, and establishes credible market presence for the new brand. Success metrics include clear value proposition comprehension by target users, conversion of website visitors to consultation requests, and positive feedback on the professional presentation of services and expertise.
 
 ## Post-MVP Vision
 
@@ -281,14 +281,14 @@ Position Synetica as the trusted gateway for European, US, and UK companies seek
 ### Key Assumptions
 
 - Existing Softwareseni clients (Traveloka, Angkasa Pura, Astra) can be successfully repositioned as Blueprint methodology success stories
-- Indonesian SMB and solopreneur market will respond positively to Blueprint specialization positioning over general software house services
+- Indonesian SMB and solopreneur market will respond positively to tech-based business consultancy positioning that combines strategic depth with execution power over general software house services
 - Hugo static site approach will meet all performance and SEO requirements for case study content strategy
 - Tailwind CSS + shadcn/ui implementation can be integrated into the Hugo workflow using existing team skillsets or light enablement
 - WhatsApp integration remains effective for lead generation and consultation requests in target market
 - Team has sufficient Hugo/Markdown workflow capability or can acquire it within development timeline
 - Case study content automation via n8n and spreadsheets will significantly reduce content creation overhead
 - Q1 2026 brand launch timeline allows sufficient development and content preparation time
-- Skematika product separation will enhance rather than dilute Synetica's Blueprint specialization positioning
+- Skematika product separation will enhance rather than dilute Synetica's tech-based business consultancy positioning
 - SEO-driven case study strategy will generate sufficient organic traffic to support lead generation goals
 - File-based content approach will scale effectively as case study volume increases
 
@@ -297,7 +297,7 @@ Position Synetica as the trusted gateway for European, US, and UK companies seek
 ### Key Risks
 
 - **Rebrand Timing Risk:** December 2025 transition may conflict with client project timelines or market conditions, potentially disrupting existing business relationships
-- **Market Positioning Challenge:** Indonesian SMB/solopreneur market may not immediately understand or value Blueprint specialization over traditional software development services
+- **Market Positioning Challenge:** Indonesian SMB/solopreneur market may not immediately understand or value tech-based business consultancy positioning over traditional software development services
 - **Content Strategy Execution:** Case study content automation and SEO strategy requires consistent execution - failure to maintain content pipeline could impact lead generation goals
 - **Technical Skill Gap:** Team may need Hugo/Markdown workflow training, potentially delaying development timeline or requiring external resources
 - **Client Repositioning Resistance:** Existing high-profile clients (Traveloka, Astra) may not support being repositioned as Blueprint methodology case studies
@@ -320,6 +320,6 @@ Position Synetica as the trusted gateway for European, US, and UK companies seek
 - SEO keyword research for case study content strategy and target search terms
 - Technical feasibility study for n8n automation workflow with Hugo deployment
 - Legal and business structure considerations for future venture capital model
-- Client survey or feedback collection on Blueprint specialization positioning
+- Client survey or feedback collection on tech-based business consultancy positioning
 - Market size validation for premium Blueprint services in target budget ranges (IDR 100-250M)
 - Content audit of existing Softwareseni case studies for Blueprint repositioning potential
