@@ -14,7 +14,7 @@ description: "Synetica - From idea to traction in 8 weeks"
 **Subheadline:** We're the tech-based business consultancy that thinks strategically, then builds fast. Consultancies give you decks. Dev shops give you code. We give you traction. The hardest part isn't building — it's knowing what to build. We fix that. Plan first. Build only what matters. Test early. In 8 weeks, you go from idea to validated product people actually use.
 
 **CTA Buttons:**
-- Primary: "See How It Works" (links to Process page)
+- Primary: "See How It Works" (links to How We Work page)
 - Secondary: "View Client Results" (links to Case Studies)
 
 ## Trust Indicators
@@ -75,7 +75,7 @@ description: "Synetica - From idea to traction in 8 weeks"
 
 - **Grow (ongoing):** Turn early traction into sustainable growth. AI-powered optimization meets human strategy. We analyze user behavior, optimize key features, refine funnels, and scale acquisition through data-backed experimentation.
 
-**CTA:** "See the Full Process" (links to Process page)
+**CTA:** "See the Full Process" (links to How We Work page)
 
 ## Why We Built 2B2G Section
 
@@ -147,6 +147,6 @@ description: "Synetica - From idea to traction in 8 weeks"
 **Options:**
 - "Book a Free Consultation" (form)
 - "Chat on WhatsApp" (click-to-chat)
-- "See Our Process" (link)
+- "See How We Work" (link)
 
 **Supporting Text:** No sales pitch. Just a conversation about your idea and how we can help you get to traction — fast.

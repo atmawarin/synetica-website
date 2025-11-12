@@ -1,5 +1,7 @@
 # Grow Phase Details
 
+← [Back to How We Work](/how-we-work/)
+
 **Duration:** Ongoing
 
 **Icon:** 📈

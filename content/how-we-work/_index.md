@@ -1,9 +1,11 @@
 ---
-title: "Our Process: The 2B2G Framework"
+title: "How We Work: The 2B2G Framework"
 description: "From idea to traction in 8 weeks"
 ---
 
-# The 2B2G Framework
+# How We Work
+
+## The 2B2G Framework
 
 ## Overview
 
@@ -94,6 +96,8 @@ Week 2: We create your blueprint. Clear priorities. Technical plan. Validation s
 
 **Go/No-Go Checkpoint:** At the end of Blueprint, you decide. Proceed to build? Pivot the idea? Stop and save resources?
 
+**Learn more:** [Blueprint Phase Details](/framework/blueprint/)
+
 ### 2. Build & Benchmark (6 weeks)
 
 **What it is:** Get a real product, tested with 30 real users.
@@ -115,6 +119,8 @@ Weeks 5-6: We test with 30 real users. We watch them use it. We ask questions. W
 **Deliverable:** A validated product. You have proof it works. You have data on what to improve. You know if users want it.
 
 **Go/No-Go Checkpoint:** At the end of Build & Benchmark, you decide. Proceed to launch? Refine based on feedback? Pivot to a different approach?
+
+**Learn more:** [Build & Benchmark Phase Details](/framework/build-benchmark/)
 
 ### 3. Go To Market (3 months)
 
@@ -141,6 +147,8 @@ Month 3: We optimize. We double down on what works. We cut what doesn't. We grow
 
 **Success metrics:** User signups. Activation rate. Retention. Engagement. Revenue (if applicable).
 
+**Learn more:** [Go To Market Phase Details](/framework/go-to-market/)
+
 ### 4. Grow (Ongoing)
 
 **What it is:** Turn early traction into sustainable growth.
@@ -161,6 +169,8 @@ Every month: Review data. Identify opportunities. Test improvements. Measure res
 
 **Deliverable:** Sustainable growth. Your product keeps improving. Your campaigns keep learning. Your users keep coming back.
 
+**Learn more:** [Grow Phase Details](/framework/grow/)
+
 ## How It Works Together
 
 Each phase builds on the last. Blueprint informs Build. Build informs Go To Market. Go To Market informs Grow.
@@ -179,8 +189,6 @@ Each phase builds on the last. Blueprint informs Build. Build informs Go To Mark
 
 **What you get:** Decision-ready plan. Clear priorities. Validation steps. Technical architecture.
 
-**Investment:** IDR 50-150M
-
 **Best for:** Dreamers testing ideas. Companies validating concepts before full commitment.
 
 ### Full 2B2G Cycle (8 weeks)
@@ -188,8 +196,6 @@ Each phase builds on the last. Blueprint informs Build. Build informs Go To Mark
 **For:** Serious founders ready to launch.
 
 **What you get:** Blueprint + Build & Benchmark. From idea to validated product in 8 weeks.
-
-**Investment:** IDR 150-500M
 
 **Best for:** Growing Businesses. Corporate innovation units. Founders ready to execute.
 
@@ -199,9 +205,28 @@ Each phase builds on the last. Blueprint informs Build. Build informs Go To Mark
 
 **What you get:** Product optimization. Marketing campaigns. Growth analytics. Scaling roadmap.
 
-**Investment:** IDR 20M/month (minimum 40M for 2 months)
-
 **Best for:** Products with early traction. Companies ready to scale. Teams that need ongoing support.
+
+## Common Scenarios
+
+### Validation Sprint
+**For:** Dreamers testing ideas
+**What it is:** Quick validation for specific assumptions or concepts
+**Duration:** 1 week
+**Best for:** Companies with specific questions, need quick answers before committing to full Blueprint
+
+### Corporate Accelerator
+**For:** Growing Businesses and corporate innovation units
+**What it is:** Fast-track product development for established companies
+**Duration:** 8 weeks (Full 2B2G Cycle)
+**Best for:** Companies with resources, need fast execution, want validation before scaling
+
+### Product Rescue
+**For:** Failed or stalled product launches
+**What it is:** Fix products that didn't work
+**Duration:** 4-8 weeks
+**Approach:** Assess what went wrong. Rebuild with validation. Relaunch.
+**Best for:** Companies with failed launches, need to pivot, want to salvage investment
 
 ## Common Questions
 

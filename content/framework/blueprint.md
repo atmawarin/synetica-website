@@ -1,5 +1,7 @@
 # Blueprint Phase Details
 
+← [Back to How We Work](/how-we-work/)
+
 **Duration:** 2 weeks
 
 **Icon:** 🧠

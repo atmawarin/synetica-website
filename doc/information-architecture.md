@@ -10,10 +10,10 @@
 ## 2. Top-Level Navigation
 | Label | Purpose | Key CTAs |
 |-------|---------|----------|
-| **Home** | Immediate value proposition, marquee proof, fast links into Process & Case Studies. | "View Our Process", "See Client Results", "Book Consultation" |
-| **Process** | Explain 2B2G framework end-to-end with timelines, deliverables, and proof. | "Download Blueprint Overview", "Schedule Strategy Call" |
+| **Home** | Immediate value proposition, marquee proof, fast links into How We Work & Case Studies. | "See How We Work", "See Client Results", "Book Consultation" |
+| **How We Work** | Explain 2B2G framework end-to-end with timelines, deliverables, engagement models, and proof. | "Download Blueprint Overview", "Schedule Strategy Call" |
 | **Case Studies** | Showcase validation outcomes across industries with filters. | "Explore Case Study", "Talk About Similar Project" |
-| **Services** | Detail engagement models (Blueprint-only, full cycle, retainers) with comparison matrix. | "Request Scoping Call", "Ask About Pricing" |
+| **Services** | Redirect page pointing to How We Work (content merged). | "See How We Work" |
 | **Insights** | Thought leadership hub (articles, guides, lead magnets) supporting SEO strategy. | "Read Guide", "Get Checklist" |
 | **Team** | Establish expertise, Softwareseni heritage, certifications, and Yogyakarta advantage. | "Meet the Team", "Start a Conversation" |
 | **Contact** | Conversion endpoint with form, WhatsApp CTA, and office info. | "Submit Brief", "Chat on WhatsApp" |
@@ -22,7 +22,7 @@
 
 ## 3. Secondary & Tertiary Structure
 ### Home
-1. Hero: headline + supporting copy, dual CTA buttons (Process / Consultation).
+1. Hero: headline + supporting copy, dual CTA buttons (How We Work / Consultation).
 2. Trust band: client logos, outcome metrics, credential badges.
 3. Process teaser: 2B2G snapshot with quick links.
 4. Featured case study: persona-aligned success story with proof metric.
@@ -30,11 +30,12 @@
 6. Testimonials strip.
 7. Footer CTA: consultation form teaser + WhatsApp.
 
-### Process
+### How We Work
 1. Overview: promise, 8-week framing, methodology value props.
-2. Individual phase sections (Blueprint, Build & Benchmark, Go To Market, Grow): each with problem solved, deliverables, tooling, validation checkpoints, and timebox.
+2. Individual phase sections (Blueprint, Build & Benchmark, Go To Market, Grow): each with problem solved, deliverables, tooling, validation checkpoints, and timebox. Links to Framework deep-dive pages.
 3. Engagement models: how clients enter (phase-only vs. full cycle).
-4. FAQ: timelines, collaboration expectations, AI tooling transparency.
+4. Common scenarios: Validation Sprint, Corporate Accelerator, Product Rescue.
+5. FAQ: timelines, collaboration expectations, AI tooling transparency.
 
 ### Case Studies
 1. Gallery grid: filters for persona (Dreamer, Enterprise) and industry (Fintech, Logistics, Aviation, etc.).
@@ -49,11 +50,8 @@
 4. Related stories carousel.
 
 ### Services
-1. Engagement comparison matrix (Blueprint vs. Full 2B2G cycle vs. Grow retainer).
-2. Deliverables list per stage with proof assets.
-3. Pricing guidance (ranges / starting points) and time expectations.
-4. Common scenarios (e.g., Validation Sprint, Corporate Accelerator).
-5. CTA panel for scheduling consultation.
+1. Redirect page: Points to How We Work page where all service information is consolidated.
+2. Note: Services content has been merged into How We Work for better user experience.
 
 ### Insights
 1. Content categories: Blueprinting, Validation, AI tooling, Growth tactics.
@@ -76,13 +74,13 @@
 ## 4. Persona Journey Mapping
 ### Dreamers (Solopreneurs / SMB Founders)
 1. Entry via Home hero or Insight article.
-2. Skim Process (Blueprint focus) → review Blueprint deliverables.
-3. Jump to case study tagged “Dreamer” with tangible validation outcome.
+2. Skim How We Work (Blueprint focus) → review Blueprint deliverables.
+3. Jump to case study tagged "Dreamer" with tangible validation outcome.
 4. CTA: Book consultation / download Blueprint checklist.
 
 ### Growing Businesses (Corporate Innovation Teams)
 1. Entry via trust band (logos) or enterprise case study.
-2. Deep dive into Process (full 2B2G cycle) + Services comparison.
+2. Deep dive into How We Work (full 2B2G cycle) + engagement models.
 3. Review Team credentials and certifications.
 4. CTA: Request scoping workshop / schedule executive briefing.
 

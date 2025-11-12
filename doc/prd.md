@@ -90,7 +90,7 @@ The website should lead with clear value proposition and immediate credibility (
 
 ### Core Screens and Views
 1. **Hero Landing Page** - "We build products that succeed" with major client logos and scope clarity ("From idea to traction — within 8 weeks")
-2. **Process Overview Page** - 2B2G Framework positioned as "How we build differently" with outcome focus
+2. **How We Work Page** - 2B2G Framework positioned as "How we build differently" with outcome focus
 3. **Case Studies Gallery** - Specific solution examples (investor decision apps, GAT management systems) showing methodology in action
 4. **Services Page** - Comprehensive service descriptions framed as "our proven approach" rather than separate product development offering
 5. **Client Success Stories** - Individual case studies with before/after scenarios and specific business outcomes
@@ -229,7 +229,7 @@ so that I can quickly determine if they can help with my product development nee
 2. Supporting tagline: "From idea to traction — within 8 weeks. Strategy, Development, Testing, Growth"
 3. Professional visual design that reflects premium positioning
 4. Mobile-optimized layout with fast loading hero image/graphics
-5. Clear call-to-action buttons: "See Our Process" and "View Client Results"
+5. Clear call-to-action buttons: "See How We Work" and "View Client Results"
 6. Hero section loads in under 2 seconds on mobile devices
 
 ### Story 2.2: Major Client Logo Display and Trust Indicators
@@ -251,14 +251,14 @@ I want clear, intuitive navigation that helps me find information about services
 so that I can explore Synetica's capabilities efficiently.
 
 #### Acceptance Criteria
-1. Primary navigation menu: Home, Process, Case Studies, Services, Team, Contact
+1. Primary navigation menu: Home, How We Work, Case Studies, Services, Team, Contact
 2. Mobile-friendly hamburger menu with smooth animations
 3. Clear hierarchy and logical information flow
 4. Breadcrumb navigation for deeper pages
 5. Footer with contact information and quick links
 6. Search functionality for case studies and content
 
-### Story 2.4: Process Overview Teaser
+### Story 2.4: How We Work Overview Teaser
 As a visitor interested in how Synetica works differently,
 I want a brief introduction to their methodology on the homepage,
 so that I can understand their unique approach before diving deeper.
@@ -267,7 +267,7 @@ so that I can understand their unique approach before diving deeper.
 1. "How We Build Differently" section with 2B2G Framework introduction
 2. Visual representation of Blueprint → Build & Benchmark → Go To Market → Grow
 3. Brief outcome-focused descriptions for each phase
-4. "Learn More About Our Process" call-to-action
+4. "Learn More About How We Work" call-to-action
 5. Success statistics or client outcome highlights
 6. Links to detailed methodology and case study pages
 
@@ -324,7 +324,7 @@ so that I can evaluate their methodology for my own project needs.
 2. Clear explanation of 2B2G Framework application for each project
 3. Links from case studies to detailed methodology pages
 4. Consultation request forms specifically referencing case study examples
-5. "See Similar Results" call-to-action with process overview
+5. "See Similar Results" call-to-action with How We Work overview
 6. Success metrics tied directly to methodology phases
 
 ## Epic 4: Services & Methodology Deep-Dive
