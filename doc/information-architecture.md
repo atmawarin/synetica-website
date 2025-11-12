@@ -4,7 +4,7 @@
 - **Business goals:** Accelerate qualified consultations, establish credibility, differentiate Synetica’s 2B2G™ Methodology (Blueprint → Build & Benchmark → Go To Market → Grow) with an 8-week launch framing.
 - **Primary personas:**
   - **Dreamers** – solopreneurs and SMB founders seeking clarity and validation before committing budget.
-  - **Growing Businesses** – corporate innovation teams needing structured, end-to-end delivery without draining internal resources.
+  - **Growing Businesses** – established companies with pain points needing structured, end-to-end delivery without draining internal resources.
 - **Source artefacts:** [`brief.md`](./brief.md) (brand narrative) and [`prd.md`](./prd.md) (requirements & UX direction).
 
 ## 2. Top-Level Navigation

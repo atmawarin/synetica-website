@@ -1,6 +1,6 @@
 # Synetica Website
 
-Synetica is a tech-based business consultancy that delivers end-to-end validation journeys, helping founders move from idea to traction in 8 weeks through our 2B2G™ Methodology (Blueprint → Build & Benchmark → Go To Market → Grow). This repository hosts the public marketing site that tells the Synetica story, showcases results, and captures qualified leads.
+Synetica is a tech-based business consultancy that helps founders and innovation teams move from clarity to traction — fast. We combine strategic thinking, product design, and technology execution to validate ideas and scale outcomes. Through our 8-Week Product Launch™ and 2B2G framework (Blueprint → Build & Benchmark → Go To Market → Grow), we take clients from idea to a validated product people can actually use and love. This repository hosts the public marketing site that tells the Synetica story, showcases results, and captures qualified leads.
 
 ## Table of Contents
 - [Overview](#overview)
@@ -14,17 +14,18 @@ Synetica is a tech-based business consultancy that delivers end-to-end validatio
 - [License](#license)
 
 ## Overview
-- **What we solve:** 80% of digital products fail because teams build before validating. Synetica leads with a Blueprint phase that sharpens ideas, aligns business goals, and prevents waste.
-- **Who we serve:** Indonesian Dreamers (solopreneurs, aspiring entrepreneurs) and Growing Businesses (established companies with pain points) who need clarity, validation, and execution support.
-- **How we win:** End-to-end accountability—from blueprinting and AI-assisted builds to validation, launch, and growth through our 2B2G™ Methodology and the productized 8-Week Product Launch™.
+- **What we solve:** The hardest part isn't building — it's knowing what to build and where to start. Many founders jump straight into development without clear synergy between business output and final product. Synetica fixes this by helping you plan first, build only what matters, and test early. Our blueprint-first approach gives you a clear path, predictable costs, and confidence that every step is backed by evidence, not opinion.
+- **Who we serve:** Dreamers (Indonesian solopreneurs and aspiring entrepreneurs) and Growing Businesses (established companies with pain points) who need clarity, validation, and traction for their digital products.
+- **How we win:** Unlike traditional consultancies that stop at strategy or agencies that jump straight into execution, Synetica does both — we think, then build. We bridge the gap between business strategy, design, and technology execution, delivering validated products in 8 weeks through our 2B2G framework.
 
 ## Core Experience
 - Credibility-first homepage highlighting marquee clients (Traveloka, Angkasa Pura, Astra) and proof of outcomes
-- Detailed storytelling around the 2B2G framework with timelines, deliverables, and decision checkpoints
+- Detailed storytelling around the 2B2G framework and 8-Week Product Launch™ with timelines, deliverables, and decision checkpoints
 - Case study hub that reframes existing engagements as product development success stories
 - Consultation pathways combining lightweight inquiry forms with WhatsApp click-to-chat for rapid follow-up
 - English-only content targeting Indonesian Dreamers and Growing Businesses segments
-- Content and SEO foundation geared toward product development and validation keywords
+- Content and SEO foundation geared toward tech-based business consultancy, product validation, and 8-week launch keywords
+- Emphasis on the unique positioning: strategic depth of consulting combined with execution power of a product studio
 
 ## Architecture & Stack
 - **Static generator:** Hugo (extended) for speed, SEO, and markdown-first content.

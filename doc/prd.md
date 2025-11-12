@@ -4,10 +4,10 @@
 
 ### Goals
 
-- Successfully change from Softwareseni to Synetica as a tech-based business consultancy that delivers end-to-end validation journeys
+- Successfully change from Softwareseni to Synetica as a tech-based business consultancy that helps founders move from clarity to traction — fast
 - Generate 10+ qualified leads monthly for product development services by month 6
-- Establish market credibility with English-proficient Indonesian Dreamers and Emerging Business ecosystem
-- Showcase the 2B2G™ Methodology (Blueprint → Build & Benchmark → Go To Market → Grow) as our core methodology
+- Establish market credibility with English-proficient Indonesian Dreamers and Growing Businesses ecosystem
+- Showcase the 2B2G Framework (Blueprint → Build & Benchmark → Go To Market → Grow) as our core methodology
 - Convert existing high-profile client relationships into product success story case studies
 - Create scalable content strategy targeting product development keywords for SEO-driven lead generation
 - Build technical foundation using Hugo static site with automated content generation capabilities
@@ -15,9 +15,9 @@
 
 ### Background Context
 
-Synetica represents a strategic pivot from traditional software house services to a tech-based business consultancy that delivers end-to-end validation journeys. The Indonesian market lacks systematic approaches that combine strategic blueprinting with rapid development and structured testing. With 80% of digital products failing to achieve product-market fit, there's a critical need for validation-first planning services that help founders build evidence-based products rather than assumption-based ones.
+Synetica represents a strategic pivot from traditional software house services to a tech-based business consultancy that helps founders and innovation teams move from clarity to traction — fast. We combine strategic thinking, product design, and technology execution to validate ideas and scale outcomes. Unlike traditional consultancies that stop at strategy or agencies that jump straight into execution, Synetica does both — we think, then build. The Indonesian market lacks systematic approaches that combine strategic blueprinting with rapid development and structured testing. With 80% of digital products failing to achieve product-market fit, there's a critical need for validation-first planning services that help founders build evidence-based products rather than assumption-based ones.
 
-The website serves as the primary vehicle for this rebrand, targeting English-proficient Indonesian Dreamers (solopreneurs and aspiring entrepreneurs) and Growing Businesses (established companies with pain points) who need structured product development before going to market. By positioning Synetica as a tech-based business consultancy rather than general developers, we can command premium pricing while serving a more strategic role in our clients' success.
+The website serves as the primary vehicle for this rebrand, targeting English-proficient Indonesian Dreamers (solopreneurs and aspiring entrepreneurs) and Growing Businesses (established companies with pain points) who need clarity, validation, and traction for their digital products. By positioning Synetica as a tech-based business consultancy that blends strategic depth with execution power, we can command premium pricing while serving a more strategic role in our clients' success.
 
 ### Change Log
 | Date | Version | Description | Author |
@@ -28,7 +28,7 @@ The website serves as the primary vehicle for this rebrand, targeting English-pr
 
 ### Functional
 
-**FR1:** The website must clearly communicate Synetica's tech-based business consultancy positioning as the solution to the 80% digital product failure rate, positioning us as strategic product development experts who prevent expensive development failures rather than traditional code-focused software houses, reflecting our Builder-Sage Hybrid archetype that combines pragmatic execution with intelligent insight
+**FR1:** The website must clearly communicate Synetica's tech-based business consultancy positioning as the solution to the 80% digital product failure rate, positioning us as strategic partners who prevent expensive development failures rather than traditional code-focused software houses or consultancies that only provide strategy decks, reflecting our Builder-Sage Hybrid archetype that combines pragmatic execution with intelligent insight. The positioning must emphasize that Synetica blends the strategic depth of consulting with the execution power of a product studio.
 
 **FR2:** The website must showcase the 2B2G™ Methodology (Blueprint → Build & Benchmark → Go To Market → Grow) with detailed explanation of each phase, emphasizing how this proven system prevents costly product pivots and rebuilds, with the core promise of delivering "From idea to traction — within 8 weeks" and the productized offer "8-Week Product Launch™"
 
@@ -376,7 +376,11 @@ I want to understand their company story and strategic positioning,
 so that I can evaluate if they align with my business goals and values.
 
 #### Acceptance Criteria
+<<<<<<< HEAD
 1. Company rebrand story emphasizing tech-based business consultancy positioning
+=======
+1. Company rebrand story emphasizing tech-based business consultancy positioning that blends strategic depth with execution power
+>>>>>>> dev
 2. Mission and vision statements reflecting product success focus
 3. Differentiation from traditional software houses clearly articulated
 4. Geographic advantages and Indonesian market expertise
