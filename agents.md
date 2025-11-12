@@ -135,6 +135,27 @@ This document provides guidelines for AI agents working on the Synetica website 
 - Emphasize the combination of strategic thinking and execution power
 - Show how we bridge the gap between consultancies (strategy only) and dev shops (execution only)
 
+### Writing Style & Language Guidelines
+
+**PRIMARY PRINCIPLES** (These override all other guidelines when in conflict):
+- **Grounded and authentic**: Use real examples, actual metrics, honest language. No hype, no exaggeration.
+- **Rapid**: Get to the point fast. Cut unnecessary words. Short sentences preferred.
+- **No Bullshit**: No fluff, no marketing speak, no vague promises. Say what you mean directly.
+- **Sharp**: Every word must cut. Be precise, intentional, and clear. No filler.
+- **Intentional**: Every sentence serves a purpose. If it doesn't add value, remove it.
+
+**Writing Techniques**:
+- **Direct statements**: Lead with clear assertions ("We deliver X", "You get Y"). No hedging.
+- **Problem-solution structure**: Frame the problem first, then present Synetica as the solution. Be specific about the problem.
+- **Contrast language**: Use "Not X, but Y" patterns to differentiate (e.g., "Not a prototype. Not a demo. A real product.")
+- **Specific numbers**: Always include concrete metrics (8 weeks, 30 users, 80% success rate, IDR amounts). Ground claims in data.
+- **Action-oriented**: Use active voice and strong verbs (deliver, validate, launch, build, test). Avoid passive voice.
+- **Evidence over opinion**: Emphasize data, validation, and proof. No unsupported claims.
+- **Short sentences**: Prefer brevity. If a sentence can be shorter, make it shorter. Cut words that don't add meaning.
+- **Business language**: Use clear business terminology. Avoid technical jargon and marketing fluff.
+- **Outcome-focused**: Connect features to business outcomes. Skip features that don't drive traction.
+- **Comparison format**: When differentiating, use "vs. [Competitor Type]" with sharp, factual contrasts.
+
 ### SEO & Performance
 - Implement comprehensive SEO optimization
 - Target product development and validation keywords
