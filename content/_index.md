@@ -55,9 +55,11 @@ description: "Synetica - From idea to traction in 8 weeks"
 - New framework: 8 weeks from idea to validated product (not prototype — actual product)
 
 **Credibility Badges:**
-- ISO 27001 Certified
-- AWS Partner
-- Google Certified Developer Network
+- ~~ISO 27001 Certified~~*
+- ~~AWS Partner~~*
+- ~~Google Certified Developer Network~~*
+
+*Certification status pending verification
 
 ## Process Teaser Section
 
@@ -101,19 +103,16 @@ description: "Synetica - From idea to traction in 8 weeks"
 
 **Option 1: Blueprint Only**
 - Duration: 2 weeks
-- Investment: IDR 50-150M
 - For founders who need clarity before building
 - Get a decision-ready plan with clear priorities and validation steps
 
 **Option 2: Full 2B2G Cycle**
 - Duration: 8 weeks
-- Investment: IDR 150-500M
 - For serious founders ready to launch
 - From idea to validated product in 8 weeks
 
 **Option 3: Grow Retainer**
 - Duration: Ongoing (minimum 2 months)
-- Investment: IDR 20M/month (minimum 40M)
 - For products that need to scale
 - Turn traction into sustainable growth
 - Product optimization with AI-supported marketing campaigns and expert-led strategy
