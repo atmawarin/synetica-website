@@ -1,0 +1,180 @@
+# Synetica Website Information Architecture
+
+> **Related Documents:** See [Brief](./brief.md) for project overview, [PRD](./prd.md) for detailed requirements, [Navigation Comparison](./navigation-comparison.md) for competitive analysis, [Brand Guide](./brand-guide-brief.md) for visual identity, and [Language Guidelines](./language.md) for brand voice.
+
+## 1. Objectives & Inputs
+- **Business goals:** Accelerate qualified consultations, establish credibility, differentiate Synetica's **2B2G Framework (Blueprint → Build & Benchmark → Go To Market → Grow)** methodology.
+- **Primary personas:**
+  - **Dreamers** – solopreneurs and SMB founders seeking clarity and validation before committing budget.
+  - **Growing Businesses** – established companies with pain points needing structured, end-to-end delivery without draining internal resources.
+- **Source artefacts:** [`brief.md`](./brief.md) (brand narrative) and [`prd.md`](./prd.md) (requirements & UX direction).
+
+## 2. Top-Level Navigation
+
+> **Note:** Navigation structure incorporates recommendations from [Navigation Comparison Analysis](./navigation-comparison.md). Final structure pending decision on Services presentation (see Section 2.1).
+
+### 2.1 Recommended Navigation Structure
+
+**Option A: Services & Solutions (Recommended)**
+| Label | Purpose | Key CTAs |
+|-------|---------|----------|
+| **Home** | Immediate value proposition, marquee proof, fast links into How We Work & Case Studies. | "See How We Work", "See Client Results", "Book Consultation" |
+| **How We Work** | Explain 2B2G Framework end-to-end with timelines, deliverables, engagement models, and proof. | "Download Blueprint Overview", "Schedule Strategy Call" |
+| **Services & Solutions** | Engagement options organized by outcome/need (see dropdown structure below). | "Launch Your Product", "Plan Your Product", "Scale Your Product" |
+| **Case Studies** | Showcase validation outcomes across industries with filters. | "Explore Case Study", "Talk About Similar Project" |
+| **Insights** | Thought leadership hub (articles, guides, lead magnets) supporting SEO strategy. | "Read Guide", "Get Checklist" |
+| **Team** | Establish expertise, Softwareseni heritage, certifications, and Yogyakarta advantage. | "Meet the Team", "Start a Conversation" |
+| **Contact** | Conversion endpoint with form, WhatsApp CTA, and office info. | "Submit Brief", "Chat on WhatsApp" |
+
+**Services & Solutions Dropdown Structure:**
+- **Product Launch (Full 2B2G Cycle)** - "From idea to traction in 8 weeks"
+- **Blueprint Only** - "Strategic planning without the build"
+- **Growth Retainer** - "Ongoing optimization and scaling"
+- **Custom Solutions** - "Tailored engagement models"
+
+**How We Work Dropdown Structure:**
+- Overview
+- The 2B2G Framework
+- Blueprint Phase
+- Build & Benchmark Phase
+- Go To Market Phase
+- Grow Phase
+- Engagement Models
+
+**Case Studies Dropdown Structure:**
+- All Projects
+- By Industry (Fintech, Logistics, Aviation, etc.)
+- By Persona (Dreamer / Growing Business)
+- By Phase (Blueprint / Build / GTM / Grow)
+
+**Insights Dropdown Structure:**
+- All Articles
+- Blueprinting Guides
+- Validation Resources
+- Growth Tactics
+- Lead Magnets
+
+**Utility bar:** persistent "Book Consultation", "WhatsApp", and future language toggle (EN/ID).
+
+### 2.2 Alternative Navigation Structures
+
+**Option B: Simplified (Current Plan)**
+- Keep Services as redirect to How We Work
+- Simpler structure, less navigation depth
+
+**Option C: Process-First (Like Ice House)**
+- Services organized by 2B2G phases (Blueprint, Build & Benchmark, Go To Market, Grow)
+- How We Work explains methodology separately
+
+**Decision Required:** Choose navigation structure based on whether to emphasize outcomes (Services & Solutions) or process (Services by phase). See [Navigation Comparison](./navigation-comparison.md) for detailed analysis.
+
+## 3. Secondary & Tertiary Structure
+### Home
+1. Hero: headline + supporting copy, dual CTA buttons (How We Work / Consultation).
+2. Trust band: client logos, outcome metrics, credential badges.
+3. Process teaser: 2B2G snapshot with quick links.
+4. Featured case study: persona-aligned success story with proof metric.
+5. Services ribbon: concise engagement cards.
+6. Testimonials strip.
+7. Footer CTA: consultation form teaser + WhatsApp.
+
+### How We Work
+1. Overview: promise, 8-week framing, methodology value props.
+2. Individual phase sections (Blueprint, Build & Benchmark, Go To Market, Grow): each with problem solved, deliverables, tooling, validation checkpoints, and timebox. Links to Framework deep-dive pages.
+3. Engagement models: how clients enter (phase-only vs. full cycle).
+4. Common scenarios: Validation Sprint, Corporate Accelerator, Product Rescue.
+5. FAQ: timelines, collaboration expectations, AI tooling transparency.
+
+### Case Studies
+1. Gallery grid: filters for persona (Dreamer, Enterprise) and industry (Fintech, Logistics, Aviation, etc.).
+2. Feature cards: problem statement + quantitative outcome + relevant phase icons.
+3. Detail template:
+   - Context & challenge
+   - Blueprint insights (research, prioritisation)
+   - Build decisions (architecture, AI acceleration)
+   - Benchmark & validation (tests, metrics)
+   - Growth results (adoption, revenue, efficiency)
+   - Testimonial pull quote + CTA.
+4. Related stories carousel.
+
+### Services & Solutions (Option A - Recommended)
+1. **Product Launch (Full 2B2G Cycle)**
+   - Outcome-focused landing page: "From idea to traction in 8 weeks"
+   - Overview of complete framework journey
+   - Timeline, deliverables, and success metrics
+   - Link to detailed How We Work methodology
+   - CTA: "Start Your Product Launch"
+
+2. **Blueprint Only**
+   - Outcome-focused: "Strategic planning without the build"
+   - Blueprint phase deep-dive
+   - Deliverables showcase
+   - When to choose Blueprint-only
+   - CTA: "Get Your Blueprint"
+
+3. **Growth Retainer**
+   - Outcome-focused: "Ongoing optimization and scaling"
+   - Grow phase services
+   - Retainer engagement model
+   - Success metrics and case studies
+   - CTA: "Scale Your Product"
+
+4. **Custom Solutions**
+   - Tailored engagement models
+   - Hybrid approaches
+   - Enterprise solutions
+   - CTA: "Discuss Your Needs"
+
+**Alternative:** If Option B (Simplified) is chosen, Services redirects to How We Work where all service information is consolidated.
+
+### Insights
+1. Content categories: Blueprinting, Validation, AI tooling, Growth tactics.
+2. Resource cards with estimated read time and target persona tags.
+3. Lead magnet section (e.g., "Blueprint Checklist", "Validation Scorecard").
+4. Search & filter controls.
+
+### Team
+1. Founders & leadership bios with global experience highlights.
+2. Advisory network / partner ecosystem.
+3. Culture values and working model.
+4. Careers teaser (future-ready placeholder).
+
+### Contact
+1. Primary consultation form (name, email, company, challenge summary, desired timeline).
+2. Progressive disclosure for BANT follow-up (budget, authority, needs, timeline) post-submission.
+3. WhatsApp quick action button.
+4. Office map, hours, and alternative contact channels.
+
+## 4. Persona Journey Mapping
+### Dreamers (Solopreneurs / SMB Founders)
+1. Entry via Home hero or Insight article.
+2. Skim How We Work (Blueprint focus) → review Blueprint deliverables.
+3. Jump to case study tagged "Dreamer" with tangible validation outcome.
+4. CTA: Book consultation / download Blueprint checklist.
+
+### Growing Businesses (Corporate Innovation Teams)
+1. Entry via trust band (logos) or enterprise case study.
+2. Deep dive into How We Work (full 2B2G cycle) + engagement models.
+3. Review Team credentials and certifications.
+4. CTA: Request scoping workshop / schedule executive briefing.
+
+### Reinforcement Points
+- Persistent utility CTAs (Consultation, WhatsApp).
+- Contextual CTAs within case studies and phase sections.
+- Proof assets (metrics, testimonials) aligned to persona at each stage.
+
+## 5. Content Inventory & Metadata Plan
+- Maintain content matrix with fields: Page, Section, Persona, Funnel Stage, 2B2G Phase, Proof Type, Language, Owner, Status, Last Review.
+- Use tags to power filters (e.g., `persona:dreamer`, `phase:benchmark`).
+- Prioritise seed content: 5 flagship case studies, Blueprint deliverable examples, two insight articles per persona.
+
+## 6. Validation Approach
+1. **Stakeholder Card Sort:** Confirm shared mental model for navigation labels and priority pages.
+2. **Prototype Tree Test:** Validate findability of key tasks (e.g., "Where do I learn about Blueprint deliverables?").
+3. **Click-Path Usability Checks:** Low-fidelity wireframes tested with 3–5 users per persona, measuring CTA discovery and comprehension.
+4. Iterate IA based on failure points and record rationale for any structural changes.
+
+## 7. Implementation Notes
+- Navigation and footer structures should be configurable via Hugo data files for future updates.
+- Surface metadata tags within content front matter to enable automated filtering later.
+- Ensure sitemap.xml reflects IA hierarchy for SEO crawl efficiency once implemented.

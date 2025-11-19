@@ -1,0 +1,120 @@
+# BMM Workflow Status
+# Generated: 2025-01-27
+# Project: synetica-website
+# Track: BMad Method (brownfield)
+
+generated: "2025-01-27"
+project: "synetica-website"
+project_type: "brownfield"
+selected_track: "bmad-method"
+field_type: "brownfield"
+workflow_path: ".bmad/bmm/workflows/workflow-status/paths/method-brownfield.yaml"
+
+workflow_status:
+  # Prerequisite Phase: Documentation
+  - phase: "prerequisite"
+    name: "Documentation"
+    workflows:
+      - id: "document-project"
+        status: "skipped"
+        reason: "PRD and brief already exist, codebase has content structure"
+        agent: "analyst"
+        command: "document-project"
+        output: null
+
+  # Phase 0: Discovery (Optional)
+  - phase: 0
+    name: "Discovery (Optional)"
+    workflows:
+      - id: "brainstorm-project"
+        status: "optional"
+        agent: "analyst"
+        command: "brainstorm-project"
+        output: null
+
+      - id: "research"
+        status: "optional"
+        agent: "analyst"
+        command: "research"
+        output: null
+
+      - id: "product-brief"
+        status: "optional"
+        agent: "analyst"
+        command: "product-brief"
+        output: null
+        note: "Optional for brownfield, less common than greenfield"
+
+  # Phase 1: Planning
+  - phase: 1
+    name: "Planning"
+    workflows:
+      - id: "prd"
+        status: "doc/prd.md"
+        agent: "pm"
+        command: "prd"
+        output: "doc/prd.md"
+        note: "Comprehensive PRD exists (92% complete, ready for architecture)"
+
+      - id: "validate-prd"
+        status: "optional"
+        agent: "pm"
+        command: "validate-prd"
+        output: null
+
+      - id: "create-design"
+        status: "required"
+        agent: "ux-designer"
+        command: "create-design"
+        output: null
+        note: "Conditional: if_has_ui - Website has UI, UX design needed"
+
+  # Phase 2: Solutioning
+  - phase: 2
+    name: "Solutioning"
+    workflows:
+      - id: "create-architecture"
+        status: "recommended"
+        agent: "architect"
+        command: "create-architecture"
+        output: null
+        note: "HIGHLY RECOMMENDED: Distills brownfield context into focused solution design"
+
+      - id: "create-epics-and-stories"
+        status: "required"
+        agent: "pm"
+        command: "create-epics-and-stories"
+        output: null
+        note: "Required: Break down PRD into implementable epics and stories"
+
+      - id: "test-design"
+        status: "recommended"
+        agent: "tea"
+        command: "test-design"
+        output: null
+        note: "Testability assessment before gate check"
+
+      - id: "validate-architecture"
+        status: "optional"
+        agent: "architect"
+        command: "validate-architecture"
+        output: null
+
+      - id: "implementation-readiness"
+        status: "required"
+        agent: "architect"
+        command: "implementation-readiness"
+        output: null
+        note: "Validates PRD + UX + Architecture + Epics cohesion"
+
+  # Phase 3: Implementation
+  - phase: 3
+    name: "Implementation"
+    workflows:
+      - id: "sprint-planning"
+        status: "required"
+        agent: "sm"
+        command: "sprint-planning"
+        output: null
+        note: "Creates sprint plan with stories"
+
