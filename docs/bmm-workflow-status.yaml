@@ -33,10 +33,11 @@ workflow_status:
         output: null
 
       - id: "research"
-        status: "optional"
+        status: "docs/research-competitive-2025-01-27.md"
         agent: "analyst"
         command: "research"
-        output: null
+        output: "docs/research-competitive-2025-01-27.md"
+        note: "Competitive analysis complete - WGS and Sagara identified as primary competitors, focus shifted to Emerging Businesses"
 
       - id: "product-brief"
         status: "optional"
@@ -63,11 +64,11 @@ workflow_status:
         output: null
 
       - id: "create-design"
-        status: "required"
+        status: "docs/ux-design-specification.md"
         agent: "ux-designer"
         command: "create-design"
-        output: null
-        note: "Conditional: if_has_ui - Website has UI, UX design needed"
+        output: "docs/ux-design-specification.md"
+        note: "UX Design Specification complete - Credibility-First Dashboard direction with Graphite theme, hybrid navigation approach"
 
   # Phase 2: Solutioning
   - phase: 2

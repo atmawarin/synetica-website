@@ -6,9 +6,9 @@
 
 ### Goals
 
-- Successfully change from Softwareseni to Synetica as a tech-based business consultancy that helps founders move from clarity to traction — fast
-- Generate 10+ qualified leads monthly for product development services by month 6
-- Establish market credibility with English-proficient Indonesian Dreamers and Growing Businesses ecosystem
+- Successfully change from Softwareseni to Synetica as a tech-based business consultancy that helps emerging businesses move from clarity to traction — fast
+- Generate 10+ qualified leads monthly for product development services by month 6, with primary focus on Emerging Businesses (companies with positive cash flow, easier to close, higher margin)
+- Establish market credibility with English-proficient Indonesian Emerging Businesses ecosystem (primary), positioning against traditional software houses (WGS, Sagara) through strategic consultancy differentiation
 - Showcase the 2B2G Framework (Blueprint → Build & Benchmark → Go To Market → Grow) as our core methodology
 - Convert existing high-profile client relationships into product success story case studies
 - Create scalable content strategy targeting product development keywords for SEO-driven lead generation
@@ -19,13 +19,14 @@
 
 Synetica represents a strategic pivot from traditional software house services to a tech-based business consultancy that helps founders and innovation teams move from clarity to traction — fast. We combine strategic thinking, product design, and technology execution to validate ideas and scale outcomes. Unlike traditional consultancies that stop at strategy or agencies that jump straight into execution, Synetica does both — we think, then build. The Indonesian market lacks systematic approaches that combine strategic blueprinting with rapid development and structured testing. With 80% of digital products failing to achieve product-market fit, there's a critical need for validation-first planning services that help founders build evidence-based products rather than assumption-based ones.
 
-The website serves as the primary vehicle for this rebrand, targeting English-proficient Indonesian Dreamers (solopreneurs and aspiring entrepreneurs) and Growing Businesses (established companies with pain points) who need clarity, validation, and traction for their digital products. By positioning Synetica as a tech-based business consultancy that blends strategic depth with execution power, we can command premium pricing while serving a more strategic role in our clients' success.
+The website serves as the primary vehicle for this rebrand, targeting English-proficient Indonesian **Emerging Businesses** (companies with positive cash flow, easier to close, higher margin opportunities) as the primary segment, with Dreamers and Growing Businesses as secondary segments. By positioning Synetica as a tech-based business consultancy that blends strategic depth with execution power, we differentiate from traditional software houses (WGS, Sagara) that focus on execution-only, enabling us to command premium pricing while serving a more strategic role in our clients' success.
 
 ### Change Log
 | Date | Version | Description | Author |
 |------|---------|-------------|---------|
 | 2024-12-19 | 1.0 | Initial PRD creation based on project brief | PM Agent |
 | 2025-01-27 | 1.1 | Updated failure rate to 80% (product-market fit), standardized to 2B2G Framework, added cross-references | Analyst |
+| 2025-01-27 | 1.2 | Strategic shift: Primary target changed from Dreamers to Emerging Businesses (positive cash flow, easier to close, higher margin). Added WGS and Sagara as primary competitors. Updated positioning to differentiate from traditional software houses. | Analyst |
 
 ## Requirements
 
@@ -33,9 +34,9 @@ The website serves as the primary vehicle for this rebrand, targeting English-pr
 
 **FR1:** The website must clearly communicate Synetica's tech-based business consultancy positioning as the solution to the 80% digital product failure rate, positioning us as strategic partners who prevent expensive development failures rather than traditional code-focused software houses or consultancies that only provide strategy decks, reflecting our Builder-Sage Hybrid archetype that combines pragmatic execution with intelligent insight. The positioning must emphasize that Synetica blends the strategic depth of consulting with the execution power of a product studio.
 
-**FR2:** The website must showcase the **2B2G Framework (Blueprint → Build & Benchmark → Go To Market → Grow)** methodology with detailed explanation of each phase, emphasizing how this proven system prevents costly product pivots and rebuilds, with the core promise of delivering "From idea to traction — within 8 weeks"
+**FR2:** The website must showcase the **2B2G Framework (Blueprint → Build & Benchmark → Go To Market → Grow)** methodology with detailed explanation of each phase, emphasizing how this proven system prevents costly product pivots and rebuilds, with the core promise of delivering "From idea to traction — within 8 weeks". The Blueprint phase must highlight our proprietary system developed over the last 12 years from working on client projects, refined through hundreds of successful implementations to deliver proven, battle-tested planning methodologies.
 
-**FR3:** The website must display comprehensive product development service descriptions that demonstrate our ability to deliver validated problem statements, user personas, prioritized features, technical architecture, market landscape, and 60-day roadmaps as failure-prevention tools
+**FR3:** The website must display comprehensive product development service descriptions that demonstrate our ability to deliver validated problem statements, user personas, prioritized features, technical architecture, market landscape, and 60-day roadmaps as failure-prevention tools. These deliverables are produced using our proprietary Blueprint system developed over the last 12 years from working on client projects, ensuring proven, battle-tested methodologies.
 
 **FR4:** The website must present client portfolio and case studies repositioned as product development success stories that showcase failure prevention and strategic value delivery, featuring relationships with major Indonesian companies (Traveloka, Angkasa Pura, Astra) as credibility indicators
 
@@ -43,7 +44,7 @@ The website serves as the primary vehicle for this rebrand, targeting English-pr
 
 **FR6:** The website must integrate WhatsApp click-to-chat functionality for immediate consultation requests, supporting the quick decision-making patterns of time-sensitive entrepreneurs evaluating multiple service providers
 
-**FR7:** The website must launch with English-only content targeting English-proficient Indonesian Dreamers and Growing Businesses segments, with no Indonesian language support initially
+**FR7:** The website must launch with English-only content targeting English-proficient Indonesian Emerging Businesses (primary), Dreamers, and Growing Businesses segments, with no Indonesian language support initially
 
 **FR8:** The website must prominently display professional credentials including international experience, team expertise, certifications (ISO 27001, AWS Partner), and Yogyakarta cost advantages to build trust in our technical execution capabilities for the complete 2B2G Framework
 
@@ -55,7 +56,7 @@ The website serves as the primary vehicle for this rebrand, targeting English-pr
 
 **NFR1:** The website must achieve measurable page load speeds under 3 seconds on Indonesian mobile networks to maintain technical credibility essential for product development services - performance will be tested using Indonesian network conditions and mobile devices
 
-**NFR2:** The website must be responsive and optimized for desktop and mobile devices using mobile-first design approach, ensuring accessibility for Indonesian Dreamers and Growing Businesses who primarily browse on mobile devices
+**NFR2:** The website must be responsive and optimized for desktop and mobile devices using mobile-first design approach, ensuring accessibility for Indonesian Emerging Businesses, Dreamers, and Growing Businesses who primarily browse on mobile devices
 
 **NFR3:** The website must support modern browsers (Chrome, Firefox, Safari, Edge) with cross-browser compatibility to avoid losing potential clients due to technical barriers
 
@@ -88,7 +89,7 @@ The website should lead with clear value proposition and immediate credibility (
 - **Credibility-First Navigation:** Lead with client logos and success metrics to establish immediate trust
 - **Solution-to-Methodology Flow:** Show what we build before explaining how we build it differently
 - **Progressive Value Revelation:** Start with familiar concepts, introduce product development methodology as competitive advantage
-- **Mobile-First Interactions:** Touch-optimized for Indonesian Dreamers and Growing Businesses who primarily browse on mobile devices
+- **Mobile-First Interactions:** Touch-optimized for Indonesian Emerging Businesses, Dreamers, and Growing Businesses who primarily browse on mobile devices
 - **Case Study-Driven Persuasion:** Specific solution examples (investor apps, management systems) drive methodology understanding
 
 ### Core Screens and Views
@@ -340,7 +341,7 @@ I want to understand exactly how the 2B2G Framework works and what deliverables 
 so that I can evaluate if this methodology fits my project needs and timeline.
 
 #### Acceptance Criteria
-1. Comprehensive Blueprint phase explanation with specific deliverables
+1. Comprehensive Blueprint phase explanation with specific deliverables, highlighting our proprietary system developed over the last 12 years from working on client projects, refined through hundreds of successful implementations to deliver proven, battle-tested planning methodologies
 2. Build & Benchmark phase details emphasizing quality and speed advantages
 3. Go To Market phase launch and activation methodology
 4. Grow phase optimization and scaling approach

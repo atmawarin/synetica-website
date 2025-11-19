@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Synetica - Design Direction Showcase</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Georgia:wght@400;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --background: oklch(0.9551 0 0);
+            --foreground: oklch(0.3211 0 0);
+            --card: oklch(0.9702 0 0);
+            --card-foreground: oklch(0.3211 0 0);
+            --primary: oklch(0.4891 0 0);
+            --primary-foreground: oklch(1.0000 0 0);
+            --secondary: oklch(0.9067 0 0);
+            --secondary-foreground: oklch(0.3211 0 0);
+            --muted: oklch(0.8853 0 0);
+            --muted-foreground: oklch(0.5103 0 0);
+            --accent: oklch(0.8078 0 0);
+            --accent-foreground: oklch(0.3211 0 0);
+            --destructive: oklch(0.5594 0.1900 25.8625);
+            --destructive-foreground: oklch(1.0000 0 0);
+            --border: oklch(0.8576 0 0);
+            --input: oklch(0.9067 0 0);
+            --ring: oklch(0.4891 0 0);
+            --radius: 0.35rem;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background: var(--background);
+            color: var(--foreground);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .direction-header {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .direction-header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            color: var(--foreground);
+        }
+
+        .direction-header .subtitle {
+            font-size: 1.125rem;
+            color: var(--muted-foreground);
+            margin-bottom: 1rem;
+        }
+
+        .direction-header .philosophy {
+            font-family: 'Georgia', serif;
+            font-size: 1.25rem;
+            font-style: italic;
+            color: var(--muted-foreground);
+            margin-top: 1rem;
+        }
+
+        .mockup-section {
+            margin-bottom: 4rem;
+        }
+
+        .mockup-section h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            color: var(--foreground);
+        }
+
+        /* Navigation Mockup */
+        .nav-mockup {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 1rem 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .nav-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--foreground);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--foreground);
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+
+        .nav-links a:hover {
+            color: var(--primary);
+        }
+
+        .nav-cta {
+            background: var(--primary);
+            color: var(--primary-foreground);
+            padding: 0.5rem 1.5rem;
+            border-radius: var(--radius);
+            text-decoration: none;
+            font-weight: 600;
+            transition: opacity 0.2s;
+        }
+
+        .nav-cta:hover {
+            opacity: 0.9;
+        }
+
+        /* Hero Section Mockup */
+        .hero-mockup {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 4rem 2rem;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .client-logos {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 3rem;
+            margin-bottom: 3rem;
+            flex-wrap: wrap;
+        }
+
+        .client-logo {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: var(--muted-foreground);
+            padding: 1rem 2rem;
+            background: var(--muted);
+            border-radius: var(--radius);
+        }
+
+        .hero-content h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            line-height: 1.2;
+        }
+
+        .hero-content .tagline {
+            font-size: 1.5rem;
+            color: var(--muted-foreground);
+            margin-bottom: 2rem;
+        }
+
+        .hero-content .description {
+            font-size: 1.125rem;
+            color: var(--muted-foreground);
+            max-width: 600px;
+            margin: 0 auto 2rem;
+        }
+
+        .hero-cta {
+            display: inline-block;
+            background: var(--primary);
+            color: var(--primary-foreground);
+            padding: 1rem 2.5rem;
+            border-radius: var(--radius);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.125rem;
+            transition: opacity 0.2s;
+        }
+
+        .hero-cta:hover {
+            opacity: 0.9;
+        }
+
+        /* Framework Section Mockup */
+        .framework-mockup {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 3rem 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .framework-header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .framework-header h2 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+
+        .framework-header p {
+            font-size: 1.125rem;
+            color: var(--muted-foreground);
+        }
+
+        .framework-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+
+        .framework-card {
+            background: var(--background);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 2rem;
+        }
+
+        .framework-card .icon {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .framework-card h3 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .framework-card .phase {
+            font-size: 0.875rem;
+            color: var(--muted-foreground);
+            margin-bottom: 1rem;
+        }
+
+        .framework-card p {
+            font-size: 0.9375rem;
+            color: var(--muted-foreground);
+            line-height: 1.6;
+        }
+
+        /* Case Studies Section Mockup */
+        .casestudies-mockup {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 3rem 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .casestudies-header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .casestudies-header h2 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+
+        .casestudies-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .casestudy-card {
+            background: var(--background);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 2rem;
+            transition: box-shadow 0.2s;
+        }
+
+        .casestudy-card:hover {
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .casestudy-card .client {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .casestudy-card .industry {
+            font-size: 0.875rem;
+            color: var(--muted-foreground);
+            margin-bottom: 1rem;
+        }
+
+        .casestudy-card p {
+            font-size: 0.9375rem;
+            color: var(--muted-foreground);
+            line-height: 1.6;
+        }
+
+        /* Characteristics */
+        .characteristics {
+            background: var(--muted);
+            border-radius: var(--radius);
+            padding: 2rem;
+            margin-top: 3rem;
+        }
+
+        .characteristics h3 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .characteristics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .characteristic-item {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .characteristic-item .label {
+            font-size: 0.875rem;
+            color: var(--muted-foreground);
+            margin-bottom: 0.25rem;
+        }
+
+        .characteristic-item .value {
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--foreground);
+        }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+
+            .hero-content h1 {
+                font-size: 2rem;
+            }
+
+            .hero-content .tagline {
+                font-size: 1.25rem;
+            }
+
+            .client-logos {
+                gap: 1.5rem;
+            }
+
+            .framework-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .casestudies-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="direction-header">
+            <h1>Credibility-First Dashboard</h1>
+            <div class="subtitle">Design Direction #1</div>
+            <div class="philosophy">"Professional & Efficient - Build trust through clear structure and evidence"</div>
+        </div>
+
+        <div class="mockup-section">
+            <h2>Navigation</h2>
+            <div class="nav-mockup">
+                <div class="nav-content">
+                    <div class="logo">Synetica</div>
+                    <ul class="nav-links">
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#case-studies">Case Studies</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    <a href="#workflow-demo" class="nav-cta">Workflow Demo</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="mockup-section">
+            <h2>Hero Section</h2>
+            <div class="hero-mockup">
+                <div class="client-logos">
+                    <div class="client-logo">Traveloka</div>
+                    <div class="client-logo">Angkasa Pura</div>
+                    <div class="client-logo">Astra</div>
+                </div>
+                <div class="hero-content">
+                    <h1>Launch your product in 8 weeks or less</h1>
+                    <div class="tagline">From idea to traction — within 8 weeks</div>
+                    <p class="description">
+                        We help emerging businesses and innovation teams move from clarity to traction — fast. 
+                        We combine strategic thinking, product design, and technology execution to validate ideas and scale outcomes.
+                    </p>
+                    <a href="#workflow-demo" class="hero-cta">See How We Work</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="mockup-section">
+            <h2>2B2G Framework Section</h2>
+            <div class="framework-mockup">
+                <div class="framework-header">
+                    <h2>The 2B2G Framework</h2>
+                    <p>Our proven methodology for building products that succeed</p>
+                </div>
+                <div class="framework-grid">
+                    <div class="framework-card">
+                        <div class="icon">🧠</div>
+                        <h3>Blueprint</h3>
+                        <div class="phase">2 weeks</div>
+                        <p>Turning vision into a decision-ready plan with clear priorities, features, and validation steps.</p>
+                    </div>
+                    <div class="framework-card">
+                        <div class="icon">⚙️</div>
+                        <h3>Build & Benchmark</h3>
+                        <div class="phase">6 weeks</div>
+                        <p>Lean, AI-assisted engineering that delivers fast, focused, and reliable results.</p>
+                    </div>
+                    <div class="framework-card">
+                        <div class="icon">📣</div>
+                        <h3>Go To Market</h3>
+                        <div class="phase">3 months</div>
+                        <p>Testing and measuring adoption before scaling, so every product is backed by evidence.</p>
+                    </div>
+                    <div class="framework-card">
+                        <div class="icon">📈</div>
+                        <h3>Grow</h3>
+                        <div class="phase">Ongoing</div>
+                        <p>Post-launch optimization and marketing support to convert traction into long-term growth.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mockup-section">
+            <h2>Case Studies Section</h2>
+            <div class="casestudies-mockup">
+                <div class="casestudies-header">
+                    <h2>Client Success Stories</h2>
+                </div>
+                <div class="casestudies-grid">
+                    <div class="casestudy-card">
+                        <div class="client">Traveloka</div>
+                        <div class="industry">Travel & Technology</div>
+                        <p>Strategic product development that helped scale their platform to serve millions of users across Southeast Asia.</p>
+                    </div>
+                    <div class="casestudy-card">
+                        <div class="client">Angkasa Pura</div>
+                        <div class="industry">Aviation & Infrastructure</div>
+                        <p>Digital transformation initiatives that improved operational efficiency and customer experience.</p>
+                    </div>
+                    <div class="casestudy-card">
+                        <div class="client">Astra</div>
+                        <div class="industry">Automotive & Manufacturing</div>
+                        <p>Innovation platform development enabling rapid product validation and market entry.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="characteristics">
+            <h3>Key Characteristics</h3>
+            <div class="characteristics-grid">
+                <div class="characteristic-item">
+                    <div class="label">Layout</div>
+                    <div class="value">Top Navigation</div>
+                </div>
+                <div class="characteristic-item">
+                    <div class="label">Density</div>
+                    <div class="value">Balanced</div>
+                </div>
+                <div class="characteristic-item">
+                    <div class="label">Navigation</div>
+                    <div class="value">Horizontal Top</div>
+                </div>
+                <div class="characteristic-item">
+                    <div class="label">Primary Action</div>
+                    <div class="value">High Prominence</div>
+                </div>
+                <div class="characteristic-item">
+                    <div class="label">Visual Weight</div>
+                    <div class="value">Minimal</div>
+                </div>
+                <div class="characteristic-item">
+                    <div class="label">Content Approach</div>
+                    <div class="value">Scannable</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
