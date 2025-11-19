@@ -17,11 +17,8 @@ description: "Synetica - From idea to traction in 8 weeks"
 - Primary: "See How It Works" (links to How We Work page)
 - Secondary: "View Client Results" (links to Case Studies)
 
-## Trust Indicators
 
-**Headline:** Trusted by Indonesia's Leading Companies
-
-**Client Logos:**
+**Client Running Logos:**
 - Telkom Indonesia
 - Traveloka
 - Grab
@@ -47,19 +44,7 @@ description: "Synetica - From idea to traction in 8 weeks"
 - Villa Kubu
 
 
-**Subtext:** We've delivered 50+ products to these companies. Those projects taught us what works — and what doesn't. That learning became our 2B2G framework. Same quality. Same outcomes. 8 weeks instead of 8 months.
 
-**Success Metrics:**
-- 50+ products delivered to Indonesia's leading companies
-- 80% product success rate vs. 20% industry average
-- New framework: 8 weeks from idea to validated product (not prototype — actual product)
-
-**Credibility Badges:**
-- ~~ISO 27001 Certified~~*
-- ~~AWS Partner~~*
-- ~~Google Certified Developer Network~~*
-
-*Certification status pending verification
 
 ## Process Teaser Section
 

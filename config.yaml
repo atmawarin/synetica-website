@@ -1,0 +1,13 @@
+baseURL: 'http://localhost:1313/'
+languageCode: 'en-us'
+title: 'Synetica'
+
+params:
+  description: 'Synetica - From idea to traction in 8 weeks'
+  author: 'Synetica'
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+

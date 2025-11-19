@@ -53,6 +53,7 @@ This document provides guidelines for AI agents working on the Synetica website 
    - Check `doc/brief.md` for brand positioning and target users
    - Review `doc/prd.md` for technical requirements and user stories
    - Consult `doc/brand-guide-brief.md` for visual identity guidelines
+   - **Always refer to `doc/language.md` when writing any copy for the site** - This document contains the complete brand voice, tone, and writing style guidelines that must be followed for all content
 
 2. **Maintain Brand Consistency**
    - Use "tech-based business consultancy" as the primary category descriptor
@@ -104,6 +105,7 @@ This document provides guidelines for AI agents working on the Synetica website 
 │   ├── brief.md                  # Project brief and brand positioning
 │   ├── prd.md                    # Product requirements document
 │   ├── brand-guide-brief.md      # Visual identity and brand guidelines
+│   ├── language.md               # Brand voice, tone, and writing style guidelines (REQUIRED for all copywriting)
 │   └── information-architecture.md
 ├── README.md                     # Project overview
 └── agents.md                     # This file
@@ -136,6 +138,8 @@ This document provides guidelines for AI agents working on the Synetica website 
 - Show how we bridge the gap between consultancies (strategy only) and dev shops (execution only)
 
 ### Writing Style & Language Guidelines
+
+> **CRITICAL**: Always refer to `doc/language.md` when writing any copy for the site. This document contains the complete brand voice, tone, writing style rules, voice pillars, and example transformations that must be followed for all content creation.
 
 **PRIMARY PRINCIPLES** (These override all other guidelines when in conflict):
 - **Grounded and authentic**: Use real examples, actual metrics, honest language. No hype, no exaggeration.
@@ -176,6 +180,7 @@ This document provides guidelines for AI agents working on the Synetica website 
 - [Project Brief](./doc/brief.md) - Brand positioning and target users
 - [Product Requirements](./doc/prd.md) - Technical specifications and user stories
 - [Brand Guidelines](./doc/brand-guide-brief.md) - Visual identity and design system
+- [Language & Voice Guidelines](./doc/language.md) - **Required reading for all copywriting** - Brand voice, tone, writing style rules, and examples
 
 ### External References
 - [Hugo Documentation](https://gohugo.io/documentation/)
