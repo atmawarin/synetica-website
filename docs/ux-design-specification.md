@@ -144,7 +144,7 @@ _To be determined through workflow_
 
 **Interactive Visualizations:**
 
-- Color Theme Explorer: [ux-color-themes.html](./ux-color-themes.html)
+- Color theme details are fully documented in the Color System section above
 
 ---
 
@@ -183,7 +183,7 @@ _To be determined through workflow_
 
 **Interactive Mockups:**
 
-- Design Direction Showcase: [ux-design-directions.html](./ux-design-directions.html)
+- Design direction details are fully documented in this specification
 
 ---
 
@@ -619,7 +619,6 @@ _To be determined through workflow_
 
 **Your Deliverables:**
 - ✅ UX Design Specification: `docs/ux-design-specification.md`
-- ✅ Design Direction Mockup: `docs/ux-design-directions.html`
 
 **What Happens Next:**
 - Designers can create high-fidelity mockups from this foundation
@@ -653,28 +652,10 @@ This UX Design Specification provides a solid foundation for building a trustwor
 - Product Requirements: `docs/prd.md`
 - Product Brief: `docs/brief.md`
 - Brand Guide: `docs/brand-guide-brief.md`
-- **Figma Make Implementation Guide**: `docs/figma-make-implementation-guide.md` - Complete guide for using Figma Make to transform this UX specification into functional prototypes
 
-### Core Interactive Deliverables
+### Core Deliverables
 
-This UX Design Specification was created through visual collaboration:
-
-- **Color Theme Visualizer**: `docs/ux-color-themes.html`
-  - Interactive HTML showing all color theme options explored
-  - Live UI component examples in each theme
-  - Side-by-side comparison and semantic color usage
-
-- **Design Direction Mockups**: `docs/ux-design-directions.html`
-  - Interactive HTML with 6-8 complete design approaches
-  - Full-screen mockups of key screens
-  - Design philosophy and rationale for each direction
-
-- **Homepage Mockup**: `docs/homepage-mockup.html`
-  - Complete functional HTML mockup of the homepage
-  - Implements Credibility-First Dashboard direction
-  - Uses Graphite theme with Montserrat/Georgia typography
-  - Fully responsive with mobile-first approach
-  - WCAG AA accessible with proper ARIA labels
+This UX Design Specification contains all design decisions, rationale, and implementation guidance needed for development.
 
 ### Version History
 
