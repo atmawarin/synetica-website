@@ -1,6 +1,6 @@
 # Synetica Website Information Architecture
 
-> **Related Documents:** See [Brief](./brief.md) for project overview, [PRD](./prd.md) for detailed requirements, [Navigation Comparison](./navigation-comparison.md) for competitive analysis, [Brand Guide](./brand-guide-brief.md) for visual identity, and [Language Guidelines](./language.md) for brand voice.
+> **Related Documents:** See [Brief](./brief.md) for project overview, [PRD](./prd.md) for detailed requirements, [Brand Guide](./brand-guide-brief.md) for visual identity, and [Language Guidelines](./language.md) for brand voice.
 
 ## 1. Objectives & Inputs
 - **Business goals:** Accelerate qualified consultations, establish credibility, differentiate Synetica's **2B2G Framework (Blueprint → Build & Benchmark → Go To Market → Grow)** methodology.
@@ -11,7 +11,7 @@
 
 ## 2. Top-Level Navigation
 
-> **Note:** Navigation structure incorporates recommendations from [Navigation Comparison Analysis](./navigation-comparison.md). Final structure pending decision on Services presentation (see Section 2.1).
+> **Note:** Navigation structure incorporates competitive analysis findings. Final structure pending decision on Services presentation (see Section 2.1).
 
 ### 2.1 Recommended Navigation Structure
 
