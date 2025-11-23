@@ -1,6 +1,6 @@
 # Synetica Website Product Requirements Document (PRD)
 
-> **Related Documents:** See [Brief](./brief.md) for project overview, [Information Architecture](./information-architecture.md) for site structure, [Brand Guide](./brand-guide-brief.md) for visual identity, and [Language Guidelines](./language.md) for brand voice and writing style.
+> **Related Documents:** See [Brief](./brief.md) for project overview, [Information Architecture](./information-architecture.md) for site structure, [Brand Guide](./brand-guide-brief.md) for visual identity, [Language Guidelines](./language.md) for brand voice and writing style, [UX Design Specification](./ux-design-specification.md) for complete design system and user experience details, and [PRD-UX Coherence Review](./prd-ux-coherence-review.md) for alignment verification.
 
 ## Goals and Background Context
 
@@ -78,7 +78,7 @@ The website serves as the primary vehicle for this rebrand, targeting English-pr
 
 **NFR12:** The website must implement error handling and fallback mechanisms for all third-party integrations (forms, analytics, WhatsApp) to prevent single points of failure from breaking core functionality
 
-**NFR13:** The frontend must implement Tailwind CSS with shadcn/ui component primitives, purging unused utilities during the Hugo build to keep delivered CSS under 50KB while aligning styles with the Tweakcn theme `cmftuwple000004kv5zzr2ukn` and incorporating Synetica's brand system with modern geometric sans-serif primary typography and humanist sans-serif secondary typography
+**NFR13:** The frontend must implement Tailwind CSS with shadcn/ui component primitives, purging unused utilities during the Hugo build to keep delivered CSS under 50KB while aligning styles with the Tweakcn Graphite theme (theme=graphite) using OKLCH color space and incorporating Synetica's brand system with Montserrat (modern geometric sans-serif) primary typography and Georgia (humanist serif) secondary typography. See [UX Design Specification](./ux-design-specification.md) for complete design system details.
 
 ## User Interface Design Goals
 
@@ -91,6 +91,9 @@ The website should lead with clear value proposition and immediate credibility (
 - **Progressive Value Revelation:** Start with familiar concepts, introduce product development methodology as competitive advantage
 - **Mobile-First Interactions:** Touch-optimized for Indonesian Emerging Businesses, Dreamers, and Growing Businesses who primarily browse on mobile devices
 - **Case Study-Driven Persuasion:** Specific solution examples (investor apps, management systems) drive methodology understanding
+
+### Design Direction
+**Credibility-First Dashboard** - Top horizontal navigation with client logos prominently displayed above the fold. Hybrid navigation approach: Homepage overview with expandable sections + optional dedicated pages for deep exploration. Progressive value revelation: Recognition → Curiosity → Understanding → Action. See [UX Design Specification](./ux-design-specification.md) for detailed design decisions and component specifications.
 
 ### Core Screens and Views
 1. **Hero Landing Page** - "We build products that succeed" with major client logos and scope clarity ("From idea to traction — within 8 weeks")
@@ -126,7 +129,7 @@ Single repository containing the Hugo static site, content files, automation scr
 
 **Hugo Static Site Generator:** Selected for ultra-fast performance crucial for Indonesian network conditions and mobile browsing. Hugo's excellent SEO capabilities support case study content strategy, while markdown-based content management enables sustainable scaling without complex CMS overhead.
 
-**Frontend Stack:** Tailwind CSS (JIT) with shadcn/ui component primitives provides reusable, accessible building blocks. The Tweakcn theme `cmftuwple000004kv5zzr2ukn` supplies the baseline visual language that will be adapted to Synetica's brand tokens directly inside the Tailwind configuration, incorporating modern geometric sans-serif primary typography and humanist sans-serif secondary typography with beautiful ampersand styling.
+**Frontend Stack:** Tailwind CSS (JIT) with shadcn/ui component primitives provides reusable, accessible building blocks. The Tweakcn Graphite theme (theme=graphite) using OKLCH color space supplies the baseline visual language that will be adapted to Synetica's brand tokens directly inside the Tailwind configuration, incorporating Montserrat (modern geometric sans-serif) primary typography and Georgia (humanist serif) secondary typography with beautiful ampersand styling. See [UX Design Specification](./ux-design-specification.md) for complete design system implementation details.
 
 **Content Automation Workflow:** n8n integration for automated content generation from spreadsheets to Hugo markdown files, enabling efficient case study creation and scaling. Initial launch uses manual content management with automation capabilities added incrementally based on content volume requirements.
 
@@ -229,8 +232,8 @@ I want to immediately understand what Synetica does and see evidence of their cr
 so that I can quickly determine if they can help with my product development needs.
 
 #### Acceptance Criteria
-1. Clear headline: "We build products that succeed"
-2. Supporting tagline: "From idea to traction — within 8 weeks. Strategy, Development, Testing, Growth"
+1. Clear headline: "Launch your product in 8 weeks or less" (primary) or "We build products that succeed" (alternative)
+2. Supporting tagline: "From idea to traction — within 8 weeks"
 3. Professional visual design that reflects premium positioning
 4. Mobile-optimized layout with fast loading hero image/graphics
 5. Clear call-to-action buttons: "See How We Work" and "View Client Results"

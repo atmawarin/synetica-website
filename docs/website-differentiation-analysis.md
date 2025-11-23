@@ -287,3 +287,6 @@ The Synetica website will stand out through **three core differentiators** that 
 
 This positioning is **unique in the Indonesian market** and addresses a **clear market gap** that competitors (WGS, Sagara, etc.) don't fill.
 
+
+
+
