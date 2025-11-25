@@ -186,15 +186,15 @@
         /* Hero Section */
         .hero {
             position: relative;
-            padding: calc(80px + 1.5rem) 2rem 1.5rem;
-            text-align: center;
-            max-width: 900px;
+            padding: calc(80px + 18vh) 1.5rem 1.5rem;
+            text-align: left;
+            max-width: 1400px;
             margin: 0 auto;
             z-index: 1;
-            min-height: calc(65vh - 80px);
+            min-height: calc(55vh - 60px);
             display: flex;
             flex-direction: column;
-            justify-content: center;
+            justify-content: flex-start;
         }
 
         .hero h1 {
@@ -216,15 +216,13 @@
             color: var(--muted-foreground);
             margin-bottom: 1.5rem;
             line-height: 1.8;
-            max-width: 700px;
-            margin-left: auto;
-            margin-right: auto;
+            max-width: 800px;
         }
 
         .hero-ctas {
             display: flex;
             gap: 1rem;
-            justify-content: center;
+            justify-content: flex-start;
             flex-wrap: wrap;
         }
 
@@ -269,11 +267,11 @@
         /* Trust Indicators Section */
         .trust-section {
             position: relative;
-            padding: 1.5rem 2rem 2rem;
+            padding: 1.25rem 2rem 2rem;
             background-color: var(--background);
             z-index: 1;
             overflow: hidden;
-            min-height: calc(35vh - 20px);
+            min-height: calc(28vh - 20px);
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
@@ -578,41 +576,186 @@
             z-index: 1;
         }
 
-        .footer-container {
-            max-width: 1200px;
-            margin: 0 auto;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 3rem;
+        .footer-top {
+            max-width: 1400px;
+            margin: 0 auto 3rem;
+            padding-bottom: 3rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .footer-brand {
             margin-bottom: 2rem;
         }
 
-        .footer-section h3 {
-            font-size: 1.1rem;
-            font-weight: 600;
-            margin-bottom: 1rem;
-        }
-
-        .footer-section p,
-        .footer-section a {
-            color: var(--muted-foreground);
-            text-decoration: none;
-            font-size: 0.9rem;
-            line-height: 1.8;
-            display: block;
+        .footer-brand h2 {
+            font-size: 1.5rem;
+            font-weight: 700;
             margin-bottom: 0.5rem;
         }
 
-        .footer-section a:hover {
+        .footer-brand p {
+            color: var(--muted-foreground);
+            font-size: 0.95rem;
+            line-height: 1.6;
+            margin-bottom: 1.5rem;
+            max-width: 600px;
+        }
+
+        .footer-cta-buttons {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .footer-cta-buttons .btn-secondary {
+            padding: 0.75rem 1.5rem;
+            font-size: 0.9rem;
+        }
+
+        .footer-offices {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .footer-office h4 {
+            font-size: 1rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-office p {
+            color: var(--muted-foreground);
+            font-size: 0.9rem;
+            line-height: 1.6;
+            margin-bottom: 0.25rem;
+        }
+
+        .footer-links-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 3rem 2rem;
+            margin-bottom: 3rem;
+        }
+
+        .footer-column h3 {
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 1rem;
+            color: var(--foreground);
+        }
+
+        .footer-column ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .footer-column li {
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-column a {
+            color: var(--muted-foreground);
+            text-decoration: none;
+            font-size: 0.9rem;
+            line-height: 1.6;
+            transition: opacity 0.2s;
+            display: inline-block;
+        }
+
+        .footer-column a:hover {
+            opacity: 0.7;
+        }
+
+        .footer-column .badge {
+            display: inline-block;
+            background-color: var(--muted);
+            color: var(--muted-foreground);
+            padding: 0.25rem 0.5rem;
+            font-size: 0.75rem;
+            margin-left: 0.5rem;
+            border-radius: 0;
+        }
+
+        .footer-bottom {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding-top: 2rem;
+            border-top: 1px solid var(--border);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+        }
+
+        .footer-bottom-left {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        .footer-logo {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: var(--foreground);
+        }
+
+        .footer-tagline {
+            color: var(--muted-foreground);
+            font-size: 0.85rem;
+        }
+
+        .footer-bottom-right {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        .footer-social {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .footer-social a {
+            color: var(--muted-foreground);
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: opacity 0.2s;
+        }
+
+        .footer-social a:hover {
+            opacity: 0.7;
+        }
+
+        .footer-legal {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .footer-legal a {
+            color: var(--muted-foreground);
+            text-decoration: none;
+            font-size: 0.85rem;
+            transition: opacity 0.2s;
+        }
+
+        .footer-legal a:hover {
             opacity: 0.7;
         }
 
         .footer-copyright {
-            text-align: center;
-            padding-top: 2rem;
-            border-top: 1px solid var(--border);
             color: var(--muted-foreground);
-            font-size: 0.9rem;
+            font-size: 0.85rem;
         }
 
         /* Responsive Design */
@@ -626,8 +769,8 @@
             }
 
             .hero {
-                padding: calc(60px + 1rem) 1rem 1rem;
-                min-height: calc(60vh - 60px);
+                padding: calc(60px + 12vh) 1.25rem 1rem;
+                min-height: calc(55vh - 40px);
             }
 
             .hero h1 {
@@ -653,8 +796,8 @@
             }
 
             .trust-section {
-                padding: 1rem 1rem 1.5rem;
-                min-height: calc(40vh - 20px);
+                padding: 0.75rem 1rem 1.5rem;
+                min-height: calc(45vh - 20px);
             }
 
             .trust-section h2 {
@@ -678,8 +821,48 @@
                 grid-template-columns: 1fr;
             }
 
-            .footer-container {
+            .footer-top {
+                padding-bottom: 2rem;
+            }
+
+            .footer-brand h2 {
+                font-size: 1.25rem;
+            }
+
+            .footer-cta-buttons {
+                flex-direction: column;
+            }
+
+            .footer-cta-buttons .btn-primary,
+            .footer-cta-buttons .btn-secondary {
+                width: 100%;
+            }
+
+            .footer-offices {
                 grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+
+            .footer-links-container {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 2rem 1.5rem;
+            }
+
+            .footer-bottom {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 1rem;
+            }
+
+            .footer-bottom-right {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 1rem;
+            }
+
+            .footer-social,
+            .footer-legal {
+                flex-wrap: wrap;
             }
         }
 
@@ -689,6 +872,14 @@
             }
 
             .process-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .footer-links-container {
+                grid-template-columns: repeat(3, 1fr);
+            }
+
+            .footer-offices {
                 grid-template-columns: repeat(2, 1fr);
             }
         }
@@ -715,9 +906,9 @@
     <!-- Hero Section -->
     <section class="hero">
         <h1>What If You Could Launch a Validated Product in 8 Weeks?</h1>
-        <p class="tagline">Not a prototype. Not a demo. A real product tested by real users — ready to scale.</p>
+        <p class="tagline">A real product tested by real users — ready to scale.</p>
         <p class="subheadline">
-            We're a tech-based business consultancy that helps you launch the right product—fast. Instead of decks or endless prototypes, we deliver real traction. Gain clarity, build what matters, validate early, and launch with confidence in just 8 weeks.
+            We're a tech-based business consultancy that helps you launch the right product—fast. Gain clarity, build what matters, validate early, and launch with confidence in just 8 weeks.
         </p>
         <div class="hero-ctas">
             <a href="#how-we-work" class="btn-primary">See How It Works</a>
@@ -931,27 +1122,148 @@
 
     <!-- Footer -->
     <footer id="contact">
-        <div class="footer-container">
-            <div class="footer-section">
-                <h3>Synetica</h3>
-                <p>The next evolution of Softwareseni. We help you launch validated products in 8 weeks.</p>
-            </div>
-            <div class="footer-section">
-                <h3>Contact</h3>
-                <p>Yogyakarta, Indonesia</p>
-                <p>Email: hello@synetica.com</p>
-                <p>Phone: +62 812 3456 7890</p>
-            </div>
-            <div class="footer-section">
-                <h3>Quick Links</h3>
-                <a href="#how-we-work">How We Work</a>
-                <a href="#case-studies">Case Studies</a>
-                <a href="#services">Services</a>
-                <a href="#contact">Contact</a>
+        <div class="footer-top">
+            <div class="footer-offices">
+                <div class="footer-office">
+                    <h4>Jakarta</h4>
+                    <p>Plaza Indonesia, 5th Level Unit E021AB</p>
+                    <p>Jl. M.H. Thamrin Kav. 28-30</p>
+                    <p>Jakarta 10350, Indonesia</p>
+                    <p>Phone: +62 21 1234 5678</p>
+                </div>
+                <div class="footer-office">
+                    <h4>Yogyakarta</h4>
+                    <p>Unit A & B, Prof. Herman Yohanes Street 1125</p>
+                    <p>Terban, Yogyakarta 55223</p>
+                    <p>Indonesia</p>
+                    <p>Phone: +62 274 4539660</p>
+                </div>
             </div>
         </div>
-        <div class="footer-copyright">
-            <p>&copy; 2025 Synetica. All rights reserved. Next evolution of Softwareseni.</p>
+
+        <div class="footer-links-container">
+            <div class="footer-column">
+                <h3>Contact & Support</h3>
+                <ul>
+                    <li><a href="#contact">Contact us</a></li>
+                    <li><a href="#demo">Get a demo</a></li>
+                    <li><a href="https://wa.me/6281234567890" target="_blank">WhatsApp</a></li>
+                    <li><a href="#support">Support Center</a></li>
+                    <li><a href="#partner">Partner Portal</a></li>
+                    <li><a href="mailto:security@synetica.com">security@synetica.com</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Products</h3>
+                <ul>
+                    <li><a href="#optimatika">Optimatika</a></li>
+                    <li><a href="#skematika">Skematika</a></li>
+                    <li><a href="#cybermatika">Cybermatika</a></li>
+                    <li><a href="#product-launch">Product Launch</a></li>
+                    <li><a href="#blueprint">Blueprint</a></li>
+                    <li><a href="#build-benchmark">Build & Benchmark</a></li>
+                    <li><a href="#go-to-market">Go To Market</a></li>
+                    <li><a href="#grow">Grow</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Resources</h3>
+                <ul>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#case-studies">Case Studies</a></li>
+                    <li><a href="#methodology">Methodology Guide</a></li>
+                    <li><a href="#validation-checklist">Validation Checklist</a></li>
+                    <li><a href="#insights">Insights</a></li>
+                    <li><a href="#blueprint-overview">Blueprint Overview</a></li>
+                    <li><a href="#newsletter">Newsletter</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Solutions</h3>
+                <ul>
+                    <li><a href="#validate-idea">Validate Idea</a></li>
+                    <li><a href="#build-mvp">Build the Right MVP</a></li>
+                    <li><a href="#go-to-market-solution">Go To Market</a></li>
+                    <li><a href="#optimize-growth">Optimize Growth</a></li>
+                    <li><a href="#product-rescue">Product Rescue</a></li>
+                    <li><a href="#corporate-accelerator">Corporate Accelerator</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Industries</h3>
+                <ul>
+                    <li><a href="#fintech">Fintech</a></li>
+                    <li><a href="#aviation">Aviation</a></li>
+                    <li><a href="#logistics">Logistics</a></li>
+                    <li><a href="#retail">Retail</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#healthcare">Healthcare</a></li>
+                    <li><a href="#startups">Startups</a></li>
+                    <li><a href="#government">Government</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#team">Team & Credentials</a></li>
+                    <li><a href="#careers">Careers <span class="badge">We're hiring</span></a></li>
+                    <li><a href="#newsroom">Newsroom</a></li>
+                    <li><a href="#events">Events</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#product-newsletter">Product Newsletter</a></li>
+                    <li><a href="#brand">Brand Assets</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Security & Compliance</h3>
+                <ul>
+                    <li><a href="#iso27001">ISO 27001</a></li>
+                    <li><a href="#aws-partner">AWS Partner</a></li>
+                    <li><a href="#trust-center">Trust Center</a></li>
+                    <li><a href="#disclosure">Disclosure Policy</a></li>
+                    <li><a href="mailto:security@synetica.com">Security Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Operations & Partnerships</h3>
+                <ul>
+                    <li><a href="#blueprint-certification">Blueprint Certification</a></li>
+                    <li><a href="#corporate-workshops">Corporate Workshops</a></li>
+                    <li><a href="#partner-program">Partner Program</a></li>
+                    <li><a href="#vendor-network">Vendor Network</a></li>
+                    <li><a href="#venture-support">Venture Support</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="footer-bottom-left">
+                <div class="footer-logo">Synetica</div>
+                <div class="footer-tagline">Next evolution of Softwareseni</div>
+            </div>
+            <div class="footer-bottom-right">
+                <div class="footer-social">
+                    <a href="https://linkedin.com/company/synetica" target="_blank" aria-label="LinkedIn">LinkedIn</a>
+                    <a href="https://x.com/synetica" target="_blank" aria-label="X (Twitter)">X</a>
+                    <a href="https://youtube.com/@synetica" target="_blank" aria-label="YouTube">YouTube</a>
+                </div>
+                <div class="footer-legal">
+                    <a href="#privacy">Privacy</a>
+                    <a href="#terms">Terms</a>
+                    <a href="#cookies">Cookies</a>
+                </div>
+                <div class="footer-copyright">
+                    &copy; 2025 Synetica. All rights reserved.
+                </div>
+            </div>
         </div>
     </footer>
 
