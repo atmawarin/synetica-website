@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Synetica - Launch Your Product in 8 Weeks or Less</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Tweakcn Mono Theme CSS Variables */
+        :root {
+            --background: oklch(1.0000 0 0);
+            --foreground: oklch(0.1448 0 0);
+            --card: oklch(1.0000 0 0);
+            --card-foreground: oklch(0.1448 0 0);
+            --popover: oklch(1.0000 0 0);
+            --popover-foreground: oklch(0.1448 0 0);
+            --primary: oklch(0.5555 0 0);
+            --primary-foreground: oklch(0.9851 0 0);
+            --secondary: oklch(0.9702 0 0);
+            --secondary-foreground: oklch(0.2046 0 0);
+            --muted: oklch(0.9702 0 0);
+            --muted-foreground: oklch(0.5486 0 0);
+            --accent: oklch(0.9702 0 0);
+            --accent-foreground: oklch(0.2046 0 0);
+            --destructive: oklch(0.5830 0.2387 28.4765);
+            --destructive-foreground: oklch(0.9702 0 0);
+            --border: oklch(0.9219 0 0);
+            --input: oklch(0.9219 0 0);
+            --ring: oklch(0.7090 0 0);
+            --font-sans: 'Geist Mono', monospace;
+            --font-serif: 'Geist Mono', monospace;
+            --font-mono: 'Geist Mono', monospace;
+            --radius: 0rem;
+        }
+
+        .dark {
+            --background: oklch(0.1448 0 0);
+            --foreground: oklch(0.9851 0 0);
+            --card: oklch(0.2134 0 0);
+            --card-foreground: oklch(0.9851 0 0);
+            --popover: oklch(0.2686 0 0);
+            --popover-foreground: oklch(0.9851 0 0);
+            --primary: oklch(0.5555 0 0);
+            --primary-foreground: oklch(0.9851 0 0);
+            --secondary: oklch(0.2686 0 0);
+            --secondary-foreground: oklch(0.9851 0 0);
+            --muted: oklch(0.2686 0 0);
+            --muted-foreground: oklch(0.7090 0 0);
+            --accent: oklch(0.3715 0 0);
+            --accent-foreground: oklch(0.9851 0 0);
+            --destructive: oklch(0.7022 0.1892 22.2279);
+            --destructive-foreground: oklch(0.2686 0 0);
+            --border: oklch(0.3407 0 0);
+            --input: oklch(0.4386 0 0);
+            --ring: oklch(0.5555 0 0);
+        }
+
+        @theme inline {
+            --color-background: var(--background);
+            --color-foreground: var(--foreground);
+            --color-card: var(--card);
+            --color-card-foreground: var(--card-foreground);
+            --color-popover: var(--popover);
+            --color-popover-foreground: var(--popover-foreground);
+            --color-primary: var(--primary);
+            --color-primary-foreground: var(--primary-foreground);
+            --color-secondary: var(--secondary);
+            --color-secondary-foreground: var(--secondary-foreground);
+            --color-muted: var(--muted);
+            --color-muted-foreground: var(--muted-foreground);
+            --color-accent: var(--accent);
+            --color-accent-foreground: var(--accent-foreground);
+            --color-destructive: var(--destructive);
+            --color-destructive-foreground: var(--destructive-foreground);
+            --color-border: var(--border);
+            --color-input: var(--input);
+            --color-ring: var(--ring);
+        }
+
+        /* Reset and Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: var(--font-sans);
+            background-color: var(--background);
+            color: var(--foreground);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        /* Grid Background */
+        .grid-background {
+            background-image: 
+                linear-gradient(to right, var(--border) 1px, transparent 1px),
+                linear-gradient(to bottom, var(--border) 1px, transparent 1px);
+            background-size: 24px 24px;
+            background-position: 0 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+            opacity: 0.3;
+            pointer-events: none;
+        }
+
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background-color: var(--background);
+            border-bottom: 1px solid var(--border);
+            z-index: 100;
+            padding: 1rem 2rem;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--foreground);
+            text-decoration: none;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+            align-items: center;
+        }
+
+        .nav-links a {
+            color: var(--foreground);
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: opacity 0.2s;
+        }
+
+        .nav-links a:hover {
+            opacity: 0.7;
+        }
+
+        .nav-cta {
+            background-color: var(--primary);
+            color: var(--primary-foreground);
+            padding: 0.5rem 1.5rem;
+            border: none;
+            font-family: var(--font-sans);
+            font-size: 0.9rem;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            transition: opacity 0.2s;
+        }
+
+        .nav-cta:hover {
+            opacity: 0.9;
+        }
+
+        .mobile-menu-toggle {
+            display: none;
+            background: none;
+            border: none;
+            color: var(--foreground);
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+
+        /* Hero Section */
+        .hero {
+            position: relative;
+            padding: calc(80px + 1.5rem) 2rem 1.5rem;
+            text-align: center;
+            max-width: 900px;
+            margin: 0 auto;
+            z-index: 1;
+            min-height: calc(65vh - 80px);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .hero h1 {
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            font-weight: 700;
+            margin-bottom: 1rem;
+            line-height: 1.2;
+        }
+
+        .hero .tagline {
+            font-size: clamp(1.1rem, 2vw, 1.5rem);
+            color: var(--muted-foreground);
+            margin-bottom: 1rem;
+            font-weight: 500;
+        }
+
+        .hero .subheadline {
+            font-size: 1.1rem;
+            color: var(--muted-foreground);
+            margin-bottom: 1.5rem;
+            line-height: 1.8;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .hero-ctas {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn-primary {
+            background-color: var(--primary);
+            color: var(--primary-foreground);
+            padding: 1rem 2rem;
+            border: none;
+            font-family: var(--font-sans);
+            font-size: 1rem;
+            font-weight: 500;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            transition: opacity 0.2s;
+            min-height: 44px;
+        }
+
+        .btn-primary:hover {
+            opacity: 0.9;
+        }
+
+        .btn-secondary {
+            background-color: transparent;
+            color: var(--foreground);
+            padding: 1rem 2rem;
+            border: 1px solid var(--border);
+            font-family: var(--font-sans);
+            font-size: 1rem;
+            font-weight: 500;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            transition: background-color 0.2s;
+            min-height: 44px;
+        }
+
+        .btn-secondary:hover {
+            background-color: var(--muted);
+        }
+
+        /* Trust Indicators Section */
+        .trust-section {
+            position: relative;
+            padding: 1.5rem 2rem 2rem;
+            background-color: var(--background);
+            z-index: 1;
+            overflow: hidden;
+            min-height: calc(35vh - 20px);
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+        }
+
+        .trust-container {
+            max-width: 100%;
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        .trust-section h2 {
+            text-align: center;
+            font-size: clamp(1.2rem, 3vw, 1.5rem);
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            color: var(--foreground);
+        }
+
+        .logo-marquee-wrapper {
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+            mask-image: linear-gradient(
+                to right,
+                transparent 0%,
+                black 10%,
+                black 90%,
+                transparent 100%
+            );
+            -webkit-mask-image: linear-gradient(
+                to right,
+                transparent 0%,
+                black 10%,
+                black 90%,
+                transparent 100%
+            );
+        }
+
+        .logo-marquee {
+            display: flex;
+            gap: 4rem;
+            align-items: center;
+            animation: scroll-left 30s linear infinite;
+            will-change: transform;
+        }
+
+        .logo-marquee:hover {
+            animation-play-state: paused;
+        }
+
+        @keyframes scroll-left {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(-50%);
+            }
+        }
+
+        .logo-item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 48px;
+            min-width: 150px;
+            flex-shrink: 0;
+            filter: grayscale(100%);
+            opacity: 0.7;
+            transition: opacity 0.2s, filter 0.2s;
+        }
+
+        .logo-item:hover {
+            opacity: 1;
+            filter: grayscale(0%);
+        }
+
+        .logo-item img {
+            max-height: 48px;
+            max-width: 150px;
+            width: auto;
+            height: auto;
+            object-fit: contain;
+        }
+
+        /* Case Studies Section */
+        .case-studies {
+            position: relative;
+            padding: 6rem 2rem;
+            background-color: var(--background);
+            z-index: 1;
+        }
+
+        .case-studies-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .case-studies h2 {
+            text-align: center;
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 3rem;
+        }
+
+        .case-studies-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+
+        .case-study-card {
+            position: relative;
+            background-color: var(--card);
+            border: 1px solid var(--border);
+            padding: 2rem;
+            transition: border-color 0.2s;
+            overflow: hidden;
+        }
+
+        .case-study-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            filter: grayscale(100%);
+            opacity: 0.15;
+            transition: filter 0.3s ease, opacity 0.3s ease;
+            z-index: 0;
+        }
+
+        .case-study-card:hover::before {
+            filter: grayscale(0%);
+            opacity: 0.25;
+        }
+
+        .case-study-card:hover {
+            border-color: var(--primary);
+        }
+
+        /* Industry-specific background images and shapes */
+        .case-study-card.astra::before {
+            background-image: url('https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&q=80');
+            clip-path: polygon(100% 0, 100% 100%, 0 0); /* Triangle top-right */
+        }
+
+        .case-study-card.holywings::before {
+            background-image: url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80');
+            top: auto;
+            bottom: 0;
+            clip-path: polygon(0 25%, 100% 25%, 100% 100%, 0 100%); /* 75% rectangle covering bottom */
+        }
+
+        .case-study-card.angkasapura::before {
+            background-image: url('https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=800&q=80');
+            top: auto;
+            right: auto;
+            bottom: 0;
+            left: 0;
+            clip-path: polygon(0 100%, 0 0, 100% 100%); /* Triangle bottom-left */
+        }
+
+        .case-study-card h3 {
+            position: relative;
+            z-index: 1;
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .case-study-card .client {
+            position: relative;
+            z-index: 1;
+            color: var(--muted-foreground);
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+        }
+
+        .case-study-card p {
+            position: relative;
+            z-index: 1;
+            color: var(--muted-foreground);
+            margin-bottom: 1.5rem;
+            line-height: 1.6;
+        }
+
+        .case-study-card a {
+            position: relative;
+            z-index: 1;
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .case-study-card a:hover {
+            opacity: 0.7;
+        }
+
+        /* 2B2G Process Section */
+        .process-section {
+            position: relative;
+            padding: 6rem 2rem;
+            background-color: var(--background);
+            z-index: 1;
+        }
+
+        .process-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .process-section h2 {
+            text-align: center;
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 3rem;
+        }
+
+        .process-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+
+        .process-card {
+            background-color: var(--card);
+            border: 1px solid var(--border);
+            padding: 2rem;
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.6s ease, transform 0.6s ease;
+        }
+
+        .process-card.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .process-card h3 {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .process-card .timeline {
+            color: var(--muted-foreground);
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+        }
+
+        .process-card p {
+            color: var(--muted-foreground);
+            line-height: 1.6;
+        }
+
+        .process-cta {
+            text-align: center;
+        }
+
+        /* Footer CTA */
+        .footer-cta {
+            position: relative;
+            padding: 6rem 2rem;
+            background-color: var(--muted);
+            text-align: center;
+            z-index: 1;
+        }
+
+        .footer-cta-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .footer-cta h2 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+
+        .footer-cta .subheading {
+            font-size: 1.1rem;
+            color: var(--muted-foreground);
+            margin-bottom: 2rem;
+        }
+
+        /* Footer */
+        footer {
+            position: relative;
+            padding: 4rem 2rem 2rem;
+            background-color: var(--background);
+            border-top: 1px solid var(--border);
+            z-index: 1;
+        }
+
+        .footer-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 3rem;
+            margin-bottom: 2rem;
+        }
+
+        .footer-section h3 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .footer-section p,
+        .footer-section a {
+            color: var(--muted-foreground);
+            text-decoration: none;
+            font-size: 0.9rem;
+            line-height: 1.8;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-section a:hover {
+            opacity: 0.7;
+        }
+
+        .footer-copyright {
+            text-align: center;
+            padding-top: 2rem;
+            border-top: 1px solid var(--border);
+            color: var(--muted-foreground);
+            font-size: 0.9rem;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+
+            .mobile-menu-toggle {
+                display: block;
+            }
+
+            .hero {
+                padding: calc(60px + 1rem) 1rem 1rem;
+                min-height: calc(60vh - 60px);
+            }
+
+            .hero h1 {
+                margin-bottom: 0.75rem;
+            }
+
+            .hero .tagline {
+                margin-bottom: 0.75rem;
+            }
+
+            .hero .subheadline {
+                margin-bottom: 1rem;
+                font-size: 0.95rem;
+            }
+
+            .hero-ctas {
+                flex-direction: column;
+            }
+
+            .hero-ctas .btn-primary,
+            .hero-ctas .btn-secondary {
+                width: 100%;
+            }
+
+            .trust-section {
+                padding: 1rem 1rem 1.5rem;
+                min-height: calc(40vh - 20px);
+            }
+
+            .trust-section h2 {
+                font-size: 1.25rem;
+                margin-bottom: 1rem;
+            }
+
+            .logo-marquee {
+                gap: 2rem;
+            }
+
+            .logo-item {
+                min-width: 120px;
+            }
+
+            .case-studies-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .process-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .footer-container {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (min-width: 769px) and (max-width: 1024px) {
+            .case-studies-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .process-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-background"></div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="#" class="logo">Synetica</a>
+            <ul class="nav-links">
+                <li><a href="#how-we-work">How We Work</a></li>
+                <li><a href="#case-studies">Case Studies</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#contact" class="nav-cta">Workflow Demo</a></li>
+            </ul>
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">☰</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>What If You Could Launch a Validated Product in 8 Weeks?</h1>
+        <p class="tagline">Not a prototype. Not a demo. A real product tested by real users — ready to scale.</p>
+        <p class="subheadline">
+            We're a tech-based business consultancy that helps you launch the right product—fast. Instead of decks or endless prototypes, we deliver real traction. Gain clarity, build what matters, validate early, and launch with confidence in just 8 weeks.
+        </p>
+        <div class="hero-ctas">
+            <a href="#how-we-work" class="btn-primary">See How It Works</a>
+            <a href="#case-studies" class="btn-secondary">View Client Results</a>
+        </div>
+    </section>
+
+    <!-- Trust Indicators Section -->
+    <section class="trust-section">
+        <div class="trust-container">
+            <h2>Trusted by Leading Companies Across Indonesia</h2>
+            <div class="logo-marquee-wrapper">
+                <div class="logo-marquee">
+                    <!-- First set of logos -->
+                    <div class="logo-item">
+                        <img src="assets/logos/telkom.png" alt="Telkom Indonesia" loading="lazy">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/logos/traveloka-logo.png" alt="Traveloka" loading="lazy">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/logos/grab.jpeg" alt="Grab" loading="lazy">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/logos/astra.png" alt="Astra International" loading="lazy">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/logos/hwg.png" alt="Holywings Group" loading="lazy">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/logos/kbbank.png" alt="KB Bank" loading="lazy">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/logos/angkasapura-logo.png" alt="Angkasa Pura I" loading="lazy">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/logos/acc.png" alt="ACC" loading="lazy">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/logos/giz.png" alt="GIZ" loading="lazy">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/logos/Klik Dokter.png" alt="KlikDokter" loading="lazy">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/logos/moladin-logo.png" alt="Moladin" loading="lazy">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/logos/museum.png" alt="Museum Kepresidenan Yogyakarta" loading="lazy">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/logos/usaaid.png" alt="USAID" loading="lazy">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/logos/linknet.png" alt="Linknet" loading="lazy">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/logos/neo.png" alt="Neo" loading="lazy">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/logos/newscorp.png" alt="News Corp" loading="lazy">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/logos/physioactive.png" alt="Physioactive" loading="lazy">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/logos/qlue.avif" alt="Qlue" loading="lazy">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/logos/redballoon.png" alt="Red Balloon" loading="lazy">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/logos/seva-logo.png" alt="Seva" loading="lazy">
+                    </div>
+                    <!-- Duplicate set for seamless loop -->
+                    <div class="logo-item">
+                        <img src="assets/logos/telkom.png" alt="Telkom Indonesia" loading="lazy">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/logos/traveloka-logo.png" alt="Traveloka" loading="lazy">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/logos/grab.jpeg" alt="Grab" loading="lazy">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/logos/astra.png" alt="Astra International" loading="lazy">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/logos/hwg.png" alt="Holywings Group" loading="lazy">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/logos/kbbank.png" alt="KB Bank" loading="lazy">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/logos/angkasapura-logo.png" alt="Angkasa Pura I" loading="lazy">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/logos/acc.png" alt="ACC" loading="lazy">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/logos/giz.png" alt="GIZ" loading="lazy">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/logos/Klik Dokter.png" alt="KlikDokter" loading="lazy">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/logos/moladin-logo.png" alt="Moladin" loading="lazy">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/logos/museum.png" alt="Museum Kepresidenan Yogyakarta" loading="lazy">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/logos/usaaid.png" alt="USAID" loading="lazy">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/logos/linknet.png" alt="Linknet" loading="lazy">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/logos/neo.png" alt="Neo" loading="lazy">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/logos/newscorp.png" alt="News Corp" loading="lazy">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/logos/physioactive.png" alt="Physioactive" loading="lazy">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/logos/qlue.avif" alt="Qlue" loading="lazy">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/logos/redballoon.png" alt="Red Balloon" loading="lazy">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/logos/seva-logo.png" alt="Seva" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Case Studies Section -->
+    <section class="case-studies" id="case-studies">
+        <div class="case-studies-container">
+            <h2>Featured Case Studies</h2>
+            <div class="case-studies-grid">
+                <div class="case-study-card astra">
+                    <div class="client">Astra</div>
+                    <h3>Setir Kanan</h3>
+                    <p>A high-scale digital ecosystem for used car buying, selling, and trading, built under ACC.</p>
+                    <a href="#">Read Full Case Study →</a>
+                </div>
+                <div class="case-study-card holywings">
+                    <div class="client">Holywings Group</div>
+                    <h3>Membership & Loyalty App</h3>
+                    <p>A membership and loyalty ecosystem used across all venues.</p>
+                    <a href="#">Read Full Case Study →</a>
+                </div>
+                <div class="case-study-card angkasapura">
+                    <div class="client">Angkasa Pura I</div>
+                    <h3>National SSO & KPI System</h3>
+                    <p>Centralized SSO + unified KPI dashboard used across all airports, boosting clarity and decision-making.</p>
+                    <a href="#">Read Full Case Study →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2B2G Process Section -->
+    <section class="process-section" id="how-we-work">
+        <div class="process-container">
+            <h2>How We Turn Ideas Into Traction in 8 Weeks</h2>
+            <div class="process-grid">
+                <div class="process-card">
+                    <h3>Blueprint</h3>
+                    <div class="timeline">2 weeks</div>
+                    <p>Know exactly what to build before you build it. No wasted features.</p>
+                </div>
+                <div class="process-card">
+                    <h3>Build & Benchmark</h3>
+                    <div class="timeline">6 weeks</div>
+                    <p>A real product tested with 30 real users.</p>
+                </div>
+                <div class="process-card">
+                    <h3>Go To Market</h3>
+                    <div class="timeline">3 months</div>
+                    <p>Launch with evidence. Acquire early users fast.</p>
+                </div>
+                <div class="process-card">
+                    <h3>Grow</h3>
+                    <div class="timeline">ongoing</div>
+                    <p>Turn initial traction into long-term growth.</p>
+                </div>
+            </div>
+            <div class="process-cta">
+                <a href="#contact" class="btn-primary">See the Full Process</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer CTA -->
+    <section class="footer-cta">
+        <div class="footer-cta-container">
+            <h2>Ready to Launch Your Product in 8 Weeks?</h2>
+            <p class="subheading">Talk to our team and get clarity in 30 minutes.</p>
+            <div class="hero-ctas">
+                <a href="#contact" class="btn-primary">Book Consultation</a>
+                <a href="https://wa.me/6281234567890" class="btn-secondary" target="_blank">Chat on WhatsApp</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Synetica</h3>
+                <p>The next evolution of Softwareseni. We help you launch validated products in 8 weeks.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Yogyakarta, Indonesia</p>
+                <p>Email: hello@synetica.com</p>
+                <p>Phone: +62 812 3456 7890</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <a href="#how-we-work">How We Work</a>
+                <a href="#case-studies">Case Studies</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>&copy; 2025 Synetica. All rights reserved. Next evolution of Softwareseni.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Scroll-triggered animations for process cards
+        const observerOptions = {
+            threshold: 0.5,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry, index) => {
+                if (entry.isIntersecting) {
+                    setTimeout(() => {
+                        entry.target.classList.add('visible');
+                    }, index * 150); // Staggered animation
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        // Observe all process cards
+        document.querySelectorAll('.process-card').forEach(card => {
+            observer.observe(card);
+        });
+
+        // Mobile menu toggle (basic implementation)
+        const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+        
+        if (mobileMenuToggle) {
+            mobileMenuToggle.addEventListener('click', () => {
+                navLinks.style.display = navLinks.style.display === 'flex' ? 'none' : 'flex';
+            });
+        }
+    </script>
+</body>
+</html>
+
