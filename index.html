@@ -366,7 +366,7 @@
         }
 
         .case-studies-container {
-            max-width: 1200px;
+            max-width: 1400px;
             margin: 0 auto;
         }
 
@@ -374,13 +374,13 @@
             text-align: center;
             font-size: 2rem;
             font-weight: 700;
-            margin-bottom: 3rem;
+            margin-bottom: 4rem;
         }
 
-        .case-studies-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
+        .case-studies-list {
+            display: flex;
+            flex-direction: column;
+            gap: 4rem;
             margin-bottom: 3rem;
         }
 
@@ -388,95 +388,169 @@
             position: relative;
             background-color: var(--card);
             border: 1px solid var(--border);
-            padding: 2rem;
-            transition: border-color 0.2s;
+            min-height: 500px;
             overflow: hidden;
+            opacity: 0;
+            transform: translateY(40px);
+            transition: opacity 0.8s ease, transform 0.8s ease, border-color 0.3s ease;
+            will-change: transform, opacity;
+        }
+
+        .case-study-card.visible {
+            opacity: 1;
+            transform: translateY(0);
         }
 
         .case-study-card::before {
             content: '';
             position: absolute;
             top: 0;
-            right: 0;
+            left: 0;
             width: 100%;
             height: 100%;
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
             filter: grayscale(100%);
-            opacity: 0.15;
-            transition: filter 0.3s ease, opacity 0.3s ease;
+            opacity: 0.1;
+            transition: filter 0.6s ease, opacity 0.6s ease, transform 0.6s ease;
             z-index: 0;
+            will-change: transform;
+            transform: translateY(var(--parallax-y, 0px));
         }
 
         .case-study-card:hover::before {
             filter: grayscale(0%);
-            opacity: 0.25;
+            opacity: 0.15;
+            transform: translateY(var(--parallax-y, 0px)) scale(1.05);
         }
 
         .case-study-card:hover {
             border-color: var(--primary);
         }
 
-        /* Industry-specific background images and shapes */
+        /* Industry-specific background images */
         .case-study-card.astra::before {
-            background-image: url('https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&q=80');
-            clip-path: polygon(100% 0, 100% 100%, 0 0); /* Triangle top-right */
+            background-image: url('https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=1600&q=80');
         }
 
         .case-study-card.holywings::before {
-            background-image: url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80');
-            top: auto;
-            bottom: 0;
-            clip-path: polygon(0 25%, 100% 25%, 100% 100%, 0 100%); /* 75% rectangle covering bottom */
+            background-image: url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1600&q=80');
         }
 
         .case-study-card.angkasapura::before {
-            background-image: url('https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=800&q=80');
-            top: auto;
-            right: auto;
-            bottom: 0;
-            left: 0;
-            clip-path: polygon(0 100%, 0 0, 100% 100%); /* Triangle bottom-left */
+            background-image: url('https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1600&q=80');
         }
 
-        .case-study-card h3 {
+        .case-study-content {
             position: relative;
             z-index: 1;
-            font-size: 1.5rem;
-            font-weight: 600;
-            margin-bottom: 0.5rem;
+            padding: 4rem;
+            background: linear-gradient(
+                to bottom,
+                transparent 0%,
+                var(--card) 20%,
+                var(--card) 100%
+            );
+            min-height: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
         }
 
         .case-study-card .client {
-            position: relative;
-            z-index: 1;
             color: var(--muted-foreground);
-            font-size: 0.9rem;
-            margin-bottom: 1rem;
+            font-size: 0.85rem;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-bottom: 0.75rem;
+            opacity: 0.8;
         }
 
-        .case-study-card p {
-            position: relative;
-            z-index: 1;
-            color: var(--muted-foreground);
+        .case-study-card h3 {
+            font-size: clamp(2rem, 4vw, 3rem);
+            font-weight: 700;
             margin-bottom: 1.5rem;
-            line-height: 1.6;
+            line-height: 1.2;
+            color: var(--foreground);
+            transition: color 0.3s ease;
         }
 
-        .case-study-card a {
-            position: relative;
-            z-index: 1;
+        .case-study-card:hover h3 {
+            color: var(--primary);
+        }
+
+        .case-study-card .description {
+            font-size: 1.125rem;
+            line-height: 1.8;
+            color: var(--foreground);
+            margin-bottom: 1rem;
+            max-width: 800px;
+            transition: opacity 0.3s ease;
+        }
+
+        .case-study-card .subtext {
+            font-size: 0.95rem;
+            line-height: 1.6;
+            color: var(--muted-foreground);
+            margin-bottom: 2rem;
+            max-width: 800px;
+            font-style: italic;
+        }
+
+        .tech-stack {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+            margin-bottom: 2rem;
+        }
+
+        .tech-badge {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            background-color: var(--muted);
+            color: var(--muted-foreground);
+            font-size: 0.85rem;
+            font-weight: 500;
+            border: 1px solid var(--border);
+            transition: all 0.3s ease;
+            cursor: default;
+        }
+
+        .tech-badge:hover {
+            background-color: var(--primary);
+            color: var(--primary-foreground);
+            border-color: var(--primary);
+            transform: translateY(-2px);
+        }
+
+        .case-study-link {
             color: var(--primary);
             text-decoration: none;
-            font-weight: 500;
+            font-weight: 600;
+            font-size: 1rem;
             display: inline-flex;
             align-items: center;
             gap: 0.5rem;
+            transition: all 0.3s ease;
+            margin-top: auto;
         }
 
-        .case-study-card a:hover {
-            opacity: 0.7;
+        .case-study-link:hover {
+            opacity: 0.8;
+            gap: 0.75rem;
+        }
+
+        /* Reduced motion support */
+        @media (prefers-reduced-motion: reduce) {
+            .case-study-card,
+            .case-study-card::before,
+            .tech-badge,
+            .case-study-link {
+                transition: none;
+                animation: none;
+            }
         }
 
         /* 2B2G Process Section */
@@ -813,8 +887,59 @@
                 min-width: 120px;
             }
 
-            .case-studies-grid {
-                grid-template-columns: 1fr;
+            .case-studies {
+                padding: 4rem 1.5rem;
+            }
+
+            .case-studies h2 {
+                font-size: 1.75rem;
+                margin-bottom: 3rem;
+            }
+
+            .case-studies-list {
+                gap: 3rem;
+            }
+
+            .case-study-card {
+                min-height: 400px;
+            }
+
+            .case-study-content {
+                padding: 2.5rem 1.5rem;
+                min-height: 400px;
+            }
+
+            .case-study-card h3 {
+                font-size: 1.75rem;
+                margin-bottom: 1rem;
+            }
+
+            .case-study-card .description {
+                font-size: 1rem;
+                margin-bottom: 0.75rem;
+            }
+
+            .case-study-card .subtext {
+                font-size: 0.9rem;
+                margin-bottom: 1.5rem;
+            }
+
+            .tech-stack {
+                gap: 0.5rem;
+                margin-bottom: 1.5rem;
+            }
+
+            .tech-badge {
+                padding: 0.4rem 0.75rem;
+                font-size: 0.8rem;
+            }
+
+            .case-study-card::before {
+                transform: none !important;
+            }
+
+            .case-study-card:hover::before {
+                transform: scale(1.02) !important;
             }
 
             .process-grid {
@@ -1053,24 +1178,54 @@
     <section class="case-studies" id="case-studies">
         <div class="case-studies-container">
             <h2>Featured Case Studies</h2>
-            <div class="case-studies-grid">
+            <div class="case-studies-list">
                 <div class="case-study-card astra">
-                    <div class="client">Astra</div>
-                    <h3>Setir Kanan</h3>
-                    <p>A high-scale digital ecosystem for used car buying, selling, and trading, built under ACC.</p>
-                    <a href="#">Read Full Case Study →</a>
+                    <div class="case-study-content">
+                        <div class="client">Astra</div>
+                        <h3>Setir Kanan</h3>
+                        <p class="description">A high-scale digital ecosystem for used car buying, selling, and trading, built under ACC. The platform connects buyers, sellers, and dealers in a seamless marketplace with real-time inventory management and transaction processing.</p>
+                        <p class="subtext">Delivered a fully functional marketplace with integrated payment systems and comprehensive analytics dashboard.</p>
+                        <div class="tech-stack">
+                            <span class="tech-badge">React</span>
+                            <span class="tech-badge">Node.js</span>
+                            <span class="tech-badge">PostgreSQL</span>
+                            <span class="tech-badge">AWS</span>
+                            <span class="tech-badge">Redis</span>
+                        </div>
+                        <a href="#" class="case-study-link">Read Full Case Study →</a>
+                    </div>
                 </div>
                 <div class="case-study-card holywings">
-                    <div class="client">Holywings Group</div>
-                    <h3>Membership & Loyalty App</h3>
-                    <p>A membership and loyalty ecosystem used across all venues.</p>
-                    <a href="#">Read Full Case Study →</a>
+                    <div class="case-study-content">
+                        <div class="client">Holywings Group</div>
+                        <h3>Membership & Loyalty App</h3>
+                        <p class="description">A membership and loyalty ecosystem used across all venues. The app enables seamless member registration, point accumulation, rewards redemption, and personalized offers based on visit frequency and preferences.</p>
+                        <p class="subtext">Integrated across 50+ venues with real-time synchronization and mobile-first design for optimal user experience.</p>
+                        <div class="tech-stack">
+                            <span class="tech-badge">React Native</span>
+                            <span class="tech-badge">Express</span>
+                            <span class="tech-badge">MongoDB</span>
+                            <span class="tech-badge">Firebase</span>
+                            <span class="tech-badge">Stripe</span>
+                        </div>
+                        <a href="#" class="case-study-link">Read Full Case Study →</a>
+                    </div>
                 </div>
                 <div class="case-study-card angkasapura">
-                    <div class="client">Angkasa Pura I</div>
-                    <h3>National SSO & KPI System</h3>
-                    <p>Centralized SSO + unified KPI dashboard used across all airports, boosting clarity and decision-making.</p>
-                    <a href="#">Read Full Case Study →</a>
+                    <div class="case-study-content">
+                        <div class="client">Angkasa Pura I</div>
+                        <h3>National SSO & KPI System</h3>
+                        <p class="description">Centralized SSO + unified KPI dashboard used across all airports, boosting clarity and decision-making. The system provides single sign-on access for all airport personnel while delivering real-time performance metrics and analytics.</p>
+                        <p class="subtext">Deployed across 15+ airports with enterprise-grade security and 99.9% uptime guarantee.</p>
+                        <div class="tech-stack">
+                            <span class="tech-badge">Next.js</span>
+                            <span class="tech-badge">NestJS</span>
+                            <span class="tech-badge">PostgreSQL</span>
+                            <span class="tech-badge">Keycloak</span>
+                            <span class="tech-badge">Docker</span>
+                        </div>
+                        <a href="#" class="case-study-link">Read Full Case Study →</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -1267,27 +1422,96 @@
     </footer>
 
     <script>
+        // Check for reduced motion preference
+        const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
         // Scroll-triggered animations for process cards
         const observerOptions = {
             threshold: 0.5,
             rootMargin: '0px 0px -100px 0px'
         };
 
-        const observer = new IntersectionObserver((entries) => {
+        const processObserver = new IntersectionObserver((entries) => {
             entries.forEach((entry, index) => {
                 if (entry.isIntersecting) {
                     setTimeout(() => {
                         entry.target.classList.add('visible');
                     }, index * 150); // Staggered animation
-                    observer.unobserve(entry.target);
+                    processObserver.unobserve(entry.target);
                 }
             });
         }, observerOptions);
 
         // Observe all process cards
         document.querySelectorAll('.process-card').forEach(card => {
-            observer.observe(card);
+            processObserver.observe(card);
         });
+
+        // Scroll-triggered animations for case study cards
+        const caseStudyObserverOptions = {
+            threshold: 0.2,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const caseStudyObserver = new IntersectionObserver((entries) => {
+            entries.forEach((entry, index) => {
+                if (entry.isIntersecting) {
+                    setTimeout(() => {
+                        entry.target.classList.add('visible');
+                    }, index * 200); // Staggered animation for case studies
+                    caseStudyObserver.unobserve(entry.target);
+                }
+            });
+        }, caseStudyObserverOptions);
+
+        // Observe all case study cards
+        document.querySelectorAll('.case-study-card').forEach(card => {
+            caseStudyObserver.observe(card);
+        });
+
+        // Parallax effect for case study background images
+        if (!prefersReducedMotion) {
+            const caseStudyCards = document.querySelectorAll('.case-study-card');
+            let ticking = false;
+
+            function updateParallax() {
+                caseStudyCards.forEach(card => {
+                    const rect = card.getBoundingClientRect();
+                    const isVisible = rect.top < window.innerHeight && rect.bottom > 0;
+                    
+                    if (isVisible) {
+                        const scrolled = window.pageYOffset;
+                        const cardTop = rect.top + scrolled;
+                        const cardHeight = rect.height;
+                        const windowHeight = window.innerHeight;
+                        
+                        // Calculate parallax based on card position relative to viewport center
+                        const cardCenter = cardTop + cardHeight / 2;
+                        const viewportCenter = scrolled + windowHeight / 2;
+                        const distance = cardCenter - viewportCenter;
+                        const parallaxOffset = distance * 0.15; // Parallax intensity
+                        
+                        // Apply to CSS custom property for smooth transform
+                        card.style.setProperty('--parallax-y', `${parallaxOffset}px`);
+                    }
+                });
+                
+                ticking = false;
+            }
+
+            function requestTick() {
+                if (!ticking) {
+                    requestAnimationFrame(updateParallax);
+                    ticking = true;
+                }
+            }
+
+            // Throttled scroll handler
+            window.addEventListener('scroll', requestTick, { passive: true });
+            
+            // Initial call
+            updateParallax();
+        }
 
         // Mobile menu toggle (basic implementation)
         const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
