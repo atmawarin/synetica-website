@@ -562,7 +562,7 @@
         }
 
         .process-container {
-            max-width: 1200px;
+            max-width: 1400px;
             margin: 0 auto;
         }
 
@@ -570,49 +570,196 @@
             text-align: center;
             font-size: 2rem;
             font-weight: 700;
-            margin-bottom: 3rem;
+            margin-bottom: 4rem;
         }
 
-        .process-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 2rem;
-            margin-bottom: 3rem;
+        .section-subtitle {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 2rem;
+            color: var(--foreground);
+            text-align: center;
         }
 
-        .process-card {
-            background-color: var(--card);
-            border: 1px solid var(--border);
-            padding: 2rem;
+        .process-main-section {
+            margin-bottom: 5rem;
+        }
+
+        .process-secondary-section {
+            padding-top: 4rem;
+            border-top: 2px solid var(--border);
+            margin-top: 4rem;
+        }
+
+        .process-secondary-section .section-subtitle {
+            color: var(--muted-foreground);
+            font-size: 1.25rem;
+        }
+
+        .process-list {
+            display: flex;
+            flex-direction: column;
+            gap: 3rem;
+            position: relative;
+        }
+
+        .process-phase {
+            position: relative;
+            padding-left: 4rem;
             opacity: 0;
-            transform: translateY(20px);
-            transition: opacity 0.6s ease, transform 0.6s ease;
+            transform: translateY(30px);
+            transition: opacity 0.8s ease, transform 0.8s ease;
         }
 
-        .process-card.visible {
+        .process-phase.visible {
             opacity: 1;
             transform: translateY(0);
         }
 
-        .process-card h3 {
-            font-size: 1.3rem;
-            font-weight: 600;
-            margin-bottom: 0.5rem;
+        /* Timeline line */
+        .process-list::before {
+            content: '';
+            position: absolute;
+            left: 1.5rem;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: var(--border);
+            z-index: 0;
         }
 
-        .process-card .timeline {
+        .process-main-section .process-list::before {
+            background: linear-gradient(to bottom, var(--primary) 0%, var(--primary) 50%, var(--border) 50%, var(--border) 100%);
+        }
+
+        .phase-number {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 3rem;
+            height: 3rem;
+            background-color: var(--primary);
+            color: var(--primary-foreground);
+            border-radius: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            font-weight: 700;
+            z-index: 1;
+            border: 2px solid var(--background);
+        }
+
+        .process-secondary-section .phase-number {
+            background-color: var(--muted);
             color: var(--muted-foreground);
-            font-size: 0.9rem;
+        }
+
+        .phase-header {
+            display: flex;
+            align-items: flex-start;
+            gap: 1.5rem;
             margin-bottom: 1rem;
         }
 
-        .process-card p {
+        .phase-title-group {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .process-phase h4 {
+            font-size: 1.75rem;
+            font-weight: 700;
+            margin: 0;
+            color: var(--foreground);
+        }
+
+        .timeline-badge {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            background-color: var(--muted);
             color: var(--muted-foreground);
+            font-size: 0.85rem;
+            font-weight: 500;
+            border: 1px solid var(--border);
+        }
+
+        .phase-value {
+            font-size: 1.125rem;
+            line-height: 1.8;
+            color: var(--foreground);
+            margin-bottom: 2rem;
+            font-weight: 500;
+        }
+
+        .phase-features {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .feature-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+            padding: 0.75rem;
+            background-color: var(--card);
+            border: 1px solid var(--border);
+            transition: all 0.3s ease;
+        }
+
+        .feature-item:hover {
+            border-color: var(--primary);
+            background-color: var(--muted);
+        }
+
+        .feature-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 2.5rem;
+            height: 2.5rem;
+            min-width: 2.5rem;
+            background-color: var(--muted);
+            border: 1px solid var(--border);
+            border-radius: 0;
+            font-size: 1.25rem;
+            flex-shrink: 0;
+            transition: all 0.3s ease;
+        }
+
+        .feature-item:hover .feature-icon {
+            background-color: var(--primary);
+            border-color: var(--primary);
+            transform: scale(1.1);
+        }
+
+        .feature-text {
+            flex: 1;
+            font-size: 0.95rem;
             line-height: 1.6;
+            color: var(--foreground);
+            padding-top: 0.25rem;
         }
 
         .process-cta {
             text-align: center;
+            margin-top: 4rem;
+        }
+
+        /* Reduced motion support */
+        @media (prefers-reduced-motion: reduce) {
+            .process-phase,
+            .feature-item,
+            .feature-icon {
+                transition: none;
+            }
         }
 
         /* Footer CTA */
@@ -942,8 +1089,76 @@
                 transform: scale(1.02) !important;
             }
 
-            .process-grid {
-                grid-template-columns: 1fr;
+            .process-section {
+                padding: 4rem 1.5rem;
+            }
+
+            .process-section h2 {
+                font-size: 1.75rem;
+                margin-bottom: 3rem;
+            }
+
+            .section-subtitle {
+                font-size: 1.25rem;
+                margin-bottom: 1.5rem;
+            }
+
+            .process-main-section {
+                margin-bottom: 3rem;
+            }
+
+            .process-secondary-section {
+                padding-top: 3rem;
+                margin-top: 3rem;
+            }
+
+            .process-list {
+                gap: 2.5rem;
+            }
+
+            .process-phase {
+                padding-left: 3rem;
+            }
+
+            .process-list::before {
+                left: 1rem;
+            }
+
+            .phase-number {
+                width: 2.5rem;
+                height: 2.5rem;
+                font-size: 1.25rem;
+            }
+
+            .process-phase h4 {
+                font-size: 1.5rem;
+            }
+
+            .phase-value {
+                font-size: 1rem;
+                margin-bottom: 1.5rem;
+            }
+
+            .phase-features {
+                gap: 0.75rem;
+            }
+
+            .feature-item {
+                padding: 0.5rem;
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .feature-icon {
+                width: 2rem;
+                height: 2rem;
+                min-width: 2rem;
+                font-size: 1rem;
+            }
+
+            .feature-text {
+                font-size: 0.9rem;
+                padding-top: 0;
             }
 
             .footer-top {
@@ -996,8 +1211,14 @@
                 grid-template-columns: repeat(2, 1fr);
             }
 
-            .process-grid {
-                grid-template-columns: repeat(2, 1fr);
+            .process-phase {
+                padding-left: 3.5rem;
+            }
+
+            .phase-number {
+                width: 2.75rem;
+                height: 2.75rem;
+                font-size: 1.35rem;
             }
 
             .footer-links-container {
@@ -1235,28 +1456,135 @@
     <section class="process-section" id="how-we-work">
         <div class="process-container">
             <h2>How We Turn Ideas Into Traction in 8 Weeks</h2>
-            <div class="process-grid">
-                <div class="process-card">
-                    <h3>Blueprint</h3>
-                    <div class="timeline">2 weeks</div>
-                    <p>Know exactly what to build before you build it. No wasted features.</p>
-                </div>
-                <div class="process-card">
-                    <h3>Build & Benchmark</h3>
-                    <div class="timeline">6 weeks</div>
-                    <p>A real product tested with 30 real users.</p>
-                </div>
-                <div class="process-card">
-                    <h3>Go To Market</h3>
-                    <div class="timeline">3 months</div>
-                    <p>Launch with evidence. Acquire early users fast.</p>
-                </div>
-                <div class="process-card">
-                    <h3>Grow</h3>
-                    <div class="timeline">ongoing</div>
-                    <p>Turn initial traction into long-term growth.</p>
+            
+            <!-- Main Section: 8 Weeks to Launch -->
+            <div class="process-main-section">
+                <h3 class="section-subtitle">From Idea to Launch in 8 Weeks</h3>
+                <div class="process-list">
+                    <div class="process-phase">
+                        <div class="phase-header">
+                            <span class="phase-number">1</span>
+                            <div class="phase-title-group">
+                                <h4>Plan and Validate Your Idea</h4>
+                                <span class="timeline-badge">2 weeks</span>
+                            </div>
+                        </div>
+                        <p class="phase-value">Stop guessing. Start validating. In 2 weeks, you'll know if your idea is worth building—before you spend 6 months building the wrong thing.</p>
+                        <ul class="phase-features">
+                            <li class="feature-item">
+                                <span class="feature-icon">📋</span>
+                                <span class="feature-text">Validated Problem Statement: User-tested assumptions</span>
+                            </li>
+                            <li class="feature-item">
+                                <span class="feature-icon">🎯</span>
+                                <span class="feature-text">Prioritized Feature Set: Ranked by impact</span>
+                            </li>
+                            <li class="feature-item">
+                                <span class="feature-icon">🏗️</span>
+                                <span class="feature-text">Technical Architecture: AI-assisted blueprint</span>
+                            </li>
+                            <li class="feature-item">
+                                <span class="feature-icon">🗺️</span>
+                                <span class="feature-text">60-Day MVP Roadmap: Decision-ready plan</span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="process-phase">
+                        <div class="phase-header">
+                            <span class="phase-number">2</span>
+                            <div class="phase-title-group">
+                                <h4>Build the Right MVP</h4>
+                                <span class="timeline-badge">6 weeks</span>
+                            </div>
+                        </div>
+                        <p class="phase-value">Not a prototype. Not a demo. A real product. Tested by 30 real users. You'll know if it works before you launch.</p>
+                        <ul class="phase-features">
+                            <li class="feature-item">
+                                <span class="feature-icon">⚡</span>
+                                <span class="feature-text">AI-Accelerated MVP: Modern stack, fast build</span>
+                            </li>
+                            <li class="feature-item">
+                                <span class="feature-icon">👥</span>
+                                <span class="feature-text">30 Real User Tests: Actionable feedback</span>
+                            </li>
+                            <li class="feature-item">
+                                <span class="feature-icon">✅</span>
+                                <span class="feature-text">Usability Validation: Clarity and performance tested</span>
+                            </li>
+                            <li class="feature-item">
+                                <span class="feature-icon">🚀</span>
+                                <span class="feature-text">Launch Decision: Refine, pivot, or scale</span>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
+            
+            <!-- Secondary Section: What Happens Next -->
+            <div class="process-secondary-section">
+                <h3 class="section-subtitle">What Happens Next</h3>
+                <div class="process-list">
+                    <div class="process-phase">
+                        <div class="phase-header">
+                            <span class="phase-number">3</span>
+                            <div class="phase-title-group">
+                                <h4>Go To Market</h4>
+                                <span class="timeline-badge">3 months</span>
+                            </div>
+                        </div>
+                        <p class="phase-value">Launch with proof, not hope. We test adoption before you scale. No more building in the dark.</p>
+                        <ul class="phase-features">
+                            <li class="feature-item">
+                                <span class="feature-icon">📢</span>
+                                <span class="feature-text">Positioning & Messaging: Evidence-backed story</span>
+                            </li>
+                            <li class="feature-item">
+                                <span class="feature-icon">🎯</span>
+                                <span class="feature-text">Launch Campaigns: Targeted user acquisition</span>
+                            </li>
+                            <li class="feature-item">
+                                <span class="feature-icon">🔄</span>
+                                <span class="feature-text">Onboarding System: Optimized user flow</span>
+                            </li>
+                            <li class="feature-item">
+                                <span class="feature-icon">📊</span>
+                                <span class="feature-text">Performance Tracking: Real-time metrics</span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="process-phase">
+                        <div class="phase-header">
+                            <span class="phase-number">4</span>
+                            <div class="phase-title-group">
+                                <h4>Optimize Growth</h4>
+                                <span class="timeline-badge">Ongoing</span>
+                            </div>
+                        </div>
+                        <p class="phase-value">Traction is just the start. We turn your first 100 users into 1,000. Then 10,000. Systematically.</p>
+                        <ul class="phase-features">
+                            <li class="feature-item">
+                                <span class="feature-icon">🔄</span>
+                                <span class="feature-text">Product Iteration: Data-driven improvements</span>
+                            </li>
+                            <li class="feature-item">
+                                <span class="feature-icon">🤖</span>
+                                <span class="feature-text">AI-Supported Marketing: Automated campaigns</span>
+                            </li>
+                            <li class="feature-item">
+                                <span class="feature-icon">📈</span>
+                                <span class="feature-text">Growth Strategy: Expert-led scaling</span>
+                            </li>
+                            <li class="feature-item">
+                                <span class="feature-icon">🚀</span>
+                                <span class="feature-text">Compounding Growth: Sustainable expansion</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
             <div class="process-cta">
                 <a href="#contact" class="btn-primary">See the Full Process</a>
             </div>
@@ -1442,9 +1770,9 @@
             });
         }, observerOptions);
 
-        // Observe all process cards
-        document.querySelectorAll('.process-card').forEach(card => {
-            processObserver.observe(card);
+        // Observe all process phases
+        document.querySelectorAll('.process-phase').forEach(phase => {
+            processObserver.observe(phase);
         });
 
         // Scroll-triggered animations for case study cards
