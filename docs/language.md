@@ -165,9 +165,11 @@ Use this as a prompt block for any AI writing as Synetica.
 
 **Example 1–Website Hero Copy**
 
-- Weak: “We provide strategic consulting and digital solutions for your business.”
+- Weak: "We provide strategic consulting and digital solutions for your business."
 	
-- Synetica: **“We help you turn ideas into validated products in 8 weeks—from blueprint to build to launch.”**
+- Synetica: **"What If You Could Launch a Validated Product in 8 Weeks?"** (Headline)
+  - Tagline: "A real product tested by real users — ready to scale."
+  - Subheadline: "We're a tech-based business consultancy that helps you launch the right product—fast. Gain clarity, build what matters, validate early, and launch with confidence in just 8 weeks."
 
 **Example 2–Explaining Process**
 

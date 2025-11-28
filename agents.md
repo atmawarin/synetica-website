@@ -16,8 +16,8 @@ This document provides guidelines for AI agents working on the Synetica website 
 - **Mission**: To fast-launch products that truly matter. We reduce waste, shorten time-to-market, and ensure adoption by bridging the gap between business strategy, design, and technology execution.
 
 ### Target Users
-- **Primary**: Dreamers (Indonesian solopreneurs and aspiring entrepreneurs)
-- **Secondary**: Growing Businesses (Established companies with pain points)
+- **Primary**: Growing Businesses (Established Indonesian companies with positive cash flow, worked for several years, generally healthy)
+- **Secondary**: Dreamers (Indonesian solopreneurs and aspiring entrepreneurs)
 - **Language**: English-only for first version
 - **Focus**: Clarity → Validation → Traction
 - **Differentiator**: We stay from idea to adoption — combining business clarity, AI-assisted development, and real-world validation
@@ -25,7 +25,7 @@ This document provides guidelines for AI agents working on the Synetica website 
 ### Core Framework
 **2B2G Framework**: Blueprint → Build & Benchmark → Go To Market → Grow
 - **Blueprint (2 weeks)**: Turning vision into a decision-ready plan with clear priorities, features, and validation steps
-- **Build & Benchmark (6 weeks)**: Lean, AI-assisted engineering that delivers fast, focused, and reliable results. MVP tested with 30 real users to collect actionable feedback and validate usability, clarity, and performance before launch
+- **Build & Benchmark (6 weeks)**: Lean, AI-assisted engineering that delivers fast, focused, and reliable results. MVP tested with 30 real users to collect actionable feedback and validate usability, clarity, and performance before launch. Total: 8 weeks from idea to validated product.
 - **Go To Market (3 months)**: Testing and measuring adoption before scaling, so every product is backed by evidence. Includes positioning, messaging, launch campaigns, onboarding, and performance tracking
 - **Grow (ongoing)**: Post-launch optimization and marketing support to convert traction into long-term growth. Combines product iteration with AI-supported marketing campaigns and expert-led strategy
 
@@ -37,7 +37,7 @@ This document provides guidelines for AI agents working on the Synetica website 
 - **Theme**: Tweakcn `cmftuwple000004kv5zzr2ukn` with Synetica brand tokens
 - **Typography**: Modern geometric sans-serif primary, humanist sans-serif secondary
 - **Hosting**: Netlify/Vercel with global CDN
-- **Integrations**: Netlify Forms, Google Analytics 4, Search Console, Microsoft Clarity, WhatsApp
+- **Integrations**: Netlify Forms, Google Analytics 4, Search Console, Microsoft Clarity, WhatsApp, Google Studio (for simplified analytics dashboard)
 
 ### Content Strategy
 - **Language**: English-only for first version
@@ -86,7 +86,7 @@ This document provides guidelines for AI agents working on the Synetica website 
 
 1. **Don't** refer to Synetica as a "product development studio" (use "tech-based business consultancy")
 2. **Don't** refer to Synetica as a "Blueprint specialization company"
-3. **Don't** use "SMBs and corporate innovation teams" or "Emerging Business" as target users (use "Growing Businesses")
+3. **Don't** use "SMBs and corporate innovation teams" or "Emerging Business" as target users (use "Growing Businesses" - they are the same thing)
 4. **Don't** implement bilingual content in first version
 5. **Don't** include blog/content management in MVP scope
 6. **Don't** use outdated failure rate statistics (use 80%, not 70%)

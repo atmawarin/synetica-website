@@ -4,7 +4,7 @@
 - **Business goals:** Accelerate qualified consultations, establish credibility, differentiate Synetica’s 2B2G™ Methodology (Blueprint → Build & Benchmark → Go To Market → Grow) with an 8-week launch framing.
 - **Primary personas:**
   - **Dreamers** – solopreneurs and SMB founders seeking clarity and validation before committing budget.
-  - **Growing Businesses** – established companies with pain points needing structured, end-to-end delivery without draining internal resources.
+  - **Growing Businesses** – established companies with positive cash flow, worked for several years, generally healthy, needing structured, end-to-end delivery without draining internal resources.
 - **Source artefacts:** [`brief.md`](./brief.md) (brand narrative) and [`prd.md`](./prd.md) (requirements & UX direction).
 
 ## 2. Top-Level Navigation
@@ -21,18 +21,17 @@
 **Utility bar:** persistent "Book Consultation", "WhatsApp", and future language toggle (EN/ID). Consider variant CTA: "Book 8-Week Launch Consult".
 
 ## 3. Secondary & Tertiary Structure
-### Home
-1. Hero: headline + supporting copy, dual CTA buttons (Process / Consultation).
-2. Trust band: client logos, outcome metrics, credential badges.
-3. Process teaser: 2B2G snapshot with quick links.
-4. Featured case study: persona-aligned success story with proof metric.
-5. Services ribbon: concise engagement cards.
-6. Testimonials strip.
-7. Footer CTA: consultation form teaser + WhatsApp.
+### Home (Based on index.html implementation)
+1. Hero: "What If You Could Launch a Validated Product in 8 Weeks?" headline with tagline "A real product tested by real users — ready to scale" and subheadline explaining tech-based business consultancy positioning. Dual CTA buttons: "See How It Works" and "View Client Results".
+2. Trust band: "Trusted by Leading Companies Across Indonesia" with client logo marquee (Traveloka, Angkasa Pura, Astra, and others).
+3. Featured Case Studies section: Three featured case studies (Astra/Setir Kanan, Holywings/Membership & Loyalty App, Angkasa Pura/SSO & KPI System) with client name, project title, description, subtext, tech stack badges, and "Read Full Case Study" links.
+4. Process section: "How We Turn Ideas Into Traction in 8 Weeks" with 2B2G framework breakdown - "From Idea to Launch in 8 Weeks" (Blueprint 2 weeks, Build & Benchmark 6 weeks) and "What Happens Next" (Go To Market 3 months, Grow ongoing).
+5. Footer CTA: "Ready to Launch Your Product in 8 Weeks?" with consultation and WhatsApp CTAs.
+6. Footer: Office locations, contact links, services, products, resources, industries, company, security & compliance, operations & partnerships sections.
 
 ### Process
 1. Overview: promise, 8-week framing (From idea to traction — within 8 weeks), methodology value props.
-2. Individual phase sections (Blueprint, Build & Benchmark, Go To Market, Grow): each with problem solved, deliverables, tooling, validation checkpoints, and timebox (2w / 4–5w / 2mo / ongoing).
+2. Individual phase sections (Blueprint, Build & Benchmark, Go To Market, Grow): each with problem solved, deliverables, validation checkpoints, and timebox (Blueprint: 2 weeks, Build & Benchmark: 6 weeks, total 8 weeks / Go To Market: 3 months / Grow: ongoing).
 3. Engagement models: how clients enter (phase-only vs. full cycle).
 4. FAQ: timelines, collaboration expectations, AI tooling transparency.
 
@@ -59,7 +58,7 @@
 1. Content categories: Blueprinting, Validation, AI tooling, Growth tactics.
 2. Resource cards with estimated read time and target persona tags.
 3. Lead magnet section (e.g., "Blueprint Checklist", "Validation Scorecard").
-4. Search & filter controls.
+4. Filter controls (search functionality not included in MVP scope - to be added in future phase).
 
 ### Team
 1. Founders & leadership bios with global experience highlights.
@@ -69,7 +68,7 @@
 
 ### Contact
 1. Primary consultation form (name, email, company, challenge summary, desired timeline).
-2. Progressive disclosure for BANT follow-up (budget, authority, needs, timeline) post-submission.
+2. Progressive disclosure for BAND follow-up (Budget 5 points/50%, Authority 2 points, Need 2 points, Decision 1 point) post-submission. Minimum 6 points to qualify, with Budget being required.
 3. WhatsApp quick action button.
 4. Office map, hours, and alternative contact channels.
 
@@ -94,7 +93,7 @@
 ## 5. Content Inventory & Metadata Plan
 - Maintain content matrix with fields: Page, Section, Persona, Funnel Stage, 2B2G Phase, Proof Type, Language, Owner, Status, Last Review.
 - Use tags to power filters (e.g., `persona:dreamer`, `phase:benchmark`).
-- Prioritise seed content: 5 flagship case studies, Blueprint deliverable examples, two insight articles per persona.
+- Prioritise seed content: 3 flagship case studies for MVP (Astra, Angkasa Pura, Traveloka), expand to 5 largest Indonesian clients later. Blueprint deliverable examples, two insight articles per persona.
 
 ## 6. Validation Approach
 1. **Stakeholder Card Sort:** Confirm shared mental model for navigation labels and priority pages.

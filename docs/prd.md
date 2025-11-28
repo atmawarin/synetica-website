@@ -17,7 +17,7 @@
 
 Synetica represents a strategic pivot from traditional software house services to a tech-based business consultancy that helps founders and innovation teams move from clarity to traction — fast. We combine strategic thinking, product design, and technology execution to validate ideas and scale outcomes. Unlike traditional consultancies that stop at strategy or agencies that jump straight into execution, Synetica does both — we think, then build. The Indonesian market lacks systematic approaches that combine strategic blueprinting with rapid development and structured testing. With 80% of digital products failing to achieve product-market fit, there's a critical need for validation-first planning services that help founders build evidence-based products rather than assumption-based ones.
 
-The website serves as the primary vehicle for this rebrand, targeting English-proficient Indonesian Dreamers (solopreneurs and aspiring entrepreneurs) and Growing Businesses (established companies with pain points) who need clarity, validation, and traction for their digital products. By positioning Synetica as a tech-based business consultancy that blends strategic depth with execution power, we can command premium pricing while serving a more strategic role in our clients' success.
+The website serves as the primary vehicle for this rebrand, targeting English-proficient Indonesian Dreamers (solopreneurs and aspiring entrepreneurs) as secondary segment, and Growing Businesses (established companies with positive cash flow, worked for several years, generally healthy) as primary segment who need clarity, validation, and traction for their digital products. By positioning Synetica as a tech-based business consultancy that blends strategic depth with execution power, we can command premium pricing while serving a more strategic role in our clients' success.
 
 ### Change Log
 | Date | Version | Description | Author |
@@ -34,13 +34,13 @@ The website serves as the primary vehicle for this rebrand, targeting English-pr
 
 **FR3:** The website must display comprehensive product development service descriptions that demonstrate our ability to deliver validated problem statements, user personas, prioritized features, technical architecture, market landscape, and 60-day roadmaps as failure-prevention tools
 
-**FR4:** The website must present client portfolio and case studies repositioned as product development success stories that showcase failure prevention and strategic value delivery, featuring relationships with major Indonesian companies (Traveloka, Angkasa Pura, Astra) as credibility indicators
+**FR4:** The website must present client portfolio and case studies repositioned as product development success stories that showcase failure prevention and strategic value delivery, featuring relationships with major Indonesian companies. MVP will include 3 case studies (Traveloka, Angkasa Pura, Astra), with plans to expand to 5 largest Indonesian clients later.
 
-**FR5:** The website must provide simple initial contact forms for engagement, with structured BANT qualification criteria (Budget, Authority, Need, Timeline) captured in follow-up interactions to avoid intimidating potential clients
+**FR5:** The website must provide simple initial contact forms for engagement, with structured BAND qualification criteria (Budget, Authority, Need, Decision) captured in follow-up interactions to avoid intimidating potential clients. See [BAND Scoring Rubric](./band-scoring-rubric.md) for detailed scoring system. Budget is weighted at 50% (5 points out of 10 total) - prospects without budget cannot proceed.
 
 **FR6:** The website must integrate WhatsApp click-to-chat functionality for immediate consultation requests, supporting the quick decision-making patterns of time-sensitive entrepreneurs evaluating multiple service providers
 
-**FR7:** The website must launch with English-only content targeting English-proficient Indonesian Dreamers and Growing Businesses segments, with no Indonesian language support initially
+**FR7:** The website must launch with English-only content targeting English-proficient Indonesian Dreamers (secondary) and Growing Businesses (primary) segments, with no Indonesian language support initially
 
 **FR8:** The website must prominently display professional credentials including international experience, team expertise, certifications (ISO 27001, AWS Partner), and Yogyakarta cost advantages to build trust in our technical execution capabilities for the complete 2B2G™ Methodology
 
@@ -124,19 +124,19 @@ Single repository containing the Hugo static site, content files, automation scr
 
 **Frontend Stack:** Tailwind CSS (JIT) with shadcn/ui component primitives provides reusable, accessible building blocks. The Tweakcn theme `cmftuwple000004kv5zzr2ukn` supplies the baseline visual language that will be adapted to Synetica's brand tokens directly inside the Tailwind configuration, incorporating modern geometric sans-serif primary typography and humanist sans-serif secondary typography with beautiful ampersand styling.
 
-**Content Automation Workflow:** n8n integration for automated content generation from spreadsheets to Hugo markdown files, enabling efficient case study creation and scaling. Initial launch uses manual content management with automation capabilities added incrementally based on content volume requirements.
+**Content Automation Workflow:** The core idea is to create a scalable case study content engine. For example, "How to build a learning management system" - we already have the content engine/template structure for this. Content automation will generate case studies from structured data sources (spreadsheets, databases) through n8n workflows that create Hugo markdown files. This reduces content creation overhead as volume scales. Initial launch uses manual content management with automation capabilities added incrementally based on content volume requirements. The goal is to produce many case studies efficiently while maintaining brand consistency and quality.
 
 **Hosting and Performance:** Static hosting via Netlify, Vercel, or GitHub Pages with global CDN for optimal performance across Indonesian network infrastructure. Target sub-3-second page loads with mobile-first optimization for primary user base browsing patterns.
 
 **Form Handling Strategy:** Third-party form services (Netlify Forms, Formspree) for consultation requests to avoid backend complexity while ensuring reliable lead capture. Simple initial contact forms with structured BANT qualification captured in follow-up interactions.
 
-**WhatsApp Integration:** Click-to-chat implementation using WhatsApp Business API URL schemes, avoiding complex API integration while providing immediate engagement option preferred by Indonesian market.
+**WhatsApp Integration:** Recommendation: Start with simple WhatsApp Business click-to-chat URL scheme (wa.me links) for MVP - this avoids complex API integration and provides immediate engagement. For future enhancement, consider WhatsApp Business API integration through CRM tools (e.g., HubSpot, Salesforce) for automated lead capture and follow-up sequences. Manual WhatsApp handling is acceptable for MVP phase. The CRM integration approach provides better lead tracking and automation capabilities as volume scales, but adds complexity that may not be necessary initially.
 
-**SEO and Analytics Foundation:** Comprehensive analytics implementation with Google Analytics 4 + Search Console + Microsoft Clarity for complete user behavior and performance tracking. GA4 for conversion tracking and marketing attribution, Search Console for SEO and keyword performance insights, and Clarity for visual user behavior analysis including heatmaps and session recordings to optimize client logo placement and case study engagement.
+**SEO and Analytics Foundation:** Comprehensive analytics implementation with Google Analytics 4 + Search Console + Microsoft Clarity for complete user behavior and performance tracking. GA4 for conversion tracking and marketing attribution, Search Console for SEO and keyword performance insights, Microsoft Clarity for visual user behavior analysis including heatmaps and session recordings. Analytics data will be mapped to Google Studio for simplified dashboard visualization (alternative to granular GA4 interface). This provides a simpler, more accessible analytics experience while maintaining full GA4 data collection.
 
 **Security and Compliance:** HTTPS via hosting platform, minimal data collection with third-party form handling, and no user data storage on site infrastructure. Meets enterprise security expectations while maintaining simple architecture.
 
-**Content Strategy:** English-only content for first version with no Indonesian language support initially. Focus on English-proficient Indonesian Dreamers and Growing Businesses segments.
+**Content Strategy:** English-only content for first version with no Indonesian language support initially. Focus on English-proficient Indonesian Dreamers (secondary) and Growing Businesses (primary) segments.
 
 ## Epic List
 
@@ -225,8 +225,9 @@ I want to immediately understand what Synetica does and see evidence of their cr
 so that I can quickly determine if they can help with my product development needs.
 
 #### Acceptance Criteria
-1. Clear headline: "We build products that succeed"
-2. Supporting tagline: "From idea to traction — within 8 weeks. Strategy, Development, Testing, Growth"
+1. Clear headline: "What If You Could Launch a Validated Product in 8 Weeks?"
+2. Supporting tagline: "A real product tested by real users — ready to scale."
+3. Subheadline: "We're a tech-based business consultancy that helps you launch the right product—fast. Gain clarity, build what matters, validate early, and launch with confidence in just 8 weeks."
 3. Professional visual design that reflects premium positioning
 4. Mobile-optimized layout with fast loading hero image/graphics
 5. Clear call-to-action buttons: "See Our Process" and "View Client Results"
@@ -251,12 +252,12 @@ I want clear, intuitive navigation that helps me find information about services
 so that I can explore Synetica's capabilities efficiently.
 
 #### Acceptance Criteria
-1. Primary navigation menu: Home, Process, Case Studies, Services, Team, Contact
+1. Primary navigation menu: One-word labels (Solutions, Products, Industries, Company) with sub-navigation to be implemented
 2. Mobile-friendly hamburger menu with smooth animations
 3. Clear hierarchy and logical information flow
 4. Breadcrumb navigation for deeper pages
 5. Footer with contact information and quick links
-6. Search functionality for case studies and content
+6. Search functionality NOT included in MVP scope - to be added in future phase
 
 ### Story 2.4: Process Overview Teaser
 As a visitor interested in how Synetica works differently,
@@ -379,7 +380,7 @@ so that I can evaluate if they align with my business goals and values.
 <<<<<<< HEAD
 1. Company rebrand story emphasizing tech-based business consultancy positioning
 =======
-1. Company rebrand story emphasizing tech-based business consultancy positioning that blends strategic depth with execution power
+1. Company rebrand story emphasizing tech-based business consultancy positioning that blends strategic depth with execution power - we think, then build
 >>>>>>> dev
 2. Mission and vision statements reflecting product success focus
 3. Differentiation from traditional software houses clearly articulated
@@ -389,7 +390,7 @@ so that I can evaluate if they align with my business goals and values.
 
 ## Epic 5: Contact & Lead Generation Optimization
 
-**Epic Goal:** Implement consultation request forms, WhatsApp integration, BANT qualification workflow, and complete analytics setup (GA4 + Search Console + Clarity) for conversion optimization and lead quality measurement, converting website interest into qualified sales opportunities.
+**Epic Goal:** Implement consultation request forms, WhatsApp integration, BAND qualification workflow, and complete analytics setup (GA4 + Search Console + Microsoft Clarity) for conversion optimization and lead quality measurement, converting website interest into qualified sales opportunities.
 
 ### Story 5.1: Consultation Request Forms and Contact System
 As a prospect ready to discuss my project with Synetica,
@@ -398,11 +399,12 @@ so that I can get relevant information and start the consultation process.
 
 #### Acceptance Criteria
 1. Simple initial contact form with basic project information
-2. Structured follow-up form for BANT qualification (Budget, Authority, Need, Timeline)
-3. Form validation and error handling for reliable submission
-4. Automated email confirmation and follow-up sequences
-5. Integration with CRM or lead management system
-6. Mobile-optimized forms with fast loading and submission
+2. Structured follow-up form for BAND qualification (Budget, Authority, Need, Decision) with scoring rubric
+3. BAND Scoring Rubric: Total 10 points - Budget (5 points, 50% weight - required to proceed), Authority (2 points), Need (2 points), Decision (1 point). Prospects must score minimum 6 points to qualify.
+4. Form validation and error handling for reliable submission
+5. Automated email confirmation and follow-up sequences
+6. Integration with CRM or lead management system
+7. Mobile-optimized forms with fast loading and submission
 
 ### Story 5.2: WhatsApp Click-to-Chat Integration
 As an Indonesian entrepreneur who prefers immediate communication,
