@@ -201,7 +201,8 @@ Goals They're Trying to Achieve:
 ### Out of Scope for MVP
 
 - E-commerce/Payment Integration: No online booking or payment processing for services
-- Client Portal/Dashboard: No login area or project management interface
+- Client Portal/Dashboard: No login area or project management interface for clients
+- Partner Hub: Partner hub functionality (for vendors/software companies to add their info and list products) is planned for Phase 2, not included in MVP
 - Blog/Content Management: No content publishing system or blog functionality (can be added post-launch)
 - Advanced Analytics: Basic Google Analytics only, no custom tracking dashboards
 - Language Switching: English-only for first version - no Indonesian language support initially
@@ -229,8 +230,12 @@ Content Marketing Hub
 - Webinar Platform: Educational sessions featuring case study deep-dives and Blueprint methodology insights
 
 Client Experience Enhancement
-- Client Portal: Dashboard for active Blueprint projects showing progress, deliverables, and collaboration tools
-- Project Timeline Visualization: Interactive displays of the framework progress for current clients
+- Client Portal: Dashboard for active Blueprint projects showing progress, deliverables, and collaboration tools (separate from Partner Hub)
+
+Partner Ecosystem Enhancement
+- Partner Hub: Self-service hub for vendor and software company partners to add their company information, products, and solutions. Partners can manage their listings, update product information, and showcase their solutions. Synetica will list partner products and solutions on the website to create a curated ecosystem.
+- Partner Directory: Public-facing directory of partner companies, products, and solutions
+- Partner Management: Admin interface for Synetica to curate and manage partner listings
 - Automated Follow-up Sequences: Email nurturing for consultation requests and completed project clients
 
 ### Long-term Vision
@@ -252,7 +257,9 @@ Educational Services
 - University Partnerships: Product planning curriculum development with Indonesian business schools
 
 Product Development Ecosystem
+- Partner Hub: Self-service hub for vendor and software company partners to add their company information, products, and solutions. Partners can manage their listings, update product information, and showcase their solutions on Synetica's website. Synetica will list partner products and solutions to create a curated ecosystem of complementary services.
 - Vendor Network Integration: Curated partnerships with development teams, designers, and marketing specialists who understand Blueprint outputs
+- Partner Program: Structured partnership program for vendors and software companies to collaborate with Synetica, including co-marketing opportunities and referral programs
 - Blueprint Marketplace: Platform connecting solopreneurs with Blueprint-trained service providers
 - Industry-Specific Blueprints: Specialized planning methodologies for fintech, e-commerce, SaaS, and other verticals
 
