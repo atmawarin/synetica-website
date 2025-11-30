@@ -11,12 +11,16 @@
 | Label | Purpose | Key CTAs |
 |-------|---------|----------|
 | **Home** | Immediate value proposition, marquee proof, fast links into Process & Case Studies. | "View Our Process", "See Client Results", "Book Consultation" |
+| **Solutions** | Detail engagement models (Blueprint, Build MVP, Go To Market, Optimize Growth, Product Rescue, Corporate Accelerator). | "Request Scoping Call", "Learn More" |
+| **Products** | Showcase Optimatika, Skematika, Cybermatika, and Mili Academy. | "Explore Product", "Get Started" |
+| **Industries** | Industry-specific solutions with Property and Automotive as top priorities. | "View Industry Solutions", "See Case Studies" |
+| **Company** | About, Team & Credentials, Careers, Newsroom, Events, Blog, Product Newsletter, Brand Assets. | "Meet the Team", "Start a Conversation" |
 | **Process** | Explain 2B2G framework end-to-end with timelines, deliverables, and proof. | "Download Blueprint Overview", "Schedule Strategy Call" |
 | **Case Studies** | Showcase validation outcomes across industries with filters. | "Explore Case Study", "Talk About Similar Project" |
-| **Services** | Detail engagement models (Blueprint-only, full cycle, retainers) with comparison matrix. | "Request Scoping Call", "Ask About Pricing" |
-| **Insights** | Thought leadership hub (articles, guides, lead magnets) supporting SEO strategy. | "Read Guide", "Get Checklist" |
-| **Team** | Establish expertise, Softwareseni heritage, certifications, and Yogyakarta advantage. | "Meet the Team", "Start a Conversation" |
+| **Insights** | Direct article listing (50-100 articles) supporting SEO strategy. | "Read Article", "Browse All" |
+| **Resources** | Value-driven content: Open Source, Research, Training. | "View Resources", "Download" |
 | **Contact** | Conversion endpoint with form, WhatsApp CTA, and office info. | "Submit Brief", "Chat on WhatsApp" |
+| **Partnership** | Partnership models: Project Partnership, Solution Partnership, and related programs. | "Learn About Partnership", "Apply" |
 
 **Utility bar:** persistent "Book Consultation", "WhatsApp", and future language toggle (EN/ID). Consider variant CTA: "Book 8-Week Launch Consult".
 
@@ -27,7 +31,7 @@
 3. Featured Case Studies section: Three featured case studies (Astra/Setir Kanan, Holywings/Membership & Loyalty App, Angkasa Pura/SSO & KPI System) with client name, project title, description, subtext, tech stack badges, and "Read Full Case Study" links.
 4. Process section: "How We Turn Ideas Into Traction in 8 Weeks" with 2B2G framework breakdown - "From Idea to Launch in 8 Weeks" (Blueprint 2 weeks, Build & Benchmark 6 weeks) and "What Happens Next" (Go To Market 3 months, Grow ongoing).
 5. Footer CTA: "Ready to Launch Your Product in 8 Weeks?" with consultation and WhatsApp CTAs.
-6. Footer: Office locations, contact links, services, products, resources, industries, company, security & compliance, operations & partnerships sections.
+6. Footer: Office locations, contact links, services, products, resources, industries, insights, company, security & compliance, partnership sections.
 
 ### Process
 1. Overview: promise, 8-week framing (From idea to traction — within 8 weeks), methodology value props.
@@ -36,7 +40,7 @@
 4. FAQ: timelines, collaboration expectations, AI tooling transparency.
 
 ### Case Studies
-1. Gallery grid: filters for persona (Dreamer, Enterprise) and industry (Fintech, Logistics, Aviation, etc.).
+1. Gallery grid: filters for persona (Dreamer, Enterprise) and industry (Property, Automotive, Fintech, Logistics, Aviation, etc.).
 2. Feature cards: problem statement + quantitative outcome + relevant phase icons.
 3. Detail template:
    - Context & challenge
@@ -47,18 +51,38 @@
    - Testimonial pull quote + CTA.
 4. Related stories carousel.
 
-### Services
+### Services (Solutions)
 1. Engagement comparison matrix (Blueprint vs. Full 2B2G™ cycle vs. Grow retainer).
 2. Deliverables list per stage with proof assets.
-3. Pricing guidance (ranges / starting points) and time expectations.
-4. Common scenarios (e.g., Validation Sprint, Corporate Accelerator).
-5. CTA panel for scheduling consultation.
+3. Common scenarios (e.g., Blueprint, Build MVP, Go To Market, Optimize Growth, Product Rescue, Corporate Accelerator).
+4. CTA panel for scheduling consultation.
+
+Note: Solutions section includes Blueprint (renamed from Validate Idea), Build the Right MVP, Go To Market, Optimize Growth, Product Rescue, and Corporate Accelerator.
 
 ### Insights
-1. Content categories: Blueprinting, Validation, AI tooling, Growth tactics.
-2. Resource cards with estimated read time and target persona tags.
-3. Lead magnet section (e.g., "Blueprint Checklist", "Validation Scorecard").
+1. Direct article listing page (50-100 articles) - no sub-pages or categories.
+2. Content categories: Blueprinting, Validation, AI tooling, Growth tactics (used as tags/filters).
+3. Resource cards with estimated read time and target persona tags.
 4. Filter controls (search functionality not included in MVP scope - to be added in future phase).
+5. Individual article pages at `/insights/[article-slug]/`.
+
+### Resources
+1. Value-driven content hub for clients and visitors.
+2. Main sections: Open Source, Research, Training.
+3. Individual resource pages (e.g., "2025 IT Research in Indonesia").
+4. Focus on providing useful external resources rather than internal documentation.
+
+### Industries
+1. Industry-specific landing pages showcasing relevant case studies and solutions.
+2. Top priorities: Property and Automotive (listed first).
+3. Additional industries: Fintech, Aviation, Logistics, Retail, Education, Healthcare, Startups, Government.
+4. Each industry page highlights relevant case studies, solutions, and partnership opportunities.
+
+### Partnership
+1. Partnership overview page explaining collaboration models.
+2. Project Partnership: Partner on projects together.
+3. Solution Partnership: Include partners in solution building.
+4. Additional partnership programs: Blueprint Certification, Corporate Workshops, Partner Program, Vendor Network, Venture Support.
 
 ### Team
 1. Founders & leadership bios with global experience highlights.
@@ -81,7 +105,7 @@
 
 ### Growing Businesses (Corporate Innovation Teams)
 1. Entry via trust band (logos) or enterprise case study.
-2. Deep dive into Process (full 2B2G cycle) + Services comparison.
+2. Deep dive into Process (full 2B2G cycle) + Solutions comparison.
 3. Review Team credentials and certifications.
 4. CTA: Request scoping workshop / schedule executive briefing.
 
