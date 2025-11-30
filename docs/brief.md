@@ -289,7 +289,7 @@ Technology Stack Evolution
 
 - Performance: Ultra-fast page load speeds (sub-3 seconds) with excellent SEO capabilities to support case study content strategy
 - Content Management: Simple, maintainable content management approach that enables easy version control and collaboration for case studies, blog posts, and service descriptions
-- Frontend: Modern, accessible frontend framework with reusable component system that supports consistent interactions and aligns with Synetica's brand system (modern geometric sans-serif primary typography and humanist sans-serif secondary typography)
+- Frontend: Modern, accessible frontend framework with reusable component system that supports consistent interactions and aligns with Synetica's brand system (modern geometric sans-serif primary typography, humanist sans-serif secondary typography, and monospace typography for code screens, technical content, and system-like interfaces)
 - Form Handling: Reliable third-party form services for contact forms and consultation requests to avoid backend complexity
 - Hosting/Infrastructure: Cost-effective hosting solution with global CDN capabilities for optimal performance across Indonesian network infrastructure
 

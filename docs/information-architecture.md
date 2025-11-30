@@ -15,6 +15,8 @@ Top-Level Navigation
 | **Resources** | Value-driven content: Open Source, Research, Training. | "View Resources", "Download" |
 | **Contact** | Conversion endpoint with form, WhatsApp CTA, and office info. | "Submit Brief", "Chat on WhatsApp" |
 | **Partnership** | Partnership models: Project Partnership, Solution Partnership, and related programs. *(Phase II/III - Coming Soon or non-clickable in initial launch)* | "Learn About Partnership", "Apply" |
+| | - **Partner Portal** (sub-page): For partners to manage their listings and product information *(Phase II/III)* | "Manage Listings", "Update Products" |
+| | - **Applying Portal** (sub-page): For partner applications and onboarding *(Phase II/III)* | "Apply Now", "Partner Application" |
 
 **Utility bar:** persistent "Book Consultation", "WhatsApp", and language toggle (EN/ID). Language toggle will be implemented via user stories with prioritization (post-MVP). Consider variant CTA: "Book 8-Week Launch Consult".
 

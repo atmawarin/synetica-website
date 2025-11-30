@@ -35,7 +35,7 @@ This document provides guidelines for AI agents working on the Synetica website 
 - **Static Generator**: Hugo (extended) for speed, SEO, and markdown-first content
 - **Styling**: Tailwind CSS JIT with shadcn/ui primitives
 - **Theme**: Tweakcn `cmftuwple000004kv5zzr2ukn` with Synetica brand tokens
-- **Typography**: Modern geometric sans-serif primary, humanist sans-serif secondary
+- **Typography**: Modern geometric sans-serif primary, humanist sans-serif secondary, monospace for code screens and technical content
 - **Hosting**: Netlify/Vercel with global CDN
 - **Integrations**: Netlify Forms, Google Analytics 4, Search Console, Microsoft Clarity, WhatsApp, Google Studio (for simplified analytics dashboard)
 

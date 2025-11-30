@@ -10,7 +10,7 @@
 - Showcase the 2B2G Framework (Blueprint → Build & Benchmark → Go To Market → Grow) as our core methodology
 - Convert existing high-profile client relationships into product success story case studies
 - Create scalable content strategy targeting product development keywords for SEO-driven lead generation
-- Build technical foundation using Hugo static site with automated content generation capabilities
+- Build technical foundation using Astro static site with automated content generation capabilities
 - Implement brand identity reflecting Builder-Sage Hybrid archetype with smart, confident, and structured tone
 
 ### Background Context
@@ -23,6 +23,7 @@ The website serves as the primary vehicle for this rebrand, targeting English-pr
 | Date | Version | Description | Author |
 |------|---------|-------------|---------|
 | 2024-12-19 | 1.0 | Initial PRD creation based on project brief | PM Agent |
+| 2025-01-27 | 1.1 | Updated technology stack from Hugo to Astro, removed FR9, added monospace typography requirements, updated Core Screens based on index.html mockup, added automated testing requirements, integrated Information Architecture | PM Agent |
 
 ## Requirements
 
@@ -44,9 +45,7 @@ The website serves as the primary vehicle for this rebrand, targeting English-pr
 
 **FR8:** The website must prominently display professional credentials including international experience, team expertise, certifications (ISO 27001, AWS Partner), and Yogyakarta cost advantages to build trust in our technical execution capabilities for the complete 2B2G™ Methodology
 
-**FR9:** The website must present collaboration models specifically adapted for product development engagement types that emphasize strategic partnership over staff augmentation (Dedicated Team, Project Based, On Demand)
-
-**FR10:** The website must provide clear contact information and consultation processes that position product development services as high-value strategic investments rather than commodity development services
+**FR9:** The website must provide clear contact information and consultation processes that position product development services as high-value strategic investments rather than commodity development services
 
 ### Non Functional
 
@@ -58,13 +57,13 @@ The website serves as the primary vehicle for this rebrand, targeting English-pr
 
 **NFR4:** The website must implement comprehensive SEO optimization foundation to support case study content strategy and keyword targeting, enabling organic lead generation that reduces client acquisition costs
 
-**NFR5:** The website must use Hugo static site generator for ultra-fast performance that reinforces technical competence messaging and enables simple content management via Markdown files for sustainable content scaling
+**NFR5:** The website must use Astro static site generator for ultra-fast performance that reinforces technical competence messaging and enables simple content management via Markdown files for sustainable content scaling
 
 **NFR6:** The website must integrate with reliable third-party services (Netlify Forms, Formspree) for form handling to ensure consultation requests are never lost while maintaining simple infrastructure
 
 **NFR7:** The website must implement enterprise-grade HTTPS security via hosting platform with minimal data collection and no user data storage, demonstrating the security standards expected from a company serving major Indonesian enterprises
 
-**NFR8:** The website must be built with Hugo static site generator to enable future automated content generation workflow - initial launch will use manual content management with n8n automation capabilities added incrementally based on content volume needs
+**NFR8:** The website must be built with Astro static site generator to enable future automated content generation workflow - initial launch will use manual content management with n8n automation capabilities added incrementally based on content volume needs
 
 **NFR9:** The website must utilize enterprise-grade static hosting (Netlify, Vercel, GitHub Pages) with global CDN for cost-effective, high-performance delivery that supports international business positioning
 
@@ -74,7 +73,9 @@ The website serves as the primary vehicle for this rebrand, targeting English-pr
 
 **NFR12:** The website must implement error handling and fallback mechanisms for all third-party integrations (forms, analytics, WhatsApp) to prevent single points of failure from breaking core functionality
 
-**NFR13:** The frontend must implement Tailwind CSS with shadcn/ui component primitives, purging unused utilities during the Hugo build to keep delivered CSS under 50KB while aligning styles with the Tweakcn theme `cmftuwple000004kv5zzr2ukn` and incorporating Synetica's brand system with modern geometric sans-serif primary typography and humanist sans-serif secondary typography
+**NFR13:** The frontend must implement Tailwind CSS with shadcn/ui component primitives, purging unused utilities during the Astro build to keep delivered CSS under 50KB while aligning styles with the Tweakcn theme `cmftuwple000004kv5zzr2ukn` and incorporating Synetica's brand system with modern geometric sans-serif primary typography, humanist sans-serif secondary typography, and monospace typography for code screens, technical content, and system-like interfaces
+
+**NFR14:** The website must implement automated testing for critical user paths including main CTAs, contact form submissions, WhatsApp integration, and primary navigation flows to ensure core functionality remains reliable across deployments
 
 ## User Interface Design Goals
 
@@ -89,42 +90,70 @@ The website should lead with clear value proposition and immediate credibility (
 - **Case Study-Driven Persuasion:** Specific solution examples (investor apps, management systems) drive methodology understanding
 
 ### Core Screens and Views
-1. **Hero Landing Page** - "We build products that succeed" with major client logos and scope clarity ("From idea to traction — within 8 weeks") and a clear reference to the 8-Week Product Launch™
-2. **Process Overview Page** - 2B2G™ Methodology positioned as "How we build differently" with outcome focus
-3. **Case Studies Gallery** - Specific solution examples (investor decision apps, GAT management systems) showing methodology in action
-4. **Solutions Page** - Comprehensive solution descriptions framed as "our proven approach" rather than separate product development offering
-5. **Client Success Stories** - Individual case studies with before/after scenarios and specific business outcomes
-6. **Team & Credentials Page** - International experience and major client relationships as trust indicators
-7. **Consultation Request Flow** - Solution-focused inquiry forms that introduce methodology naturally
-8. **About Synetica Page** - Company evolution story from development to strategic product success partners
+1. **Hero Landing Page** - "What If You Could Launch a Validated Product in 8 Weeks?" with tagline "A real product tested by real users — ready to scale." and subheadline "We're a tech-based business consultancy that helps you launch the right product—fast. Gain clarity, build what matters, validate early, and launch with confidence in just 8 weeks." Includes grid background pattern (blueprint-like aesthetic) and monospace typography for technical/prototyping feel.
+2. **Trust Indicators Section** - Logo marquee with major client logos (scrolling animation) displaying "Trusted by Leading Companies Across Indonesia" with grayscale-to-color hover effects and seamless infinite scroll
+3. **Case Studies Section** - Featured case studies with parallax background images, tech stack badges, client names, descriptions, and "Read Full Case Study" CTAs. Cards feature hover effects with border color changes and background image transformations
+4. **2B2G Process Section** - Timeline-based process visualization with phase numbers, timeline badges showing durations (2 weeks, 6 weeks, 3 months, Ongoing), feature lists with icons, and clear visual hierarchy separating main phases from secondary phases
+5. **Footer CTA Section** - "Ready to Launch Your Product in 8 Weeks?" with subheading and consultation CTAs (Book Consultation, Chat on WhatsApp)
+6. **Footer** - Comprehensive footer with office locations (Jakarta, Yogyakarta), organized link columns (Contact & Support, Solutions, Products, Resources, Industries, Insights, Company, Security & Compliance, Partnership), social links, legal links, and copyright
 
 ### Accessibility: WCAG AA
 The website must meet WCAG AA standards to ensure usability across different capabilities and devices, supporting Synetica's commitment to inclusive design that reflects our systematic, quality-focused approach to product development.
 
 ### Branding
-Professional, modern design that reflects international experience while maintaining Indonesian market relevance. Visual design should emphasize systematic thinking, strategic planning, and technical competence through Synetica's brand identity: Clear Thinking • Momentum • Structure • Human Tech + AI • Focus • Proof. The design should communicate connection and movement (synergy and motion aligned) while avoiding blueprint clichés. The rebrand from Softwareseni should be evident through sophisticated design that positions us as product success partners rather than traditional software houses. Client logos should be prominently featured as primary trust indicators. The logo system must be modular and scalable, working in color, monochrome, and inverted modes, with future sub-brand extensions in mind (Skematika, Optimatika, Humatika, Kognitika).
+Professional, modern design that reflects international experience while maintaining Indonesian market relevance. Visual design should emphasize prototyping capabilities and technical precision through Synetica's brand identity: Clear Thinking • Momentum • Structure • Human Tech + AI • Focus • Proof. The design should communicate connection and movement (synergy and motion aligned) while avoiding blueprint clichés. 
+
+**Notion-like Aesthetic:** Clean, minimal, system-like interface that positions Synetica as prototyping-focused. The design uses monospace typography (e.g., Geist Mono) for code screens, technical content, and system-like interfaces, creating a technical precision feel similar to Notion's code blocks and technical documentation. Grid background pattern provides blueprint-like structure without traditional blueprint clichés, reinforcing the systematic approach while maintaining modern aesthetics.
+
+The rebrand from Softwareseni should be evident through sophisticated design that positions us as product success partners rather than traditional software houses. Client logos should be prominently featured as primary trust indicators. The logo system must be modular and scalable, working in color, monochrome, and inverted modes, with future sub-brand extensions in mind (Skematika, Optimatika, Humatika, Kognitika).
 
 ### Target Device and Platforms: Web Responsive
 Optimized for Indonesian mobile browsing patterns with desktop enhancement. Mobile-first responsive design ensuring excellent performance on varying Indonesian network conditions and device capabilities.
 
+## Information Architecture
+
+The website navigation structure includes all 11 top-level items with prioritization approach rather than MVP exclusion:
+
+1. **Home** - Immediate value proposition, marquee proof, fast links into Process & Case Studies
+2. **Solutions** - Detail service offerings (Blueprint, Build MVP, Go To Market, Optimize Growth, Product Rescue, Corporate Accelerator)
+3. **Products** - Showcase Optimatika, Skematika, Cybermatika, and Mili Academy
+4. **Industries** - Industry-specific solutions with Property and Automotive as top priorities
+5. **Company** - About, Team & Credentials, Careers, Newsroom, Events, Blog, Product Newsletter, Brand Assets
+6. **Process** - Explain 2B2G framework end-to-end with timelines, deliverables, and proof
+7. **Case Studies** - Showcase validation outcomes across industries with filters
+8. **Blog** - Direct article listing (50-100 articles) supporting SEO strategy
+9. **Resources** - Value-driven content: Open Source, Research, Training
+10. **Contact** - Conversion endpoint with form, WhatsApp CTA, and office info
+11. **Partnership** - Partnership models: Project Partnership, Solution Partnership, and related programs. Includes sub-pages:
+    - **Partner Portal** - For partners to manage their listings and product information (Phase II/III)
+    - **Applying Portal** - For partner applications and onboarding (Phase II/III)
+    
+    Partnership navigation item visible but non-clickable or shows "Coming Soon" until Phase II/III implementation.
+
+**Utility bar:** Persistent "Book Consultation", "WhatsApp", and language toggle (EN/ID). Language toggle will be implemented via user stories with prioritization (post-initial launch).
+
+**Development Approach:** All navigation items are included in development scope. Items are prioritized rather than excluded.
+
 ## Technical Assumptions
 
 ### Repository Structure: Monorepo
-Single repository containing the Hugo static site, content files, automation scripts, and deployment configuration. This approach simplifies content management workflow and enables easier collaboration between content creators and developers while maintaining version control over all website assets.
+Single repository containing the Astro static site, content files, automation scripts, and deployment configuration. This approach simplifies content management workflow and enables easier collaboration between content creators and developers while maintaining version control over all website assets.
 
 ### Service Architecture
-**Static Site with External Service Integration:** Hugo static site generator with third-party service integrations for dynamic functionality. Tailwind CLI and PostCSS run in the build pipeline to generate purged CSS, while shadcn/ui component source files live alongside Hugo templates. No backend infrastructure required - forms handled by Netlify Forms/Formspree, analytics via Google Analytics, and content automation via n8n workflows that generate markdown files for Hugo processing.
+**Static Site with External Service Integration:** Astro static site generator with third-party service integrations for dynamic functionality. Tailwind CLI and PostCSS run in the build pipeline to generate purged CSS, while shadcn/ui component source files live alongside Astro templates. No backend infrastructure required - forms handled by Netlify Forms/Formspree, analytics via Google Analytics, and content automation via n8n workflows that generate markdown files for Astro processing.
 
 ### Testing Requirements
-**Basic Testing Pyramid:** Automated Hugo build validation, content structure testing, and cross-browser compatibility testing. Manual testing for content accuracy, client logo display, and form submission workflows. No complex API testing required due to static site architecture, but critical testing of third-party integration points (forms, WhatsApp, analytics).
+**Basic Testing Pyramid:** Automated Astro build validation, content structure testing, and cross-browser compatibility testing. Manual testing for content accuracy, client logo display, and form submission workflows. No complex API testing required due to static site architecture, but critical testing of third-party integration points (forms, WhatsApp, analytics).
+
+**Automated Testing for Critical Paths:** E2E tests for critical user flows including main CTAs (button functionality and tracking), contact form submission and validation, WhatsApp link functionality, and primary navigation paths to ensure core functionality remains reliable across deployments.
 
 ### Additional Technical Assumptions and Requests
 
-**Hugo Static Site Generator:** Selected for ultra-fast performance crucial for Indonesian network conditions and mobile browsing. Hugo's excellent SEO capabilities support case study content strategy, while markdown-based content management enables sustainable scaling without complex CMS overhead.
+**Astro Static Site Generator:** Selected for ultra-fast performance crucial for Indonesian network conditions and mobile browsing. Astro's excellent SEO capabilities support case study content strategy, while markdown-based content management enables sustainable scaling without complex CMS overhead.
 
-**Frontend Stack:** Tailwind CSS (JIT) with shadcn/ui component primitives provides reusable, accessible building blocks. The Tweakcn theme `cmftuwple000004kv5zzr2ukn` supplies the baseline visual language that will be adapted to Synetica's brand tokens directly inside the Tailwind configuration, incorporating modern geometric sans-serif primary typography and humanist sans-serif secondary typography with beautiful ampersand styling.
+**Frontend Stack:** Tailwind CSS (JIT) with shadcn/ui component primitives provides reusable, accessible building blocks. The Tweakcn theme `cmftuwple000004kv5zzr2ukn` supplies the baseline visual language that will be adapted to Synetica's brand tokens directly inside the Tailwind configuration, incorporating modern geometric sans-serif primary typography, humanist sans-serif secondary typography with beautiful ampersand styling, and monospace typography (e.g., Geist Mono) for code screens, technical content, and system-like interfaces to emphasize prototyping capabilities and technical precision.
 
-**Content Automation Workflow:** The core idea is to create a scalable case study content engine. For example, "How to build a learning management system" - we already have the content engine/template structure for this. Content automation will generate case studies from structured data sources (spreadsheets, databases) through n8n workflows that create Hugo markdown files. This reduces content creation overhead as volume scales. Initial launch uses manual content management with automation capabilities added incrementally based on content volume requirements. The goal is to produce many case studies efficiently while maintaining brand consistency and quality.
+**Content Automation Workflow:** The core idea is to create a scalable case study content engine. For example, "How to build a learning management system" - we already have the content engine/template structure for this. Content automation will generate case studies from structured data sources (spreadsheets, databases) through n8n workflows that create Astro markdown files. This reduces content creation overhead as volume scales. Initial launch uses manual content management with automation capabilities added incrementally based on content volume requirements. The goal is to produce many case studies efficiently while maintaining brand consistency and quality.
 
 **Hosting and Performance:** Static hosting via Netlify, Vercel, or GitHub Pages with global CDN for optimal performance across Indonesian network infrastructure. Target sub-3-second page loads with mobile-first optimization for primary user base browsing patterns.
 
@@ -143,7 +172,7 @@ Single repository containing the Hugo static site, content files, automation scr
 Based on our requirements and technical approach, here are the high-level epics that will deliver the Synetica website incrementally:
 
 **Epic 1: Foundation & Core Infrastructure**
-Establish Hugo static site setup, hosting infrastructure, basic analytics integration, and deployment pipeline to create a solid technical foundation that can support all subsequent development while delivering a basic functional website.
+Establish Astro static site setup, hosting infrastructure, basic analytics integration, and deployment pipeline to create a solid technical foundation that can support all subsequent development while delivering a basic functional website.
 
 **Epic 2: Credibility-First Homepage & Trust Building**
 Implement the core homepage with client logos, value proposition messaging, and basic navigation structure that immediately establishes credibility and guides users toward case studies and methodology understanding.
@@ -159,22 +188,22 @@ Implement consultation request forms, WhatsApp integration, BANT qualification w
 
 ## Epic 1: Foundation & Core Infrastructure
 
-**Epic Goal:** Establish Hugo static site setup, hosting infrastructure, basic analytics integration, and deployment pipeline to create a solid technical foundation that can support all subsequent development while delivering a basic functional website that demonstrates technical competence from day one.
+**Epic Goal:** Establish Astro static site setup, hosting infrastructure, basic analytics integration, and deployment pipeline to create a solid technical foundation that can support all subsequent development while delivering a basic functional website that demonstrates technical competence from day one.
 
-### Story 1.1: Hugo Site Setup and Configuration
+### Story 1.1: Astro Site Setup and Configuration
 As a developer,
-I want to set up a Hugo static site with proper configuration and folder structure,
+I want to set up an Astro static site with proper configuration and folder structure,
 so that we have a fast, maintainable foundation for the Synetica website.
 
 #### Acceptance Criteria
-1. Hugo site initialized with appropriate theme/starter template
-2. Configuration file (config.yaml) set up with site metadata and SEO settings
+1. Astro site initialized with appropriate theme/starter template
+2. Configuration file (astro.config.mjs) set up with site metadata and SEO settings
 3. Content folder structure created for pages, case studies, and assets
-4. Tailwind CSS JIT pipeline configured within Hugo build (npm scripts + PostCSS)
+4. Tailwind CSS JIT pipeline configured within Astro build (npm scripts + PostCSS)
 5. Tweakcn theme `cmftuwple000004kv5zzr2ukn` tokens mapped into Tailwind config (colors, typography, spacing)
 6. shadcn/ui component library initialized with base primitives committed to repo
 7. Site builds successfully and serves locally
-8. Git repository initialized with proper .gitignore for Hugo, Tailwind artifacts, and shadcn config files
+8. Git repository initialized with proper .gitignore for Astro, Tailwind artifacts, and shadcn config files
 
 ### Story 1.2: Hosting Infrastructure and Deployment Pipeline
 As a content manager,
@@ -185,7 +214,7 @@ so that website updates go live quickly without manual intervention.
 1. Static hosting configured (Netlify, Vercel, or GitHub Pages)
 2. Custom domain configured with HTTPS
 3. Automated deployment pipeline triggered by Git commits
-4. Build process validates Hugo content before deployment
+4. Build process validates Astro content before deployment
 5. Deploy preview functionality for content review
 6. Basic error pages (404) properly configured
 
@@ -196,7 +225,7 @@ so that we can monitor website traffic and user behavior from launch.
 
 #### Acceptance Criteria
 1. Google Analytics 4 property created and configured
-2. GA4 tracking code properly integrated in Hugo templates
+2. GA4 tracking code properly integrated in Astro templates
 3. Basic page view and session tracking functional
 4. Site performance monitoring configured
 5. Search Console verification and basic setup completed
@@ -473,7 +502,7 @@ so that I can make data-driven decisions about marketing investment and website 
 
 **HIGH Priority:**
 
-- Content automation (n8n + Hugo) workflow needs more detailed technical specification
+- Content automation (n8n + Astro) workflow needs more detailed technical specification
 - BANT qualification criteria scoring thresholds should be defined
 
 **MEDIUM Priority:**
@@ -489,7 +518,7 @@ so that I can make data-driven decisions about marketing investment and website 
 ### MVP Scope Assessment
 
 **Appropriate Scope Features:**
-✅ Foundation infrastructure with Hugo static site  
+✅ Foundation infrastructure with Astro static site  
 ✅ Credibility-first homepage approach  
 ✅ Case study system with methodology integration  
 ✅ Comprehensive analytics setup  
@@ -505,7 +534,7 @@ so that I can make data-driven decisions about marketing investment and website 
 
 ### Technical Readiness
 
-**Technical Constraints Clarity:** Excellent - Hugo, static hosting, third-party integrations clearly specified
+**Technical Constraints Clarity:** Excellent - Astro, static hosting, third-party integrations clearly specified
 
 **Identified Technical Risks:**
 - n8n content automation complexity
@@ -520,7 +549,7 @@ so that I can make data-driven decisions about marketing investment and website 
 ### Recommendations
 
 **Content Automation Workflow:**
-- Architect should design detailed n8n → Hugo content pipeline with error handling
+- Architect should design detailed n8n → Astro content pipeline with error handling
 - Define content validation and approval process before automation
 - Plan incremental automation rollout with manual fallback
 
@@ -544,4 +573,4 @@ so that I can make data-driven decisions about marketing investment and website 
 Please review this PRD and create detailed UX/UI designs for the Synetica website focusing on the credibility-first approach with major client logos, mobile-first responsive design, and clear user journey from homepage through case studies to consultation requests. Pay special attention to the solution-to-methodology flow and Indonesian market mobile browsing patterns.
 
 ### Architect Prompt
-Please review this comprehensive PRD and create the technical architecture for the Synetica website. Focus on Hugo static site implementation with third-party integrations (GA4, Search Console, Clarity, forms, WhatsApp), performance optimization for Indonesian networks, and incremental n8n content automation workflow. Address the technical risks identified in the checklist report and design fault-tolerant integration patterns.
+Please review this comprehensive PRD and create the technical architecture for the Synetica website. Focus on Astro static site implementation with third-party integrations (GA4, Search Console, Clarity, forms, WhatsApp), performance optimization for Indonesian networks, and incremental n8n content automation workflow. Address the technical risks identified in the checklist report and design fault-tolerant integration patterns.
