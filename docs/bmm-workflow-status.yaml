@@ -84,11 +84,11 @@ workflow_status:
         note: "COMPLETE: Astro static site architecture with Tailwind CSS, shadcn/ui, Netlify hosting, analytics integrations (GA4, Clarity, Search Console), form handling, WhatsApp integration, E2E testing with Playwright, and future n8n content automation."
 
       - id: "create-epics-and-stories"
-        status: "required"
+        status: "docs/epics-and-stories.md"
         agent: "pm"
         command: "create-epics-and-stories"
-        output: null
-        note: "Required: Break down PRD into implementable epics and stories"
+        output: "docs/epics-and-stories.md"
+        note: "COMPLETE: Detailed user stories refined from PRD with architecture context, Synetica voice guidelines applied, implementation-ready acceptance criteria, and phased prioritization (5 phases, 14 weeks total)"
 
       - id: "test-design"
         status: "recommended"
