@@ -84,46 +84,75 @@ This document summarizes all updates made to align documentation with current pr
   - `agents.md` - Integrations section
 
 ### 9. Information Architecture Updated ✅
-**Change:** Updated homepage structure to match index.html implementation
-- **Navigation:** One-word labels (Solutions, Products, Industries, Company) with sub-navigation to be implemented
+**Change:** Updated navigation structure to comprehensive 11-item approach with prioritization
+- **Navigation:** All 11 top-level items (Home, Solutions, Products, Industries, Company, Process, Case Studies, Blog, Resources, Contact, Partnership) with sub-navigation to be implemented
+- **Development Approach:** All items included in development scope with prioritization rather than MVP exclusion
+- **Partnership:** Visible in navigation but non-clickable or shows "Coming Soon" until Phase II/III
 - **Homepage Sections:**
   1. Hero with current headline
   2. Trust band with client logo marquee
-  3. Featured Case Studies (3 for MVP)
+  3. Featured Case Studies (3 for initial launch)
   4. Process section with 2B2G framework
   5. Footer CTA
   6. Footer with comprehensive links
 - **Updated Files:**
-  - `docs/information-architecture.md` - Home section restructured
+  - `docs/information-architecture.md` - Complete navigation structure updated
+  - `docs/information-architecture-review.md` - PM review document created
 
-### 10. Search Functionality Removed from MVP ✅
-**Change:** Removed search functionality from MVP scope
-- **Status:** Not included in MVP, to be added in future phase
+### 10. Navigation Structure - Comprehensive Approach ✅
+**Change:** Updated from MVP-scoped to prioritization-based development approach
+- **All 11 navigation items approved** - No MVP exclusion, all items included with prioritization
+- **Solutions clarified** - Represents Services (not engagement models)
+- **Insights renamed to Blog** - Better reflects content type (article listing)
+- **Partnership kept in navigation** - Will be non-clickable or show "Coming Soon" until Phase II/III
+- **Language toggle kept in utility bar** - Will be implemented via user stories with prioritization (post-initial launch)
+- **Process kept in top-level navigation** - Critical differentiator
+- **Company section kept comprehensive** - Intended to show full company presence
 - **Updated Files:**
-  - `docs/information-architecture.md` - Insights section updated
+  - `docs/information-architecture.md`
+  - `docs/information-architecture-review.md`
+  - `docs/prd.md` - Story 2.3 updated
+  - `docs/brief.md` - Development Scope section updated
+
+### 11. Search Functionality Removed from Initial Launch ✅
+**Change:** Removed search functionality from initial launch scope
+- **Status:** Not included in initial launch, to be added in future phase
+- **Updated Files:**
+  - `docs/information-architecture.md`
   - `docs/prd.md` - Story 2.3 acceptance criteria updated
 
-### 11. Case Studies Count Clarified ✅
+### 12. Case Studies Count Clarified ✅
 **Change:** Clarified case study requirements
-- **MVP:** 3 case studies (Astra, Angkasa Pura, Traveloka)
+- **Initial Launch:** 3 case studies (Astra, Angkasa Pura, Traveloka)
 - **Future:** Expand to 5 largest Indonesian clients
 - **Updated Files:**
   - `docs/brief.md`
   - `docs/prd.md` - FR4 updated
   - `docs/information-architecture.md`
 
-### 12. Company Rebrand Story Emphasized ✅
+### 13. Company Rebrand Story Emphasized ✅
 **Change:** Reinforced tech-based business consultancy positioning
 - **Key Message:** "We think, then build" - blends strategic depth with execution power
 - **Updated Files:**
   - `docs/prd.md` - Story 4.4 acceptance criteria
 
-### 13. Language Guidelines Updated ✅
+### 14. Language Guidelines Updated ✅
 **Change:** Updated language.md with current hero example
 - **Updated Files:**
   - `docs/language.md` - Example 1 updated to match index.html
 
-### 14. Theme Reference Consistency ✅
+### 15. Development Approach - Prioritization-Based ✅
+**Change:** Shifted from MVP-scoped to prioritization-based development approach
+- **Key Principle:** All navigation items and features included in development scope
+- **Approach:** Items are prioritized rather than excluded
+- **Partnership:** Visible but non-clickable/coming soon until Phase II/III
+- **Language Toggle:** Visible in utility bar, implemented via prioritized user stories
+- **Updated Files:**
+  - `docs/brief.md` - MVP Scope renamed to "Development Scope & Prioritization"
+  - `docs/prd.md` - Story 2.3 updated to reflect comprehensive navigation
+  - `docs/information-architecture.md` - Development approach note added
+
+### 16. Theme Reference Consistency ✅
 **Change:** Confirmed Tweakcn theme usage
 - **Theme:** Tweakcn `cmftuwple000004kv5zzr2ukn`
 - **Status:** Keep using Tweakcn theme as specified
@@ -133,9 +162,10 @@ This document summarizes all updates made to align documentation with current pr
 - `docs/band-scoring-rubric.md` - Complete BAND scoring system documentation
 
 ## Files Updated
-- `docs/brief.md`
-- `docs/prd.md`
-- `docs/information-architecture.md`
+- `docs/brief.md` - Development Scope & Prioritization section updated
+- `docs/prd.md` - Navigation structure (Story 2.3) and service offerings updated
+- `docs/information-architecture.md` - Complete navigation structure, Blog rename, Partnership notes
+- `docs/information-architecture-review.md` - PM review document created
 - `docs/language.md`
 - `agents.md`
 
@@ -150,6 +180,10 @@ This document summarizes all updates made to align documentation with current pr
 ## Notes
 - All technology stack mentions removed from documentation (case study HTML content retained)
 - Microsoft Clarity confirmed for implementation
-- Search functionality deferred to post-MVP phase
+- Search functionality deferred to post-initial launch phase
 - Content automation strategy defined for scalable case study creation
+- Development approach: Prioritization-based, not MVP exclusion
+- All 11 navigation items approved with Partnership as non-clickable/coming soon until Phase II/III
+- Blog (renamed from Insights) included in development scope
+- Language toggle visible in utility bar, implemented via prioritized user stories
 

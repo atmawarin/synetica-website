@@ -4,7 +4,7 @@
 
 ### Goals
 
-- Successfully change from Softwareseni to Synetica as a tech-based business consultancy that helps founders move from clarity to traction — fast
+
 - Generate 10+ qualified leads monthly for product development services by month 6
 - Establish market credibility with English-proficient Indonesian Dreamers and Growing Businesses ecosystem
 - Showcase the 2B2G Framework (Blueprint → Build & Benchmark → Go To Market → Grow) as our core methodology
@@ -252,12 +252,13 @@ I want clear, intuitive navigation that helps me find information about services
 so that I can explore Synetica's capabilities efficiently.
 
 #### Acceptance Criteria
-1. Primary navigation menu: One-word labels (Solutions, Products, Industries, Company) with sub-navigation to be implemented
-2. Mobile-friendly hamburger menu with smooth animations
-3. Clear hierarchy and logical information flow
-4. Breadcrumb navigation for deeper pages
-5. Footer with contact information and quick links
-6. Search functionality NOT included in MVP scope - to be added in future phase
+1. Primary navigation menu: All 11 top-level items (Home, Solutions, Products, Industries, Company, Process, Case Studies, Blog, Resources, Contact, Partnership) with sub-navigation to be implemented. All items included in development scope with prioritization approach rather than MVP exclusion.
+2. Partnership navigation item visible but non-clickable or shows "Coming Soon" until Phase II/III implementation
+3. Mobile-friendly hamburger menu with smooth animations
+4. Clear hierarchy and logical information flow
+5. Breadcrumb navigation for deeper pages
+6. Footer with contact information and quick links
+7. Search functionality NOT included in initial launch - to be added in future phase
 
 ### Story 2.4: Process Overview Teaser
 As a visitor interested in how Synetica works differently,
@@ -347,7 +348,7 @@ so that I can evaluate if this methodology fits my project needs and timeline.
 
 ### Story 4.2: Service Offering Pages
 As a business owner planning a product development project,
-I want clear descriptions of Synetica's service offerings and engagement models,
+I want clear descriptions of Synetica's service offerings,
 so that I can understand pricing structure and choose the right collaboration approach.
 
 #### Acceptance Criteria

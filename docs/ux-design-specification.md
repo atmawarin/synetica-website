@@ -155,7 +155,7 @@ _To be determined through workflow_
 **Direction:** Credibility-First Dashboard
 
 **Layout Decisions:**
-- **Navigation Pattern:** Top horizontal navigation (Services, Case Studies, About, Contact)
+- **Navigation Pattern:** Top horizontal navigation with all 11 items (Home, Solutions, Products, Industries, Company, Process, Case Studies, Blog, Resources, Contact, Partnership). Partnership visible but non-clickable or shows "Coming Soon" until Phase II/III. Mobile converts to hamburger menu.
 - **Content Structure:** Single column with clear sections, client logos prominently displayed above the fold
 - **Content Organization:** Card-based sections for framework phases, case studies, and services
 

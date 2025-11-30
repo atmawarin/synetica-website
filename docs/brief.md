@@ -183,36 +183,44 @@ Goals They're Trying to Achieve:
 - Client Retention: 60% of completed framework clients engage for the Grow phase (ongoing services)
 - Market Validation: 15+ client case studies with documented traction improvements (user growth, revenue, funding, etc.)
 
-## MVP Scope
+## Development Scope & Prioritization
 
-### Core Features (Must Have)
+**Development Approach:** All features are included in development scope. Items are prioritized rather than excluded. This is not an MVP-scoped project - it's a full development with prioritization.
+
+### Core Features (Priority 1 - Initial Launch)
 
 - Hero Section & Brand Identity: Clear communication of Synetica's tech-based business consultancy positioning with compelling value proposition messaging ("Launch your product in 8 weeks or less"), professional visual design establishing the Synetica brand
 - Framework Showcase: Dedicated section explaining 2B2G Framework (Blueprint → Build & Benchmark → Go To Market → Grow) and 8-Week Product Launch™ methodology with emphasis on end-to-end validation journey
-- Service Offerings Structure: Maintain familiar navigation with Portfolio, Services, Contact structure but reframe around tech-based business consultancy positioning and full 2B2G Framework offerings
- - Blueprint Service Deep-dive: Comprehensive description of Blueprint phase including deliverables (validated problem statement, user personas, prioritized features, technical architecture, market landscape, 60-day roadmap), emphasizing our Builder-Sage Hybrid approach that combines pragmatic execution with intelligent insight. Highlight our proprietary system developed over the last 12 years from working on client projects, refined through hundreds of successful implementations to deliver proven, battle-tested planning methodologies.
+- Navigation Structure: All 11 top-level navigation items (Home, Solutions, Products, Industries, Company, Process, Case Studies, Blog, Resources, Contact, Partnership) with sub-navigation to be implemented
+- Service Offerings Structure: Solutions section detailing service offerings (Blueprint, Build MVP, Go To Market, Optimize Growth, Product Rescue, Corporate Accelerator) reframed around tech-based business consultancy positioning and full 2B2G Framework offerings
+- Blueprint Service Deep-dive: Comprehensive description of Blueprint phase including deliverables (validated problem statement, user personas, prioritized features, technical architecture, market landscape, 60-day roadmap), emphasizing our Builder-Sage Hybrid approach that combines pragmatic execution with intelligent insight. Highlight our proprietary system developed over the last 12 years from working on client projects, refined through hundreds of successful implementations to deliver proven, battle-tested planning methodologies.
 - Client Portfolio & Case Studies: Leverage existing client relationships (Traveloka, Angkasa Pura, Astra references) repositioned as product development success stories showcasing the 2B2G Framework, minimum 3-5 detailed implementations
 - Collaboration Models: Adapt existing models (Dedicated Team, Project Based, On Demand) for 2B2G Framework engagement types
 - WhatsApp Integration: Maintain the WhatsApp chat functionality for immediate consultation requests
-- Language Strategy: English-only content for first version, targeting English-proficient Indonesian entrepreneurs
+- Language Strategy: English-only content for first version, targeting English-proficient Indonesian entrepreneurs. Language toggle (EN/ID) will be implemented via user stories with prioritization (post-initial launch)
 - Professional Credentials: Showcase team expertise, certifications (ISO 27001, AWS Partner), and Yogyakarta office advantage
 - Contact & Consultation: Clear contact information with structured consultation request process for 2B2G Framework services
+- Blog: Article listing (50-100 articles) supporting SEO strategy
+- Resources: Value-driven content (Open Source, Research, Training)
 
-### Out of Scope for MVP
+### Features with Prioritized Implementation
+
+- Partnership: Partnership navigation item visible but non-clickable or shows "Coming Soon" until Phase II/III implementation. Partnership models include Project Partnership, Solution Partnership, and related programs.
+- Language Toggle: Visible in utility bar design, implemented via prioritized user stories (post-initial launch)
+
+### Out of Scope for Initial Launch
 
 - E-commerce/Payment Integration: No online booking or payment processing for services
 - Client Portal/Dashboard: No login area or project management interface for clients
-- Partner Hub: Partner hub functionality (for vendors/software companies to add their info and list products) is planned for Phase 2, not included in MVP
-- Blog/Content Management: No content publishing system or blog functionality (can be added post-launch)
 - Advanced Analytics: Basic Google Analytics only, no custom tracking dashboards
-- Language Switching: English-only for first version - no Indonesian language support initially
 - Interactive Tools: No Blueprint generators, calculators, or interactive planning tools
 - Video Content: No custom video production or embedded video testimonials
 - Social Media Integration: No live social feeds or advanced social sharing features
+- Search Functionality: Not included in initial launch - to be added in future phase
 
-### MVP Success Criteria
+### Success Criteria
 
-The website MVP will be considered successful when it effectively communicates Synetica's tech-based business consultancy positioning and 8-Week Product Launch™ methodology, generates qualified leads for consultation requests, and establishes credible market presence for the new brand. Success metrics include clear value proposition comprehension by target users, conversion of website visitors to consultation requests, and positive feedback on the professional presentation of services and expertise.
+The website will be considered successful when it effectively communicates Synetica's tech-based business consultancy positioning and 8-Week Product Launch™ methodology, generates qualified leads for consultation requests, and establishes credible market presence for the new brand. Success metrics include clear value proposition comprehension by target users, conversion of website visitors to consultation requests, and positive feedback on the professional presentation of services and expertise.
 
 ## Post-MVP Vision
 

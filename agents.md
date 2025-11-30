@@ -50,10 +50,11 @@ This document provides guidelines for AI agents working on the Synetica website 
 ### When Working on This Project
 
 1. **Always Reference Documentation**
-   - Check `doc/brief.md` for brand positioning and target users
-   - Review `doc/prd.md` for technical requirements and user stories
-   - Consult `doc/brand-guide-brief.md` for visual identity guidelines
-   - **Always refer to `doc/language.md` when writing any copy for the site** - This document contains the complete brand voice, tone, and writing style guidelines that must be followed for all content
+   - Check `docs/brief.md` for brand positioning and target users
+   - Review `docs/prd.md` for technical requirements and user stories
+   - Consult `docs/brand-guide-brief.md` for visual identity guidelines
+   - Review `docs/information-architecture.md` for navigation structure and site organization
+   - **Always refer to `docs/language.md` when writing any copy for the site** - This document contains the complete brand voice, tone, and writing style guidelines that must be followed for all content
 
 2. **Maintain Brand Consistency**
    - Use "tech-based business consultancy" as the primary category descriptor
@@ -88,7 +89,7 @@ This document provides guidelines for AI agents working on the Synetica website 
 2. **Don't** refer to Synetica as a "Blueprint specialization company"
 3. **Don't** use "SMBs and corporate innovation teams" or "Emerging Business" as target users (use "Growing Businesses" - they are the same thing)
 4. **Don't** implement bilingual content in first version
-5. **Don't** include blog/content management in MVP scope
+5. **Don't** exclude Blog from development scope - Blog is included with prioritization approach
 6. **Don't** use outdated failure rate statistics (use 80%, not 70%)
 7. **Don't** position Synetica as only strategy or only execution — we do both
 
@@ -101,12 +102,13 @@ This document provides guidelines for AI agents working on the Synetica website 
 ### File Structure
 ```
 /
-├── doc/                          # Documentation
+├── docs/                         # Documentation
 │   ├── brief.md                  # Project brief and brand positioning
 │   ├── prd.md                    # Product requirements document
 │   ├── brand-guide-brief.md      # Visual identity and brand guidelines
 │   ├── language.md               # Brand voice, tone, and writing style guidelines (REQUIRED for all copywriting)
-│   └── information-architecture.md
+│   ├── information-architecture.md  # Navigation structure and site organization
+│   └── information-architecture-review.md  # PM review of information architecture
 ├── README.md                     # Project overview
 └── agents.md                     # This file
 ```
@@ -115,7 +117,7 @@ This document provides guidelines for AI agents working on the Synetica website 
 1. **Foundation & Core Infrastructure** - Hugo setup, hosting, analytics
 2. **Credibility-First Homepage** - Hero, trust indicators, navigation
 3. **Case Study System** - Gallery, templates, methodology bridge
-4. **Services & Methodology** - 2B2G deep-dive, engagement models
+4. **Services & Methodology** - 2B2G deep-dive, service offerings
 5. **Contact & Lead Gen** - Forms, WhatsApp, analytics optimization
 
 ## Best Practices
@@ -139,7 +141,7 @@ This document provides guidelines for AI agents working on the Synetica website 
 
 ### Writing Style & Language Guidelines
 
-> **CRITICAL**: Always refer to `doc/language.md` when writing any copy for the site. This document contains the complete brand voice, tone, writing style rules, voice pillars, and example transformations that must be followed for all content creation.
+> **CRITICAL**: Always refer to `docs/language.md` when writing any copy for the site. This document contains the complete brand voice, tone, writing style rules, voice pillars, and example transformations that must be followed for all content creation.
 
 **PRIMARY PRINCIPLES** (These override all other guidelines when in conflict):
 - **Grounded and authentic**: Use real examples, actual metrics, honest language. No hype, no exaggeration.
@@ -177,10 +179,11 @@ This document provides guidelines for AI agents working on the Synetica website 
 ## Resources
 
 ### Documentation
-- [Project Brief](./doc/brief.md) - Brand positioning and target users
-- [Product Requirements](./doc/prd.md) - Technical specifications and user stories
-- [Brand Guidelines](./doc/brand-guide-brief.md) - Visual identity and design system
-- [Language & Voice Guidelines](./doc/language.md) - **Required reading for all copywriting** - Brand voice, tone, writing style rules, and examples
+- [Project Brief](./docs/brief.md) - Brand positioning and target users
+- [Product Requirements](./docs/prd.md) - Technical specifications and user stories
+- [Brand Guidelines](./docs/brand-guide-brief.md) - Visual identity and design system
+- [Information Architecture](./docs/information-architecture.md) - Navigation structure and site organization
+- [Language & Voice Guidelines](./docs/language.md) - **Required reading for all copywriting** - Brand voice, tone, writing style rules, and examples
 
 ### External References
 - [Hugo Documentation](https://gohugo.io/documentation/)
@@ -191,8 +194,8 @@ This document provides guidelines for AI agents working on the Synetica website 
 ### Key Contacts
 - **Project Owner**: Synetica Product Team
 - **Technical Lead**: Synetica Engineering Team
-- **Brand Guidelines**: See `doc/brand-guide-brief.md`
+- **Brand Guidelines**: See `docs/brand-guide-brief.md`
 
 ---
 
-*This document should be updated whenever project requirements, brand guidelines, or technical specifications change. Always refer to the latest documentation in the `doc/` folder for the most current information.*
+*This document should be updated whenever project requirements, brand guidelines, or technical specifications change. Always refer to the latest documentation in the `docs/` folder for the most current information.*

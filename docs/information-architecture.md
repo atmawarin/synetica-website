@@ -1,131 +1,22 @@
 # Synetica Website Information Architecture
 
-## 1. Objectives & Inputs
-- **Business goals:** Accelerate qualified consultations, establish credibility, differentiate Synetica’s 2B2G™ Methodology (Blueprint → Build & Benchmark → Go To Market → Grow) with an 8-week launch framing.
-- **Primary personas:**
-  - **Dreamers** – solopreneurs and SMB founders seeking clarity and validation before committing budget.
-  - **Growing Businesses** – established companies with positive cash flow, worked for several years, generally healthy, needing structured, end-to-end delivery without draining internal resources.
-- **Source artefacts:** [`brief.md`](./brief.md) (brand narrative) and [`prd.md`](./prd.md) (requirements & UX direction).
 
-## 2. Top-Level Navigation
+Top-Level Navigation
 | Label | Purpose | Key CTAs |
 |-------|---------|----------|
 | **Home** | Immediate value proposition, marquee proof, fast links into Process & Case Studies. | "View Our Process", "See Client Results", "Book Consultation" |
-| **Solutions** | Detail engagement models (Blueprint, Build MVP, Go To Market, Optimize Growth, Product Rescue, Corporate Accelerator). | "Request Scoping Call", "Learn More" |
+| **Solutions** | Detail service offerings (Blueprint, Build MVP, Go To Market, Optimize Growth, Product Rescue, Corporate Accelerator). | "Request Scoping Call", "Learn More" |
 | **Products** | Showcase Optimatika, Skematika, Cybermatika, and Mili Academy. | "Explore Product", "Get Started" |
 | **Industries** | Industry-specific solutions with Property and Automotive as top priorities. | "View Industry Solutions", "See Case Studies" |
 | **Company** | About, Team & Credentials, Careers, Newsroom, Events, Blog, Product Newsletter, Brand Assets. | "Meet the Team", "Start a Conversation" |
 | **Process** | Explain 2B2G framework end-to-end with timelines, deliverables, and proof. | "Download Blueprint Overview", "Schedule Strategy Call" |
 | **Case Studies** | Showcase validation outcomes across industries with filters. | "Explore Case Study", "Talk About Similar Project" |
-| **Insights** | Direct article listing (50-100 articles) supporting SEO strategy. | "Read Article", "Browse All" |
+| **Blog** | Direct article listing (50-100 articles) supporting SEO strategy. | "Read Article", "Browse All" |
 | **Resources** | Value-driven content: Open Source, Research, Training. | "View Resources", "Download" |
 | **Contact** | Conversion endpoint with form, WhatsApp CTA, and office info. | "Submit Brief", "Chat on WhatsApp" |
-| **Partnership** | Partnership models: Project Partnership, Solution Partnership, and related programs. | "Learn About Partnership", "Apply" |
+| **Partnership** | Partnership models: Project Partnership, Solution Partnership, and related programs. *(Phase II/III - Coming Soon or non-clickable in initial launch)* | "Learn About Partnership", "Apply" |
 
-**Utility bar:** persistent "Book Consultation", "WhatsApp", and future language toggle (EN/ID). Consider variant CTA: "Book 8-Week Launch Consult".
+**Utility bar:** persistent "Book Consultation", "WhatsApp", and language toggle (EN/ID). Language toggle will be implemented via user stories with prioritization (post-MVP). Consider variant CTA: "Book 8-Week Launch Consult".
 
-## 3. Secondary & Tertiary Structure
-### Home (Based on index.html implementation)
-1. Hero: "What If You Could Launch a Validated Product in 8 Weeks?" headline with tagline "A real product tested by real users — ready to scale" and subheadline explaining tech-based business consultancy positioning. Dual CTA buttons: "See How It Works" and "View Client Results".
-2. Trust band: "Trusted by Leading Companies Across Indonesia" with client logo marquee (Traveloka, Angkasa Pura, Astra, and others).
-3. Featured Case Studies section: Three featured case studies (Astra/Setir Kanan, Holywings/Membership & Loyalty App, Angkasa Pura/SSO & KPI System) with client name, project title, description, subtext, tech stack badges, and "Read Full Case Study" links.
-4. Process section: "How We Turn Ideas Into Traction in 8 Weeks" with 2B2G framework breakdown - "From Idea to Launch in 8 Weeks" (Blueprint 2 weeks, Build & Benchmark 6 weeks) and "What Happens Next" (Go To Market 3 months, Grow ongoing).
-5. Footer CTA: "Ready to Launch Your Product in 8 Weeks?" with consultation and WhatsApp CTAs.
-6. Footer: Office locations, contact links, services, products, resources, industries, insights, company, security & compliance, partnership sections.
+**Development Approach:** All navigation items are included in development scope. Items are prioritized rather than excluded. Partnership section will be non-clickable or show "Coming Soon" until Phase II/III implementation.
 
-### Process
-1. Overview: promise, 8-week framing (From idea to traction — within 8 weeks), methodology value props.
-2. Individual phase sections (Blueprint, Build & Benchmark, Go To Market, Grow): each with problem solved, deliverables, validation checkpoints, and timebox (Blueprint: 2 weeks, Build & Benchmark: 6 weeks, total 8 weeks / Go To Market: 3 months / Grow: ongoing).
-3. Engagement models: how clients enter (phase-only vs. full cycle).
-4. FAQ: timelines, collaboration expectations, AI tooling transparency.
-
-### Case Studies
-1. Gallery grid: filters for persona (Dreamer, Enterprise) and industry (Property, Automotive, Fintech, Logistics, Aviation, etc.).
-2. Feature cards: problem statement + quantitative outcome + relevant phase icons.
-3. Detail template:
-   - Context & challenge
-   - Blueprint insights (research, prioritisation)
-   - Build decisions (architecture, AI acceleration)
-   - Benchmark & validation (tests, metrics)
-   - Growth results (adoption, revenue, efficiency)
-   - Testimonial pull quote + CTA.
-4. Related stories carousel.
-
-### Services (Solutions)
-1. Engagement comparison matrix (Blueprint vs. Full 2B2G™ cycle vs. Grow retainer).
-2. Deliverables list per stage with proof assets.
-3. Common scenarios (e.g., Blueprint, Build MVP, Go To Market, Optimize Growth, Product Rescue, Corporate Accelerator).
-4. CTA panel for scheduling consultation.
-
-Note: Solutions section includes Blueprint (renamed from Validate Idea), Build the Right MVP, Go To Market, Optimize Growth, Product Rescue, and Corporate Accelerator.
-
-### Insights
-1. Direct article listing page (50-100 articles) - no sub-pages or categories.
-2. Content categories: Blueprinting, Validation, AI tooling, Growth tactics (used as tags/filters).
-3. Resource cards with estimated read time and target persona tags.
-4. Filter controls (search functionality not included in MVP scope - to be added in future phase).
-5. Individual article pages at `/insights/[article-slug]/`.
-
-### Resources
-1. Value-driven content hub for clients and visitors.
-2. Main sections: Open Source, Research, Training.
-3. Individual resource pages (e.g., "2025 IT Research in Indonesia").
-4. Focus on providing useful external resources rather than internal documentation.
-
-### Industries
-1. Industry-specific landing pages showcasing relevant case studies and solutions.
-2. Top priorities: Property and Automotive (listed first).
-3. Additional industries: Fintech, Aviation, Logistics, Retail, Education, Healthcare, Startups, Government.
-4. Each industry page highlights relevant case studies, solutions, and partnership opportunities.
-
-### Partnership
-1. Partnership overview page explaining collaboration models.
-2. Project Partnership: Partner on projects together.
-3. Solution Partnership: Include partners in solution building.
-4. Additional partnership programs: Blueprint Certification, Corporate Workshops, Partner Program, Vendor Network, Venture Support.
-
-### Team
-1. Founders & leadership bios with global experience highlights.
-2. Advisory network / partner ecosystem.
-3. Culture values and working model.
-4. Careers teaser (future-ready placeholder).
-
-### Contact
-1. Primary consultation form (name, email, company, challenge summary, desired timeline).
-2. Progressive disclosure for BAND follow-up (Budget 5 points/50%, Authority 2 points, Need 2 points, Decision 1 point) post-submission. Minimum 6 points to qualify, with Budget being required.
-3. WhatsApp quick action button.
-4. Office map, hours, and alternative contact channels.
-
-## 4. Persona Journey Mapping
-### Dreamers (Solopreneurs / SMB Founders)
-1. Entry via Home hero or Insight article.
-2. Skim Process (Blueprint focus) → review Blueprint deliverables.
-3. Jump to case study tagged “Dreamer” with tangible validation outcome.
-4. CTA: Book consultation / download Blueprint checklist.
-
-### Growing Businesses (Corporate Innovation Teams)
-1. Entry via trust band (logos) or enterprise case study.
-2. Deep dive into Process (full 2B2G cycle) + Solutions comparison.
-3. Review Team credentials and certifications.
-4. CTA: Request scoping workshop / schedule executive briefing.
-
-### Reinforcement Points
-- Persistent utility CTAs (Consultation, WhatsApp, 8-Week Launch Consult).
-- Contextual CTAs within case studies and phase sections.
-- Proof assets (metrics, testimonials) aligned to persona at each stage.
-
-## 5. Content Inventory & Metadata Plan
-- Maintain content matrix with fields: Page, Section, Persona, Funnel Stage, 2B2G Phase, Proof Type, Language, Owner, Status, Last Review.
-- Use tags to power filters (e.g., `persona:dreamer`, `phase:benchmark`).
-- Prioritise seed content: 3 flagship case studies for MVP (Astra, Angkasa Pura, Traveloka), expand to 5 largest Indonesian clients later. Blueprint deliverable examples, two insight articles per persona.
-
-## 6. Validation Approach
-1. **Stakeholder Card Sort:** Confirm shared mental model for navigation labels and priority pages.
-2. **Prototype Tree Test:** Validate findability of key tasks (e.g., "Where do I learn about Blueprint deliverables?").
-3. **Click-Path Usability Checks:** Low-fidelity wireframes tested with 3–5 users per persona, measuring CTA discovery and comprehension.
-4. Iterate IA based on failure points and record rationale for any structural changes.
-
-## 7. Implementation Notes
-- Navigation and footer structures should be configurable via Hugo data files for future updates.
-- Surface metadata tags within content front matter to enable automated filtering later.
-- Ensure sitemap.xml reflects IA hierarchy for SEO crawl efficiency once implemented.
