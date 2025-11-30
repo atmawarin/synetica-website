@@ -77,11 +77,11 @@ workflow_status:
     name: "Solutioning"
     workflows:
       - id: "create-architecture"
-        status: "required"
+        status: "docs/architecture.md"
         agent: "architect"
         command: "create-architecture"
-        output: null
-        note: "REQUIRED for greenfield: Complete system design for Hugo static site with Tailwind CSS, Netlify integration, and content automation capabilities. HTML mockup (index.html) provides design reference."
+        output: "docs/architecture.md"
+        note: "COMPLETE: Astro static site architecture with Tailwind CSS, shadcn/ui, Netlify hosting, analytics integrations (GA4, Clarity, Search Console), form handling, WhatsApp integration, E2E testing with Playwright, and future n8n content automation."
 
       - id: "create-epics-and-stories"
         status: "required"
