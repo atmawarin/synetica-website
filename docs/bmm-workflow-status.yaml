@@ -1,14 +1,16 @@
 # BMM Workflow Status
 # Generated: 2025-01-27
+# Updated: 2025-01-27 (corrected to greenfield)
 # Project: synetica-website
-# Track: BMad Method (brownfield)
+# Track: BMad Method (greenfield)
+# Note: index.html is a mockup/prototype, not production code
 
 generated: "2025-01-27"
 project: "synetica-website"
-project_type: "brownfield"
+project_type: "greenfield"
 selected_track: "bmad-method"
-field_type: "brownfield"
-workflow_path: ".bmad/bmm/workflows/workflow-status/paths/method-brownfield.yaml"
+field_type: "greenfield"
+workflow_path: ".bmad/bmm/workflows/workflow-status/paths/method-greenfield.yaml"
 
 workflow_status:
   # Prerequisite Phase: Documentation
@@ -75,11 +77,11 @@ workflow_status:
     name: "Solutioning"
     workflows:
       - id: "create-architecture"
-        status: "recommended"
+        status: "required"
         agent: "architect"
         command: "create-architecture"
         output: null
-        note: "HIGHLY RECOMMENDED: Distills brownfield context into focused solution design"
+        note: "REQUIRED for greenfield: Complete system design for Hugo static site with Tailwind CSS, Netlify integration, and content automation capabilities. HTML mockup (index.html) provides design reference."
 
       - id: "create-epics-and-stories"
         status: "required"
